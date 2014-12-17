@@ -20,7 +20,7 @@ The EMScripten backend (javascript) generally works well in Firefox, Chrome and 
 
 ### X11 Platform
 
-Some features do not work in X11, notably fullscreen support, or setting a icon (in a way that will work in Ubuntu). A PulseAudio backend might be needed too, as some users have problems with ALSA backend while PulseAudio runs. If you have experience with this platform help is appreciated! 
+A PulseAudio backend might be needed too, as some users have problems with ALSA backend while PulseAudio runs. If you have experience with this platform help is appreciated! 
 
 ## Signing
 
@@ -52,10 +52,6 @@ If you are an artist with industry experience, help would be very appreciated on
 
 ## AI
 
-### NavMesh
-
-Godot lacks support for this feature. Help implementing it (specially from someone that understands how it is used in the industry) would be appreciated.
-
 ### General AI
 
 What kind of AI APIS are the most useful in the industry? Help defining this would, again, be appreciated.
@@ -72,7 +68,7 @@ Godot supports plugins in the editor, but none exists yet. Example plugins for s
 
 ### Terrain Plugin
 
-The engine lacks support for an editable terrain, this could be done easily with a plugin.
+The engine lacks support for an editable terrain, this could be done easily with a plugin. A terrain engine would be a very appreciated contribution.
 
 ## Contacting developers
 
