@@ -18,6 +18,16 @@ Are you a capable Android developer and a master of Java? Godot has some code fo
 
 Are you a capable iOS developer? We would love to be able to make the Objective C iOS API available to GDScript. This should be possible given the dynamic nature of Objective C, but the main Godot developers are not that familiar with the language.
 
+### Optimization
+
+Are you good at optimization? If you love vtune or valgrind, know your simd and know the cache levels better than your neighbourhood, you could help us enormously. Godot is fast and has been written with most common optimizations in consideration, but not every part of it is as optimal as it can be and we are also not experts on he matter. If so, this task would consist of:
+
+* Defining and creating common case scenarios for stress testing.
+* Find ways to best optimize, either making the code faster or using more efficient algorithms.
+
+### Size Optimization
+
+Do you know what ELF and COFF means, and are familiar with how compiler tweaking works? We would like to make Godot binary smaller, but we don't have much experience with this. We know it's possible though, so if you have this kind of experience, please help us!
 
 ### RTL text support
 
