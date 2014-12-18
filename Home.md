@@ -22,7 +22,7 @@ Contributing to godot is always very appreciated by the developers and the commu
 Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before getting to work on anything please talk with the developers in the recently created [Developer's Mailing List].(https://groups.google.com/forum/#!forum/godot-engine).
 
 * [Fun!](devel_fun) Fun tasks to do!
-* [Not so Fun](devel_volunteers) Not so fun tasks.
+* [Not so Fun](devel_notsofun) Not so fun tasks.
 
 # Tutorials
 
