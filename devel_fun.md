@@ -20,7 +20,7 @@ Are you a capable iOS developer? We would love to be able to make the Objective 
 
 ### Optimization
 
-Are you good at optimization? If you love vtune or valgrind, know your simd and know the cache levels better than your neighbourhood, you could help us enormously. Godot is fast and has been written with most common optimizations in consideration, but not every part of it is as optimal as it can be and we are also not experts on he matter. If so, this task would consist of:
+Are you good at optimization? If you love vtune or valgrind, know your simd and know the cache levels better than your neighbourhood, you could help us enormously. Godot is fast and has been written with most common optimizations in consideration, but not every part of it is as optimal as it can be and we are also not experts on the matter. If you believe this is for you, this task would consist of:
 
 * Defining and creating common case scenarios for stress testing.
 * Find ways to best optimize, either making the code faster or using more efficient algorithms.
