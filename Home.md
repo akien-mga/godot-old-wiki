@@ -18,7 +18,8 @@ Some types and method names changed recently, please read this:
 
 # Contributing
 
-Contributing to godot is always very appreciated by the developers and the community. Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before getting to work on anything please talk with the developers in the recently created [Developer's Mailing List].(https://groups.google.com/forum/#!forum/godot-engine).
+Contributing to godot is always very appreciated by the developers and the community. 
+Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before getting to work on anything please talk with the developers in the recently created [Developer's Mailing List].(https://groups.google.com/forum/#!forum/godot-engine).
 
 * [Fun!](devel_fun) Fun tasks to do!
 * [Not so Fun](devel_volunteers) Not so fun tasks.
