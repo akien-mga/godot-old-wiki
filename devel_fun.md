@@ -16,7 +16,7 @@ Are you a capable Android developer and a master of Java? Godot has some code fo
 
 ### Binding GDScript to Objective C
 
-Are you a capable Android developer and a master of iOS? We would love to be able to make the Objective C iOS API to GDScript. This should be possible given the dynamic nature of Objective C, but the main Godot developers are not that familiar with the language.
+Are you a capable iOS developer? We would love to be able to make the Objective C iOS API available to GDScript. This should be possible given the dynamic nature of Objective C, but the main Godot developers are not that familiar with the language.
 
 
 ### RTL text support
