@@ -1,7 +1,7 @@
 
-# Fun tasks!
+# Not so Fun tasks!
 
-The following is a list of not so fun tasks to do. We believe they are still fun, but require a noticeable higher degree of technical expertise. If you want to work on any of them, let the developers know on the [Developer's Mailing List](https://groups.google.com/forum/#!forum/godot-engine).
+The following is a list of not so fun tasks to do. We believe they are still fun for the right people, but require a noticeable higher degree of technical expertise. If you want to work on any of them, let the developers know on the [Developer's Mailing List](https://groups.google.com/forum/#!forum/godot-engine).
 
 ### Flash Platform
 
