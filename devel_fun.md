@@ -2,6 +2,8 @@
 
 The following is a list of fun tasks to do. If you want to work on any of them, let the developers know on the [Developer's Mailing List](https://groups.google.com/forum/#!forum/godot-engine).
 
+Do you have a task in mind not present here? Please let us know!
+
 ### Terrain Support
 
 Godot lacks a terrain engine. Most modern engines have this. Be it based on height-map or marching-cubes like. If you have experience with these kind of tools (either creating them or using them), Proposals Welcome!
