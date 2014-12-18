@@ -12,6 +12,11 @@ Godot lacks a terrain engine. Most modern engines have this. Be it based on heig
 
 Many Godot demos do not work well on mobile because touchscreen input methods are not supported. If you want to give it a try implementing this, let us know!
 
+### Windows Installer
+
+Are you familiar with Windows installers? We are looking for someone that might be interested in making one for Windows, that can install Godot, latest templates and latest demos. 
+Templates and binaries are built under Linux currently, so the install system used should be able to execute and generate the packages from either Linux or Wine on linux, on command line. As far as we know, NSIS supports this.
+
 ### Binding GDScript to Java
 
 Are you a capable Android developer and a master of Java? Godot has some code for binding Android API directly to GDScript, so the need to write native Java code for special features or integrating SDKs is reduced. This feature is done, but needs testing and making sure it's usable.
