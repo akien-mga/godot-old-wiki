@@ -11,6 +11,7 @@
 *  ~~[QNX](compiling_qnx) Compiling for BlackBerry QNX.~~
 *  ~~[NaCl](compiling_nacl) Compiling for Google Native Client.~~
 *  [Batch Building Templates](compiling_batch_templates) Script for Batch Building All Templates.
+*  [Windows 8/Windows Phone](compiling_winrt) Compiling for "Windows Store Apps" aka "Windows Metro Apps" aka "Windows Phone"
 
 ## Developing in C++
 
