@@ -114,7 +114,7 @@ Calling back to Godot from Java is a little more difficult. The instance ID of t
 
 From java, use the calldeferred function to communicate back with Godot. Java will most likely run in a separate thread, so calls are deferred:
 
-```
+```java
  GodotLib.calldeferred(<instanceid>, "<function>", new Object[]{param1,param2,etc});
 ```
 
