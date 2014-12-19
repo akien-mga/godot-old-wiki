@@ -144,5 +144,117 @@ def configure(env):
 
 ### SDK Library
 
-So, finally it's time to add the SDK library. Many times the library will 
+So, finally it's time to add the SDK library. The library can come in two flavors, a JAR file or an Android project for ant. JAR is the easiest to integrate, just put it in the module directory and add it:
+
+```python
+def can_build(plat):
+        return plat=="android" or plat=="iphone"
+
+def configure(env):
+        if env['platform'] == 'android':
+              # will copy this to the java folder
+              env.android_module_file("MySingleton.java") 
+              env.android_module_manifest("AndroidManifestChunk.xml")
+              env.android_module_library("MyLibrary-3.1.jar")
+
+ 
+```
+
+### SDK Project
+
+When this is an Android project, things usually get more complex. Copy the project folder inside the module directory and configure it:
+
+```python
+c:\godot\modules\mymodule\sdk-1.2> android -p . -t 15
+```
+
+As of this writing, godot uses minsdk 10 and target sdk 15. If this ever changes, should be reflected in the manifest template:
+
+https://github.com/okamstudio/godot/blob/master/platform/android/AndroidManifest.xml.template
+
+Then, add the module folder to the project:
+
+```python
+def can_build(plat):
+        return plat=="android" or plat=="iphone"
+
+def configure(env):
+        if env['platform'] == 'android':
+              # will copy this to the java folder
+              env.android_module_file("MySingleton.java") 
+              env.android_module_manifest("AndroidManifestChunk.xml")
+              env.android_module_source("sdk-1.2","")
+ 
+```
+
+### Building
+
+As you probably modify the contents of the module, and modify your .java inside the module, you need the module to be built with the rest of Godot, so compile android normally.
+
+```
+c:\godot> scons p=android
+```
+
+This will cause your module to be included, the .jar will be copied to the java folder, the .java will be copied to the sources folder, etc.  Each time you modify the .java scons must be called.
+
+Afterwards, just build the ant project normally:
+
+```
+c:\godot\platform\android\java> ant release
+```
+
+This should generate the apk used as export template properly, as defined in the (Android build instructions)[compiling_android].
+
+Usually to generate the apk, again both commands must be run in sequence:
+
+```
+c:\godot> scons p=android
+c:\godot\platform\android\java> ant release
+```
+
+### Using the SDK
+
+To use the SDK from GDScript, just request the singleton Java object from Globals like this:
+
+```python
+#in any file
+
+var singleton=null
+
+func _init():
+   singleton = Globals.get_singleton("MySingleton")
+   print( singleton.myFunction("Hello") )
+```
+
+
+### Troubleshooting
+
+(This section is a work in progress, report your problems here!)
+
+#### Godot crashes upon load
+
+Check 'adb logcat' for possible problems, then:
+
+* Make sure libgodot_android.so is in the libs/armeabi folder
+* Check that the methods used in the Java singleton only use simple Java datatypes, more complex ones are not supported.
+
+## Future
+
+Godot has an experimental Java API Wrapper that allows to use the entire Java API fro GDScript. 
+It's simple to use and it's used like this:
+
+```python
+class = JavaClassWrapper.wrap(<javaclass as text>)
+```
+
+This is most likely not functional yet, if you want to test it and help us make it work, contact us through the [developer mailing list](https://groups.google.com/forum/#!forum/godot-engine).
+
+
+
+
+
+
+
+
+
 
