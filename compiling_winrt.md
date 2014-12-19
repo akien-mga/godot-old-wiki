@@ -37,7 +37,7 @@ On Visual studio, create a new project using any of the "Unversal App" templates
 On the "Solution Explorer" box, you should have 3 sections, "App.Windows (Windows 8.1)", "App.WindowsPhone (Windows Phone 8.1)" and "App.Shared". You need to add files to each section:
 
 ### App.Shared
-- Add a folder named "game" containing your game content. Remember to set the "Content" property of each file to "True", otherwise your files won't get included in the package.
+- Add a folder named "game" containing your game content (can be individual files or your data.pck). Remember to set the "Content" property of each file to "True", otherwise your files won't get included in the package.
 
 ### App.Windows
 - Add your windows executable, and all the .dll files found on platform/winrt/x64/bin on the godot source. Remember to also set the "Content" property.
