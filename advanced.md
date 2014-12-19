@@ -24,6 +24,7 @@
 ### Extending
 
 *  [Custom Modules](custom_modules) Creating custom modules in C++.
+*  [Android Modules](tutorial_android_module) Creating an android module in Java, for custom SDKs.
 *  ~~[Resource Loader](add_resource) Adding a new resource loader.~~
 *  ~~[Script Language](add_script_lang) Adding a new scripting language.~~
 *  ~~[Server](add_server) Adding a new server (physics engine, rendering backend, etc).~~
