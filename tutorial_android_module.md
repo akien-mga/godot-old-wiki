@@ -110,6 +110,14 @@ public class MySingleton extends Godot.SingletonBase {
 }
 ```
 
+Calling back to Godot from Java is a little more difficult. The instance ID of the script must be known first, this is obtained by calling get_instance_ID() on the script. This returns an integer that can be passed to java.
+
+From java, use the calldeferred function to communicate back with Godot. Java will most likely run in a separate thread, so calls are deferred:
+
+```
+ GodotLib.calldeferred(<instanceid>, "<function>", new Object[]{param1,param2,etc});
+```
+
 Add this singleton to the build of the project by adding the following to config.py
 
 ```python
@@ -248,4 +256,3 @@ class = JavaClassWrapper.wrap(<javaclass as text>)
 ```
 
 This is most likely not functional yet, if you want to test it and help us make it work, contact us through the [developer mailing list](https://groups.google.com/forum/#!forum/godot-engine).
-
