@@ -22,4 +22,4 @@ That said, Godot Collada support is really good, please use the [OpenCollada](ht
 
 No, the aim of Godot is to create a complete open source engine licensed under MIT, so you have complete control about over single piece of it. Open versions of functionality or features from such SDKs may be eventually added though.
 
-That said, because it is open source, and modular, nothing avoids you or anyone else interested into adding those libraries as a module and ship your game using them, as either open or closed source. Everything is allowed.
+That said, because it is open source, and modular, nothing prevents you or anyone else interested into adding those libraries as a module and ship your game using them, as either open or closed source. Everything is allowed.
