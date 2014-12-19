@@ -24,8 +24,6 @@ This area is complex, usually a mobile game that monetizes needs special connect
 
 Oh yeah, developing for mobile is a lot of work. On iOS, you can just write a C++ module and take advantage of the C++/ObjC intercommunication, so this is rather easy.
 
-But Android uses Java. Yes, I know your pain.. if it wasn't for Google, ironically, Java would be dead in anything related to frontend. Thanks Google (not).
-
 for C++ developers Java is a pain, the build system is severely bloated and interfacing it with C++ through JNI (Java Native Interface) is more pain that you don't want even for your worst enemy.
 
 ### Maybe REST?
