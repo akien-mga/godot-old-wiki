@@ -36,7 +36,7 @@ Popular engines that have half the share of apps published on mobile get special
 
 ### Android Module
 
-Writing an Android module is similar to [writing a C++ module](custom_modules), but needs a few more steps.
+Writing an Android module is similar to [writing a C++ module](custom_modules), but needs a few more steps. Make sure you are familiar with building your own [Android Export Templates](compiling_android).
 
 #### config.py
 
@@ -248,7 +248,6 @@ class = JavaClassWrapper.wrap(<javaclass as text>)
 ```
 
 This is most likely not functional yet, if you want to test it and help us make it work, contact us through the [developer mailing list](https://groups.google.com/forum/#!forum/godot-engine).
-
 
 
 
