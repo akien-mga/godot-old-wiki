@@ -15,7 +15,7 @@ If you are knowledgeable in HTML5 (and have some idea of emscripten and/or belie
 
 ### X11 Platform
 
-A PulseAudio backend might be needed for audio, as some users have problems with ALSA backend while PulseAudio runs. If you have experience with PA, help is appreciated! 
+~~A PulseAudio backend might be needed for audio, as some users have problems with ALSA backend while PulseAudio runs. If you have experience with PA, help is appreciated!~~ Done! Thanks astillich!
 
 ### Android Signing and Jarsigner
 
