@@ -19,9 +19,11 @@ While it's recommended that most of a game is written in scripting (as it is an 
 
 ### Creating a New Module
 
+Before creating a module, make sure to download the source code of Godot and manage to compile it. There are tutorials in the wiki for this.
+
 To create a new module, the first step is creating a directory inside modules. If you want to maintain the module separately, you can checkout a different VCS into modules and use it.
 
-The example module will be called "sumator"
+The example module will be called "sumator", and is placed inside the Godot source tree (C:\godot refers to wherever the Godot sources are located):
 
 ```
 c:\godot> cd modules
