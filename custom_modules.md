@@ -25,9 +25,9 @@ The example module will be called "sumator"
 
 ```
 c:\godot> cd modules
-c:\godot> mkdir sumator
-c:\godot> cd sumator
-c:\godot\sumator>
+c:\godot\modules> mkdir sumator
+c:\godot\modules> cd sumator
+c:\godot\modules\sumator>
 ```
 
 Inside we will create a simple sumator class:
@@ -150,12 +150,12 @@ The second function allows to customize the build process for the module, like a
 And that's it. Hope it was not too complex! your module should look like this:
 
 ```
-modules/config.py
-modules/sumator.h
-modules/sumator.cpp
-modules/register_types.h
-modules/register_types.cpp
-modules/SCsub
+godot/modules/sumator/config.py
+godot/modules/sumator/sumator.h
+godot/modules/sumator/sumator.cpp
+godot/modules/sumator/register_types.h
+godot/modules/sumator/register_types.cpp
+godot/modules/sumator/SCsub
 ```
 
 You can then zip it and share the module with everyone else. When building for every platform (instructions in the previous section), your module will be included.
