@@ -378,7 +378,7 @@ for i in range(2,8,2):
 
 ### Function Call on Base Class
 
-To call a function on a base class, prepend the "." to the function name:
+To call a function on a base class (that was overridden in the current one), prepend the "." to the function name:
 
 ```
 .basefunc()
