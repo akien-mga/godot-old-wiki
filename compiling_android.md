@@ -42,6 +42,7 @@ alternatively if you are under unix you can symlink:
 user@host:~/godot$ ln -s bin/libgodot.android.<version you compiled>.so platform/android/java/libs/armeabi/libgodot_android.so
 
 ```
+Remember that only *one* of libgodot_android.so must exist for each platform, for each build type (release, debug, etc), it must be replaced.
 
 **Note**: The file inside libs/armeabi must be renamed to **"libgodot_android.so"**, or else unsatisfied link error will happen at runtime.
 
