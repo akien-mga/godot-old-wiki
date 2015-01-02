@@ -27,9 +27,11 @@ func _draw():
 
 Draw commands are described in the [CanvasItem](class_canvasitem) class reference. There are plenty of them.
 
-That's it. It's just _that_ simple. Well, almost. The _draw() callback will only be called once. If what needs to be called changes, you must call update() in that node, and the _draw() callback will be called again.
+### Updating
 
-The reason for this is that the 2D engine remembers all the draw calls made during _draw() and packs them into an efficient structure used to draw in every frame. This way, even if the script needed to create what is being drawn is very complex, it only needs to run once.
+The _draw() function is only called once, and then the draw commands are cached and remembered, so further calls are unnecessary.
+
+If re-drawing is required because a state or something else changed, simply call [CanvasItem.update()](class_canvasitem#update) in that same node and a new _draw() call will happen.
 
 Here is a little more complex example. A texture variable that will be redrawn if modified:
 
