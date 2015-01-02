@@ -376,6 +376,16 @@ for i in range(2,8,2):
     statement  # similar to [2, 4, 6] but does not allocate an array
 ```
 
+### Function Call on Base Class
+
+To call a function on a base class, prepend the "." to the function name:
+
+```
+.basefunc()
+```
+
+However, remember that functions such as _init, and most notifications such as _enter_tree, _exit_tree, _process, _fixed_process, etc. are called in all base classes automatically, so this should be only for calling functions you write yourself.
+
 #  Classes 
 
 By default, the body of a script file is an unnamed class and it can only be referenced externally as a resource or file. Class syntax is meant to be very compact and can only contain member variables or functions. Static functions are allowed, but not static members (this is in the spirit of thread safety since scripts can be initialized in separate threads without the user knowing). In the same way, member variables (including arrays and dictionaries) are initialized every time an instance is created.
