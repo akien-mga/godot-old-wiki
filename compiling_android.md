@@ -23,7 +23,7 @@ Go to the root dir of the engine source code and type:
 C:\godot> scons platform=android
 ```
 
-This should result in a regular .so in \bin folder as if it was compiled with flags: `tools=no target=debug`
+This should result in a regular .so in \bin folder as if it was compiled with flags: `tools=no target=debug`. The resulting file will be huge because it will contain all debug symbols, so for next builds, using "target=release_debug" or "target=release" is recommended.
 
 Copy the .so to the libs/armeabi Android folder (or symlink if you are in Linux or OSX). Note: Git does not support empty directories so you will have to create it if it does not exist:
 
@@ -35,11 +35,11 @@ C:\godot> mkdir platform/android/java/libs/armeabi
 Then copy or symlink: 
 
 ```
-C:\godot> copy bin/libgodot_android.debug.so platform/android/java/libs/armeabi/libgodot_android.so
+C:\godot> copy bin/libgodot.android.<version you compiled>.so platform/android/java/libs/armeabi/libgodot_android.so
 
 alternatively if you are under unix you can symlink:
 
-user@host:~/godot$ ln -s platform/android/libgodot_android.debug.so platform/android/java/libs/armeabi/libgodot_android.so
+user@host:~/godot$ ln -s bin/libgodot.android.<version you compiled>.so platform/android/java/libs/armeabi/libgodot_android.so
 
 ```
 
@@ -48,7 +48,7 @@ user@host:~/godot$ ln -s platform/android/libgodot_android.debug.so platform/and
 If you also want to include support for x86 Android, add the following compile flag: `x86=yes` , then copy/symlink the resulting folder to the x86 folder:
 
 ```
-C:\godot> cp bin/libgodot_android.debug.x86.so platform/android/java/libs/x86/libgodot_android.so
+C:\godot> cp bin/libgodot.android.<version you compiled>.x86.so platform/android/java/libs/x86/libgodot_android.so
 ```
 
 This will create a fat binary that works in both platforms, but will add about 6 megabytes to the APK. 
