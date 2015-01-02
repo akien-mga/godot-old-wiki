@@ -425,6 +425,16 @@ if (entity extends enemy_class):
 
 A class can have an optional constructor; a function named “_init” that is called when the class is instanced.
 
+#### Arguments to Parent Constructor
+
+When inheriting, parent constructors are called automatically (no need to call ._init()). If a parent constructor takes arguments, they are passed like this:
+
+```python
+func _init(args).(parentargs):
+   pass
+```
+
+
 ##  Sub Classes 
 
 A class file can have subclasses. This syntax should be straightforward:
