@@ -2,6 +2,8 @@
 
 For most cases, using the built in deployer and export templates is good enough. Compiling the Android APK manually is mostly useful for custom builds or custom packages for the deployer.
 
+Also, you still need to do all the steps mentioned in the [exporting for Android](export_android) tutorial before attempting your custom export template.
+
 ### Requirements
 
 For compiling under Windows, the following is requiered:
