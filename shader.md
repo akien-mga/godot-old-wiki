@@ -185,21 +185,23 @@ Depending on the shader type, several built-in variables are available, listed a
 | const vec3 **NORMAL** | View-Space Normal |
 | const vec3 **TANGENT** | View-Space Tangent |
 | const vec3 **BINORMAL** | View-Space Binormal |
+| const vec3 **NORMALMAP** | Alternative to NORMAL, use for normal texture output. |
+| const vec3 **NORMALMAP_DEPTH** | Complementary to the above, allows changing depth of normalmap. |
 | const vec2 **UV** | UV |
 | const vec2 **UV2** | UV2 |
 | const color **COLOR** | Vertex Color |
 | const vec4 **VAR1** | Varying 1 |
 | const vec4 **VAR2** | Varying 2 |
-| const vec2 **SCREEN_TEXEL_SIZE**| Size of Screen Pixel (for texscreen) |
 | const vec2 **SCREEN_UV**| Screen Texture Coordinate (for using with texscreen) |
 | const float **TIME**| Time (in seconds) |
 | out vec3 **DIFFUSE** | Diffuse Color |
-| out vec4 **DIFFUSE_ALPHA** | Diffuse Color with Alpha |
+| out vec4 **DIFFUSE_ALPHA** | Diffuse Color with Alpha (using this sends geometry to alpha pipeline) |
 | out vec3 **SPECULAR** | Specular Color |
 | out vec3 **EMISSION** | Emission Color |
 | out float **SPEC_EXP** | Specular Exponent (Fragment Version) |
 | out float **GLOW** | Glow |
-| out float **DISCARD** | Discard (any write > 0.5 discards the pixel) |
+| out float **POINT_COORD** | UV for point, when drawing point sprites. |
+| out float **INV_CAMERA_MATRIX** | Inverse camera matrix, can be used to obtain world coords. |
 
 #####  Material - LightShader
 
@@ -214,8 +216,53 @@ Depending on the shader type, several built-in variables are available, listed a
 | const vec3 **LIGHT_SPECULAR** | Light Specular Color |
 | const float **SPECULAR_EXP** | Specular Exponent |
 | const vec1 **SHADE_PARAM** | Generic Shade Parameter |
-| const vec2 **POINT_COORD** | Current Pixel Coordinate |
+| const vec2 **POINT_COORD** | Current UV for Point Sprite |
 | out vec2 **LIGHT**| Resulting Light |
+| const float **TIME**| Time (in seconds) |
+
+#####  CanvasItem (2D) - VertexShader
+	
+| Variable | Description |
+| ------ | ------- |
+| const vec2 **SRC_VERTEX** | CanvasItem space vertex. |
+| const vec2 **VERTEX** | Output WorldSpace vertex. |
+| vec2 **UV** | UV | 
+| color **COLOR**  | Vertex Color | 
+| out vec4 **VAR1** | Varying 1 Output | 
+| out vec4 **VAR2** | Varying 2 Output | 
+| out float **POINT_SIZE** | Point Size (for points) | 
+| const mat4 **WORLD_MATRIX** | Object World Matrix | 
+| const mat4 **EXTRA_MATRIX** | Extra (user supplied) matrix via [CanvasItem.draw_set_transform()](class_canvasitem#draw_set_transform). Identity by default. | 
+| const mat4 **PROJECTION_MATRIX** | Projection Matrix (model coords to screen).| 
+| const float **TIME** | Time (in seconds) | 
+
+#####  CanvasItem (2D) - FragmentShader
+	
+| Variable | Description |
+| ------ | ------- |
+| const vec4 **SRC_COLOR** | Vertex color |
+| const vec4 **POSITION** | Screen Position |
+| vec3 **NORMAL** | Optional Normal (used for 2D Lighting) |
+| vec2 **UV** | UV | 
+| out color **COLOR**  | Output Color | 
+| const texture **TEXTURE** | Current texture in use for CanvasItem | 
+| const vec2 **TEXTURE_PIXEL_SIZE** | Pixel size for current 2D texture |
+| in vec4 **VAR1** | Varying 1 Output | 
+| in vec4 **VAR2** | Varying 2 Output | 
+| const vec2 **SCREEN_UV**| Screen Texture Coordinate (for using with texscreen) |
+| const vec2 **POINT_COORD** | Current UV for Point Sprite |
+| const float **TIME**| Time (in seconds) |
+
+#####  CanvasItem (2D) - LightShader
+	
+| Variable | Description |
+| ------ | ------- |
+| const vec4 **COLOR** | Output color from fragment stage |
+| const vec3 **NORMAL** | Normal from framgent stage (vec3(0,0,1) if unset before) |
+| const vec2 **LIGHT_DIR** | Light direction vector | 
+| const float **LIGHT_DISTANCE**  | Distance to Light | 
+| out vec3 **LIGHT** | Shader Color (to be composited with light texture) | 
+| const vec2 **POINT_COORD** | Current UV for Point Sprite |
 | const float **TIME**| Time (in seconds) |
 
 ###  Examples
