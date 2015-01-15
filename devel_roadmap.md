@@ -7,7 +7,7 @@ These are just tentative to have a rough idea of the development plan. Ideas and
 **Update (September 2014)** Feature set was met for 1.0, currently focusing on stabilizing (fixing issues and pulls), and filling missing docs for a tentative end of the month release.
 
 
-### Godot 1.0 (stable) (~December 2014)
+~~### Godot 1.0 (stable) (~December 2014)~~
 
 * Lightmapping
 * 2D Deforms and Skeletons
@@ -17,27 +17,35 @@ These are just tentative to have a rough idea of the development plan. Ideas and
 * Complete Documentation (how much? time should tell)
 * First stable, versioned release.
 
-**Update (September 2014)** The goal with 1.0 is to have a version ready for initial promotion, stable release will likely attract more users, so it might be wise to wait a bit with new features and focus on more stabilization.
 
-### Godot 1.1 (~March-2015)
-
-* Live Scene Editing
-* More Shaders (2D & Post Processing)
+### Godot 1.1 (~February-2015)
+* Improved Code Completion
 * Visual Shader Editor
-* Support for Terrain 
-* Support for texture splatting & decals
-* Reflections (using reflection probes)
-* Rework UI (make panels little more customizable)
+* 2D Engine Rewrite (Faster and support Z per node)
+* 2D Shader support
+* 2D Light & Shadows support
+
+### Godot 1.2 (~April-2015)
+
+* Improve debugger
+* Live Scene Editing
+* Complete UI Rework (rewrite UI, make it more friendly)
+
+### Godot 1.3 (~July-2015)
+* Better Networking Support.
 * Ragdoll Wizard/Helper (can be done manually now but it's a lot of work)
 * OpenGEX or FBX Import (ASSIMP? or blender did it..)
 * Easier deployer for iOS and NaCL
 * Windows Universal Binary support (API should exist now?)
 
-### Godot 1.2 (July 2015)
+### Godot 1.4 (September 2015)
 
 * OpenGL ES 3.0 backend
+* Post Process Shaders
+* Support for Terrain 
+* Support for texture splatting & decals
+* Reflections (using reflection probes)
 * SSAO, LPV, and more modern visual effects. Let's put Unreal 4 and Cryengine to shame
-* Better Networking Support.
 * Improved Navmesh Support (Crowds)
 * Make Audio System Graph-Based
 
