@@ -30,6 +30,7 @@ These are just tentative to have a rough idea of the development plan. Ideas and
 * Improve debugger
 * Live Scene Editing
 * Complete UI Rework (rewrite UI, make it more friendly)
+* This includes more UI related tasks that will be filled later
 
 ### Godot 1.3 (~July-2015)
 * Better Networking Support.
