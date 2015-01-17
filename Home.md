@@ -67,6 +67,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  [Canvas Layers](tutorial_canvas_layers)
 *  [Custom Drawing in Node2D/Control](tutorial_custom_draw_2d)
 *  [Custom GUI Controls](tutorial_custom_controls)
+*  ~~[GUI Containers](tutorial_containers)~~
 *  [Cut-Out Animation](Cutout-Animation)
 *  ~~[Physics Object Guide](tutorial_physics_objects_guide)~~
 
