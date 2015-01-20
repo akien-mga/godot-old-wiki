@@ -225,8 +225,9 @@ Depending on the shader type, several built-in variables are available, listed a
 | Variable | Description |
 | ------ | ------- |
 | const vec2 **SRC_VERTEX** | CanvasItem space vertex. |
-| const vec2 **VERTEX** | Output WorldSpace vertex. |
 | vec2 **UV** | UV | 
+| out vec2 **VERTEX** | Output LocalSpace vertex. |
+| out vec2 **WORLD_VERTEX** | Output WorldSpace vertex. (use this or the one above) |
 | color **COLOR**  | Vertex Color | 
 | out vec4 **VAR1** | Varying 1 Output | 
 | out vec4 **VAR2** | Varying 2 Output | 
