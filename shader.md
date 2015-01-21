@@ -143,7 +143,7 @@ Several Built-in functions are provided for convenience, listed as follows:
 | vec3 **reflect**( vec3, vec3 ) | Reflect |
 | color **tex**( texture, vec2 ) | Read from a texture in noormalized coords |
 | color **texcube**( texture, vec3 ) | Read from a cubemap |
-| color **texscreen**( texture, vec1 ) | Read from screen (generates a copy) |
+| color **texscreen**( vec2 ) | Read from screen (generates a copy) |
 
 
 ###  Built-In Variables
