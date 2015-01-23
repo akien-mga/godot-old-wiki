@@ -53,6 +53,15 @@ Since the original textures, 3d file and textues are usually not needed, it's re
 
 Two options for textures are provided. They can be copied to the same place as the scene, or they can be copied to a common path (configurable in the project settings). If you choose this, make sure no two textures are names the same.
 
+## 3D Rigging Tips
+
+Before going into the options, here are some tips for making sure your rigs import properly
+
+* Only up to 4 weights are imported per vertex, if a vertex depends of more than 4 bones, only the 4 most important bones (the one with the most weight) will be imported. For most models this usually works fine, but just keeps it in mind.
+* Do not use non-uniform scale in bone animation, as this will likely not import properly. Try do do the same effect with more bones.
+* When exporting from Blender, make sure that objects modified by a skeleton are children of it. Many objects can be modified by a single skeleton, but they all should be direct childrens.
+* The same way, when using Blender, make sure that the relative transform of children nodes to the skeleton is zero (no rotation, no scale, no translation, all zero and scale at 1.0). The position of both objects (the little orange dot) should be at the same place.
+
 ## 3D Import Options
 
 This section contains many options to change the way import workflow works. Some (like HDR) will be better explained in other sections, but in general a pattern can be visible in the options and that is, many of the options end with "-something". For example: 
