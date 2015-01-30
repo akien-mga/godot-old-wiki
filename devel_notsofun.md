@@ -23,7 +23,7 @@ We would like to replace the dependency on jarsigner by our own signing process 
 
 ### iOS Signing and Codesign
 
-Generating our own IPAs seems easy and there are tools to install them on iOS devices even under Linux or Windows, but we don't know much how the signature process works. Can you help us implement this on the iOS exporter, so Godot can do one click deploy to iOS devices under any OS?
+Generating our own IPAs seems easy and there are tools to install them on iOS devices even under Linux or Windows, but we don't know much how the signature process works. Can you help us implement this on the iOS exporter, so Godot can do one click deploy to iOS devices under any OS? Everything we know so far to complete this task can be found on [this thread](http://www.godotengine.org/forum/viewtopic.php?f=11&t=959). Only a few pieces are missing, but they're crucial.
 
 ### REST APIs
 
