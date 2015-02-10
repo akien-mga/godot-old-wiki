@@ -105,8 +105,6 @@ With the following contents
 ```c++
 /* register_types.h */
 
-#include "sumator.h"
-
 void register_sumator_types();
 void unregister_sumator_types();
 /* yes, the word in the middle must be the same as the module folder name */
@@ -116,6 +114,7 @@ void unregister_sumator_types();
 
 #include "register_types.h"
 #include "object_type_db.h"
+#include "sumator.h"
 
 void register_sumator_types() {
 
