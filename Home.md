@@ -23,6 +23,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 
 * [Fun!](devel_fun) Fun tasks to do!
 * [Not so Fun](devel_notsofun) Not so fun tasks.
+* [gsoc2015 Ideas](gsoc2015) Compiled ideas for GSOC 2015.
 
 # Tutorials
 
