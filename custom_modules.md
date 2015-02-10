@@ -81,7 +81,7 @@ int Sumator::get_total() const {
 	return count;
 }
 
-void Sumator::_bind_methods() const {
+void Sumator::_bind_methods() {
 
 	ObjectTypeDB::bind_method("add",&Sumator::add);
 	ObjectTypeDB::bind_method("reset",&Sumator::reset);
@@ -104,6 +104,9 @@ With the following contents
 
 ```c++
 /* register_types.h */
+
+#include "sumator.h"
+
 void register_sumator_types();
 void unregister_sumator_types();
 /* yes, the word in the middle must be the same as the module folder name */
