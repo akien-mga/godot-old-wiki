@@ -40,7 +40,10 @@ The proper steps to follow are:
 
 4) For user interfaces, use the [Anchoring](tutorial_gui_repositioning) to determine where controls should stay and move. If UIs are more complex, consider learning about Containers.
 
-And that's it! your game should work in multiple resolutions.
+And that's it! your game should work in multiple resolutions. 
+
+If there really is a desire to make your game also work on ancient devices with tiny screens (less than 300 pixels in width), you can use the [export option](export_images#image-export-options) to shrink images, and set that build to be used for certain screen sizes in the App Store or Google Play.
+
 
 
 
