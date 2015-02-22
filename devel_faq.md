@@ -24,7 +24,7 @@ No, the aim of Godot is to create a complete open source engine licensed under M
 
 That said, because it is open source, and modular, nothing prevents you or anyone else interested into adding those libraries as a module and ship your game using them, as either open or closed source. Everything is allowed.
 
-## #4 How are assets created for a game to handle different resolutions?
+## #4 How should assets be created to handle multiple resolutions and aspect ratios?
 
 This question pops up often and it's probably thanks to the misunderstanding created by Apple when they originally doubled the resolution of their devices. It made people think that having the same assets in different resolutions was a good idea, so many continued towards that path. That originally worked to a point and only for Apple devices, but then several Android and Apple devices with different resolutions and aspect ratios were created, with a very wide range of sizes an DPIs.
 
