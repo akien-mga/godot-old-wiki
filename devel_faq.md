@@ -23,3 +23,25 @@ That said, Godot Collada support is really good, please use the [OpenCollada](ht
 No, the aim of Godot is to create a complete open source engine licensed under MIT, so you have complete control about over single piece of it. Open versions of functionality or features from such SDKs may be eventually added though.
 
 That said, because it is open source, and modular, nothing prevents you or anyone else interested into adding those libraries as a module and ship your game using them, as either open or closed source. Everything is allowed.
+
+## #4 How are assets created for a game to handle different resolutions?
+
+This question pops up often and it's probably thanks to the misunderstanding created by Apple when they originally doubled the resolution of their devices. It made people think that having the same assets in different resolutions was a good idea, so many continued towards that path. That originally worked to a point and only for Apple devices, but then several Android and Apple devices with different resolutions and aspect ratios were created, with a very wide range of sizes an DPIs.
+
+The most common and proper way to this is to, instead, is to use a single base resolution for the game and only handle different screen aspects. This is mostly needed for 2D, as in 3D it's just a matter of Cameara XFov or YFov.
+
+The proper steps to follow are:
+
+1) Choose a single base resolution for your game. Even if there are devices that go up to 2K and devices that go down to 400p, regular hardware scaling in your device will take care of this at little or no performance cost. Most common choices are either near 1080p (1920x1080) or 720p (1280x720). Keep in mind the higher the resolution, the larger your assets, the more memory they will take and the longer the time it will take for loading.
+
+2) Use the stretch options in Godot, 2D stretching with keeping aspect works best. Check the Mult-Resolution tutorial (tutorial_multires) on how to achieve this.
+
+3) Determine a minimun resolution and then decide if you want your game to stretch vertically or horizontally for different aspect ratios, or whether there is a minimum one and you want black bars to appear instead. This is also explained in the previous step.
+
+4) For user interfaces, use the [Anchoring](tutorial_gui_repositioning) to determine where controls should stay and move. If UIs are more complex, consider learning about Containers.
+
+And that's it! your game should work in multiple resolutions.
+
+
+
+
