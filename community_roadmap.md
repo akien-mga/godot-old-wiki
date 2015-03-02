@@ -1,10 +1,12 @@
-# Community Roadmap
+# Community Roadmap (Draft)
 
 ## Introduction
 
 Want to help to make Godot grow? As mentioned before, the biggest obstacle for this is not features lacking or anything of the sort. Godot will only grow once more people finds out about it, and once there is a large enough developer community creating and sharing content. 
 
 As such, we have put together this roadmap on the things we would like to happen in the community in the future to ensure that Godot is more accessible. They are mostly unrelated items, but we will need help for this to happen.
+
+Have more ideas? Feedback is very welcome!
 
 ## Asset Sharing
 
