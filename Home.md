@@ -13,6 +13,7 @@ Some types and method names changed recently, please read this:
 # Roadmap
 
 * [Development Roadmap](devel_roadmap)
+* [Community Roadmap](community_roadmap)
 * [Frequently Asked Questions](devel_faq)
 
 
