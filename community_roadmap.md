@@ -8,7 +8,9 @@ As such, we have put together this roadmap on the things we would like to happen
 
 ## Asset Sharing
 
-An asset store is not on the map in the short term (though anyone is free to create one). For a game engine to gain more widespread adoption nowadays it needs a way for the community to share their assets. From simple shaders to full blown game templates. From Godot side, we hope the new UI and plug-in system will allow to make this much easier, but a community website for this would be vital. Want to help with this? Let us know!
+An asset store is not on the map in the short term (though anyone is free to create one). For a game engine to gain more widespread adoption nowadays it needs a way for the community to share assets, from simple shaders to full blown game templates. 
+
+We hope the new UI and plug-in system will allow to make this much easier, but a community website for this will be vital. Want to help with this? Let us know!
 
 ## Showcase Demos
 
