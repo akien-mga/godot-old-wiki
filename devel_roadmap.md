@@ -18,14 +18,14 @@ These are just tentative to have a rough idea of the development plan. Ideas and
 * First stable, versioned release.
 
 
-### Godot 1.1 (~February-2015)
+### Godot 1.1 (~March-2015)
 * Improved Code Completion
 * Visual Shader Editor
 * 2D Engine Rewrite (Faster and support Z per node)
 * 2D Shader support
 * 2D Light & Shadows support
 
-### Godot 1.2 (~April-2015)
+### Godot 1.2 (~May-2015)
 
 * Improve debugger
 * Live Scene Editing
