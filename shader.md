@@ -258,13 +258,21 @@ Depending on the shader type, several built-in variables are available, listed a
 	
 | Variable | Description |
 | ------ | ------- |
-| const vec4 **COLOR** | Output color from fragment stage |
-| const vec3 **NORMAL** | Normal from framgent stage (vec3(0,0,1) if unset before) |
-| const vec2 **LIGHT_DIR** | Light direction vector | 
-| const float **LIGHT_DISTANCE**  | Distance to Light | 
-| out vec3 **LIGHT** | Shader Color (to be composited with light texture) | 
+| const vec4 **POSITION** | Screen Position |
+| in vec3 **NORMAL** | Input Normal |
+| in vec2 **UV** | UV | 
+| in color **COLOR**  | Output Color | 
+| const texture **TEXTURE** | Current texture in use for CanvasItem | 
+| const vec2 **TEXTURE_PIXEL_SIZE** | Pixel size for current 2D texture |
+| in vec4 **VAR1** | Varying 1 Output | 
+| in vec4 **VAR2** | Varying 2 Output | 
+| const vec2 **SCREEN_UV**| Screen Texture Coordinate (for using with texscreen) |
 | const vec2 **POINT_COORD** | Current UV for Point Sprite |
 | const float **TIME**| Time (in seconds) |
+| vec2 **LIGHT_VEC** | Vector from light to fragment, can be modified to alter shadow computation. | 
+| const float **LIGHT_HEIGHT** | Height of Light | 
+| const color **LIGHT_COLOR** | Color of Light | 
+| out vec4 **LIGHT** | Light Ouput (shader is ignored if this is not used) | 
 
 ###  Examples
 	
