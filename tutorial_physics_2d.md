@@ -242,7 +242,7 @@ Enjoy doing space queries!
 
 ### Contact Reporting
 
-Remember that not every combination of two bodies can "report" contacts. Static bodies are passive and will not report contacts when hit. Kinematic Bodies will report contacts but only against Rigid/Character bodies. Area2D will report overlap with bodies and with other areas. The following table should make it more visual:
+Remember that not every combination of two bodies can "report" contacts. Static bodies are passive and will not report contacts when hit. Kinematic Bodies will report contacts but only against Rigid/Character bodies. Area2D will report overlap (not detailed contacts) with bodies and with other areas. The following table should make it more visual:
 
 #### In case of overlap, who receives collision information?
 
