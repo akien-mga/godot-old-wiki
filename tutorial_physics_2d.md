@@ -167,7 +167,7 @@ Contact monitoring via signals is also available (signals similar to the ones in
 
 ### Area2D
 
-Areas in Godot physics have two main roles:
+Areas in Godot physics have three main roles:
 
 1. Override the space parameters for objects entering them (ie. gravity, gravity direction, gravity type, density, etc).
 2. Monitor when rigid or kinematic bodies enter or exit the area.
