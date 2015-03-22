@@ -171,6 +171,7 @@ Areas in Godot physics have two main roles:
 
 1. Override the space parameters for objects entering them (ie. gravity, gravity direction, gravity type, density, etc).
 2. Monitor when rigid or kinematic bodies enter or exit the area.
+3. Monitor other areas (this is the simplest way to get overlap test)
 
 The second function is the most common. For it to work, the "monitoring" property must be enabled (it is by default). There are two types of signals emitted by this node:
 
@@ -178,11 +179,18 @@ The second function is the most common. For it to work, the "monitoring" propert
 #Simple, high level notification
 body_enter(body:PhysicsBody2D)
 body_exit(body:PhysicsBody2D)
+area_enter(area:Area2D)
+area_exit(body:Area2D)
 
 #Low level shape-based notification
 #notifies which shape specifically in both the body and area are in contact
 body_enter_shape(body_id:int,body:PhysicsBody2D,body_shape_index:int,area_shape_index:idx)
 body_exit_shape(body_id:int,body:PhysicsBody2D,body_shape_index:int,area_shape_index:idx)
+area_enter_shape(area_id:int,area:Area2D,area_shape_index:int,self_shape_index:idx)
+area_exit_shape(area_id:int,area:Area2D,area_shape_index:int,self_shape_index:idx)
+
+Areas also by default receive mouse/touchscreen input, providing a lower-level way than controls to implement this kind of input in a game. Bodies support this by it's disabled by default.
+
 ```
 
 ### Physics Global Variables
