@@ -236,7 +236,7 @@ Enjoy doing space queries!
 
 Remember that not every combination of two bodies can "report" contacts. Static bodies are passive and will not report contacts when hit. Kinematic Bodies will report contacts but only against Rigid/Character bodies. Area2D is also passive and will not report against another Area2D. The following table should make it more visual:
 
-#### In case of overlap, who receives contacts?
+#### In case of overlap, who receives collision information?
 
 | Type      | RigidBody | CharacterBody | KinematicBody | StaticBody | Area |
 |-----------|-----------|---------------|---------------|------------|------|
@@ -244,7 +244,7 @@ Remember that not every combination of two bodies can "report" contacts. Static 
 | **CharacterBody** |    Both   |     Both      |    Both   |  CharacterBody | Area |  
 | **KinematicBody** |    Both   |     Both      |    None   |  None | Area |  
 | **StaticBody** |    RigidBody   |    CharacterBody  |    None   |  None | None |  
-| **Area** |    Area   |    Area  |    Area   |  None | None |  
+| **Area** |    Area   |    Area  |    Area   |  None | Both |  
 
 
 
