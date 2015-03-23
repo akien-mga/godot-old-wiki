@@ -222,7 +222,25 @@ c:\godot\platform\android\java> ant release
 
 ### Using the SDK
 
-To use the SDK from GDScript, just request the singleton Java object from Globals like this:
+To use the SDK from GDScript, first enable the singleton by adding the following line to engine.cfg:
+
+```
+[android]
+
+modules="com/android/godot/MySingleton"
+
+```
+
+More than one singleton module can be enable by separating with comma:
+
+```
+[android]
+
+modules="com/android/godot/MySingleton,com/android/godot/MyOtherSingleton"
+
+```
+
+Then just request the singleton Java object from Globals like this:
 
 ```python
 #in any file
