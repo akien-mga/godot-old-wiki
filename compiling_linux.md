@@ -7,11 +7,12 @@ For compiling under Linux or other Unix variants, the following is requiered:
 *  Python 2.7+ (3.0 is untested as of now).
 *  SCons build system.
 *  X11 and MESA development Libraries
+*  Xinerama Libraries
 *  ALSA development libraries
 *  Freetype (for the editor)
 *  OpenSSL (for HTTPS and TLS)
 *  pkg-config (used to detect the above three)
-*  **Ubuntu Users:** apt-get install scons pkg-config libx11-dev libxcursor-dev build-essential libasound2-dev libfreetype6-dev libgl1-mesa-dev libglu-dev libssl-dev
+*  **Ubuntu Users:** apt-get install scons pkg-config libx11-dev libxcursor-dev build-essential libasound2-dev libfreetype6-dev libgl1-mesa-dev libglu-dev libssl-dev libxinerama-dev
 
 ### Compiling
 
