@@ -220,9 +220,9 @@ c:\godot> scons p=android
 c:\godot\platform\android\java> ant release
 ```
 
-### Using the SDK
+### Using the Module
 
-To use the SDK from GDScript, first enable the singleton by adding the following line to engine.cfg:
+To use the Module from GDScript, first enable the singleton by adding the following line to engine.cfg:
 
 ```
 [android]
