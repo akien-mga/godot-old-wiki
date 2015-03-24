@@ -8,7 +8,7 @@ The workaround is to make a copy of the screen, or a part of the screen, to a ba
 
 ### TexScreen shader instruction.
 
-Godot shading language has a special instruction, "texscreen", it takes as parameter the UV of the screen and returns a vec3 RGB with the color. A special built-in varying: SCREEN_UV can be used to obtain the UV for the current fragment. As a result, this simple 2D fragment shader:
+Godot [shading language](shader) has a special instruction, "texscreen", it takes as parameter the UV of the screen and returns a vec3 RGB with the color. A special built-in varying: SCREEN_UV can be used to obtain the UV for the current fragment. As a result, this simple 2D fragment shader:
 
 ```glsl
 COLOR=vec4( texscreen(SCREEN_UV), 1.0 );
