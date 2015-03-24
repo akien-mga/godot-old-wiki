@@ -39,4 +39,26 @@ COLOR.rgb=c;
 
 ### Behind The Scenes
 
+While this seems magical, it's not. The Texscreen instruction, when first found in a node that is about to be drawn, does a full-screen copy to a back-buffer. Subsequent nodes that use texscreen() in shaders will not have the screen copied for them, because this ends up being very inefficient. 
+As a result, if shaders that use texscreen() overlap, the second one will not use the result of the first one, resulting in unexpected visuals:
+
+<p align="center"><img src="images/texscreen_demo1.png"></p>
+
+In the above image, the second sphere (top right) is using the same source for texscreen() as the first one below, so the first one "dissapears", or is not visible. 
+
+To correct this, a [BackBufferCopy](class_backbuffercopy) node can be instanced between both spheres. BackBufferCopy can work by either specifying a screen region or the whole screen:
+
+<p align="center"><img src="images/texscreen_bbc.png"></p>
+
+With correct back-buffer copying, the two spheres blend correctly:
+
+<p align="center"><img src="images/texscreen_demo2.png"></p>
+
+### Back-Buffer Logic
+
+So, to make it clearer, here's how the backbuffer copying logic works in Godot:
+
+* If a node uses the texscreen(), the entire screen is copied to the back buffer before drawing that node. This only happens the first time, subsequent nodes do not trigger this. 
+* If a BackBufferCopy node was processed before the situation in the point above (even if texscreen() was not used), this behavior described in the point above does not happen. In other words, automatic copying of the entire screen only happens if texscreen() is used in a node for the first time and no BackBufferCopy node (not disabled) was found before in tree-order.
+* BackBufferCopy can copy either the entire screen or a region. If your shader uses pixels not in the region copied, the result of that read is **undefined**. In other words, it's possible to use BackBufferCopy to copy back a region of the screen and then use texscreen() on a different region. Avoid this behavior!
 
