@@ -16,7 +16,7 @@ COLOR=vec4( texscreen(SCREEN_UV), 1.0 );
 
 results in an invisible object, because it just shows what lies behind. The same shader using the visual editor looks like this:
 
-<p align="center"><img src="images/texscreen_shader.png"></p>
+<p align="center"><img src="images/texscreen_visual_shader.png"></p>
 
 ### TexScreen Example
 
