@@ -127,6 +127,8 @@ Offset | Len | Type | Description
 
 ### 11: aabb (rect3)
 
+Offset | Len | Type | Description
+---|---|---|---
 4|4|Float| X Coordinate
 8|4|Float| Y Coordinate
 12|4|Float| Z Coordinate
@@ -195,16 +197,22 @@ Offset | Len | Type | Description
 
 ####For Old Format:
 
+Offset | Len | Type | Description
+---|---|---|---
 8|X|Bytes| UTF-8 Encoded String
 
 Padded to 4 bytes.
 
 ####For New Format:
 
+Offset | Len | Type | Description
+---|---|---|---
 4|4|Integer| Sub-Name Count
 8|4|Integer| Flags (absolute: val&1 != 0 )
 
 For each Name and Sub-Name
+Offset | Len | Type | Description
+---|---|---|---
 X+0|4|Integer| String Length
 X+4|X|Bytes| UTF-8 Encoded String
 
@@ -262,6 +270,8 @@ Offset | Len | Type | Description
 
 For each String:
 
+Offset | Len | Type | Description
+---|---|---|---
 X+0|4|Integer| String Length
 X+4|X|Bytes| UTF-8 Encoded String
 
