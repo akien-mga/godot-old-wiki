@@ -45,6 +45,10 @@ Following this is the actual packet contents, which varies for each type of pack
 
 ### 0: null
 ### 1: bool
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| 0 for False, 1 for True
+
 ### 2: integer
 ### 3: float
 ### 4: string
