@@ -95,6 +95,16 @@ Offset | Len | Type | Description
 12|4|Float| Z Coordinate
 
 ### 8: matrix32
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Float| [0][0]
+8|4|Float| [0][1]
+12|4|Float| [1][0]
+16|4|Float| [1][1]
+20|4|Float| [2][0]
+24|4|Float| [2][1]
+
 ### 9: plane
 ### 10: quaternion
 ### 11: aabb (rect3)
