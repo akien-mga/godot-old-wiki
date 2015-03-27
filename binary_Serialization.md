@@ -10,6 +10,7 @@ The packet is designed to be always padded to 4 bytes. All values are little end
 All packets have a 4 byte header with an integer, specifying the type of data:
 
 Type | Value
+---|---
 0 | null
 1 | bool
 2 | integer
