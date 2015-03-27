@@ -172,6 +172,7 @@ Offset | Len | Type | Description
 4|4|Float| Red (0..1)
 8|4|Float| Green (0..1)
 12|4|Float| Blue (0..1)
+16|4|Float| Alpha (0..1)
 
 ### 15: image
 
@@ -237,6 +238,8 @@ Offset | Len | Type | Description
 4|4|Integer| Array Length (Bytes)
 8..8+length|1|Byte| Byte (0..255)
 
+The array data is padded to 4 bytes.
+
 ### 23: int array
 
 Offset | Len | Type | Description
@@ -245,9 +248,48 @@ Offset | Len | Type | Description
 8..8+length*4|4|Integer| 32 Bits Signed Integer
 
 ### 24: float array
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Array Length (Floats)
+8..8+length*4|4|Integer| 32 Bits IEE 754 Float
+
 ### 25: string array
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Array Length (Strings)
+
+For each String:
+
+X+0|4|Integer| String Length
+X+4|X|Bytes| UTF-8 Encoded String
+
+Every string is is padded to 4 bytes.
+
 ### 26: vector2 array
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Array Length 
+8..8+length*8|4|Float| X Coordinate
+8..12+length*8|4|Float| Y Coordinate
+
 ### 27: vector3 array
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Array Length 
+8..8+length*12|4|Float| X Coordinate
+8..12+length*12|4|Float| Y Coordinate
+8..16+length*12|4|Float| Z Coordinate
+
 ### 28: color array
 
-
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Array Length 
+8..8+length*16|4|Float| Red (0..1)
+8..12+length*16|4|Float| Green (0..1)
+8..16+length*16|4|Float| Blue (0..1)
+8..20+length*16|4|Float| Alpha (0..1)
