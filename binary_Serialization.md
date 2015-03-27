@@ -7,7 +7,7 @@ Godot has a simple serialization API based on Variant. It's used for converting 
 ### Packet Specification
 
 The packet is designed to be always padded to 4 bytes. All values are little endian encoded. 
-All packets have a 4 byte header with an integer, specifying the type of data:
+All packets have a 4 byte header representing an integer, specifying the type of data:
 
 Type | Value
 ---|---
