@@ -106,9 +106,46 @@ Offset | Len | Type | Description
 24|4|Float| [2][1]
 
 ### 9: plane
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Float| Normal X
+8|4|Float| Normal Y
+12|4|Float| Normal Z
+16|4|Float| Distance
+
 ### 10: quaternion
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Float| Imaginary X
+8|4|Float| Imaginary Y
+12|4|Float| Imaginary Z
+16|4|Float| Real W
+
 ### 11: aabb (rect3)
+
+4|4|Float| X Coordinate
+8|4|Float| Y Coordinate
+12|4|Float| Z Coordinate
+16|4|Float| X Size
+20|4|Float| Y Size
+24|4|Float| Z Size
+
 ### 12: matrix3x3
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Float| [0][0]
+8|4|Float| [0][1]
+12|4|Float| [0][2]
+16|4|Float| [1][0]
+20|4|Float| [1][1]
+24|4|Float| [1][2]
+28|4|Float| [2][0]
+32|4|Float| [2][1]
+36|4|Float| [2][2]
+
 ### 13: transform (matrix 4x3)
 ### 14: color
 ### 15: image
