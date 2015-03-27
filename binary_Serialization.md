@@ -147,21 +147,71 @@ Offset | Len | Type | Description
 36|4|Float| [2][2]
 
 ### 13: transform (matrix 4x3)
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Float| [0][0]
+8|4|Float| [0][1]
+12|4|Float| [0][2]
+16|4|Float| [1][0]
+20|4|Float| [1][1]
+24|4|Float| [1][2]
+28|4|Float| [2][0]
+32|4|Float| [2][1]
+36|4|Float| [2][2]
+40|4|Float| [3][0]
+44|4|Float| [3][1]
+48|4|Float| [3][2]
+
 ### 14: color
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Float| Red (0..1)
+8|4|Float| Green (0..1)
+12|4|Float| Blue (0..1)
+
 ### 15: image
 ### 16: node path
 ### 17: rid (unsupported)
 ### 18: object (unsupported)
 ### 19: input event
 ### 20: dictionary
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| val&0x7FFFFFFF = elements, val&0x80000000 = shared (bool)
+
+Then what follows is, for amount of "elements", pairs of key and value, one after the other, using
+this same format.
+
 ### 21: array 
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| val&0x7FFFFFFF = elements, val&0x80000000 = shared (bool)
+
+Then what follows is, for amount of "elements", values one after the other, using
+this same format.
+
 ### 22: byte array
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Array Length (Bytes)
+8..8+length|1|Byte| Byte (0..255)
+
 ### 23: int array
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Array Length (Integers)
+8..8+length*4|4|Integer| 32 Bits Signed Integer
+
 ### 24: float array
 ### 25: string array
 ### 26: vector2 array
 ### 27: vector3 array
 ### 28: color array
-
 
 
