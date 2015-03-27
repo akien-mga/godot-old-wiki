@@ -69,6 +69,8 @@ Offset | Len | Type | Description
 4|4|Integer| String Length (in Bytes)
 8|X|Bytes| UTF-8 Encoded String
 
+This field is padded to 4 bytes.
+
 ### 5: vector2
 
 Offset | Len | Type | Description
@@ -172,7 +174,41 @@ Offset | Len | Type | Description
 12|4|Float| Blue (0..1)
 
 ### 15: image
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| Format (see FORMAT_* in [Image](class_image)
+8|4|Integer| Mip-Maps (0 means no mip-maps).
+12|4|Integer| Width (Pixels)
+16|4|Integer| Height (Pixels)
+20|4|Integer| Data Length
+24..24+DataLength|1|Byte| Image Data
+
+This field is padded to 4 bytes.
+
 ### 16: node path
+
+Offset | Len | Type | Description
+---|---|---|---
+4|4|Integer| String Length, or New Format (val&0x80000000!=0 and NameCount=val&0x7FFFFFFF)
+
+####For Old Format:
+
+8|X|Bytes| UTF-8 Encoded String
+
+Padded to 4 bytes.
+
+####For New Format:
+
+4|4|Integer| Sub-Name Count
+8|4|Integer| Flags (absolute: val&1 != 0 )
+
+For each Name and Sub-Name
+X+0|4|Integer| String Length
+X+4|X|Bytes| UTF-8 Encoded String
+
+Every name string is is padded to 4 bytes.
+
 ### 17: rid (unsupported)
 ### 18: object (unsupported)
 ### 19: input event
