@@ -211,6 +211,7 @@ Offset | Len | Type | Description
 8|4|Integer| Flags (absolute: val&1 != 0 )
 
 For each Name and Sub-Name
+
 Offset | Len | Type | Description
 ---|---|---|---
 X+0|4|Integer| String Length
