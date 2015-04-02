@@ -28,6 +28,17 @@ Base class for all 3D nodes.
   * void  **[hide](#hide)**  **(** **)**
   * [bool](class_bool)  **[is&#95;visible](#is_visible)**  **(** **)** const
   * [bool](class_bool)  **[is&#95;hidden](#is_hidden)**  **(** **)** const
+  * void  **[rotate](#rotate)**  **(** [Vector3](class_vector3) normal, [float](class_float) radians  **)**
+  * void  **[global&#95;rotate](#global_rotate)**  **(** [Vector3](class_vector3) normal, [float](class_float) radians  **)**
+  * void  **[rotate&#95;x](#rotate_x)**  **(** [float](class_float) radians  **)**
+  * void  **[rotate&#95;y](#rotate_y)**  **(** [float](class_float) radians  **)**
+  * void  **[rotate&#95;z](#rotate_z)**  **(** [float](class_float) radians  **)**
+  * void  **[translate](#translate)**  **(** [Vector3](class_vector3) offset  **)**
+  * void  **[global&#95;translate](#global_translate)**  **(** [Vector3](class_vector3) offset  **)**
+  * void  **[orthonormalize](#orthonormalize)**  **(** **)**
+  * void  **[set&#95;identity](#set_identity)**  **(** **)**
+  * void  **[look&#95;at](#look_at)**  **(** [Vector3](class_vector3) target, [Vector3](class_vector3) up  **)**
+  * void  **[look&#95;at&#95;from&#95;pos](#look_at_from_pos)**  **(** [Vector3](class_vector3) pos, [Vector3](class_vector3) target, [Vector3](class_vector3) up  **)**
 
 ###  Signals  
   *  **visibility&#95;changed**  **(** **)**

@@ -14,19 +14,30 @@ General purpose area detection and influence for 2D Phisics.
   * [Vector2](class_vector2)  **[get&#95;gravity&#95;vector](#get_gravity_vector)**  **(** **)** const
   * void  **[set&#95;gravity](#set_gravity)**  **(** [float](class_float) gravity  **)**
   * [float](class_float)  **[get&#95;gravity](#get_gravity)**  **(** **)** const
-  * void  **[set&#95;density](#set_density)**  **(** [float](class_float) density  **)**
-  * [float](class_float)  **[get&#95;density](#get_density)**  **(** **)** const
+  * void  **[set&#95;linear&#95;damp](#set_linear_damp)**  **(** [float](class_float) linear_damp  **)**
+  * [float](class_float)  **[get&#95;linear&#95;damp](#get_linear_damp)**  **(** **)** const
+  * void  **[set&#95;angular&#95;damp](#set_angular_damp)**  **(** [float](class_float) angular_damp  **)**
+  * [float](class_float)  **[get&#95;angular&#95;damp](#get_angular_damp)**  **(** **)** const
   * void  **[set&#95;priority](#set_priority)**  **(** [float](class_float) priority  **)**
   * [float](class_float)  **[get&#95;priority](#get_priority)**  **(** **)** const
   * void  **[set&#95;enable&#95;monitoring](#set_enable_monitoring)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[is&#95;monitoring&#95;enabled](#is_monitoring_enabled)**  **(** **)** const
+  * void  **[set&#95;monitorable](#set_monitorable)**  **(** [bool](class_bool) enable  **)**
+  * [bool](class_bool)  **[is&#95;monitorable](#is_monitorable)**  **(** **)** const
   * [Array](class_array)  **[get&#95;overlapping&#95;bodies](#get_overlapping_bodies)**  **(** **)** const
+  * [Array](class_array)  **[get&#95;overlapping&#95;areas](#get_overlapping_areas)**  **(** **)** const
+  * [PhysicsBody2D](class_physicsbody2d)  **[overlaps&#95;body](#overlaps_body)**  **(** [Object](class_object) body  **)** const
+  * [Area2D](class_area2d)  **[overlaps&#95;area](#overlaps_area)**  **(** [Object](class_object) area  **)** const
 
 ###  Signals  
   *  **body&#95;enter**  **(** [Object](class_object) body  **)**
   *  **body&#95;enter&#95;shape**  **(** [int](class_int) body_id, [Object](class_object) body, [int](class_int) body_shape, [int](class_int) area_shape  **)**
+  *  **area&#95;enter**  **(** [Object](class_object) area  **)**
+  *  **area&#95;enter&#95;shape**  **(** [int](class_int) area_id, [Object](class_object) area, [int](class_int) area_shape, [int](class_int) area_shape  **)**
   *  **body&#95;exit**  **(** [Object](class_object) body  **)**
   *  **body&#95;exit&#95;shape**  **(** [int](class_int) body_id, [Object](class_object) body, [int](class_int) body_shape, [int](class_int) area_shape  **)**
+  *  **area&#95;exit**  **(** [Object](class_object) area  **)**
+  *  **area&#95;exit&#95;shape**  **(** [int](class_int) area_id, [Object](class_object) area, [int](class_int) area_shape, [int](class_int) area_shape  **)**
 
 ###  Description  
 General purpose area detection for 2D Phisics. Areas can be used for detection of objects that enter/exit them, as well as overriding space parameters (changing gravity, damping, etc). An Area2D can be set as a children to a RigidBody2D to generate a custom gravity field. For this, use SPACE_OVERRIDE_COMBINE and point gravity at the center of mass.

@@ -6,7 +6,7 @@
 
 
 ###  Member Functions 
-  * [int](class_int)  **[wait](#wait)**  **(** **)**
-  * [int](class_int)  **[post](#post)**  **(** **)**
+  * Error  **[wait](#wait)**  **(** **)**
+  * Error  **[post](#post)**  **(** **)**
 
 ###  Member Function Description  

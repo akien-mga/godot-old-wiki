@@ -31,6 +31,9 @@ Creates a sub-view into the screen.
   * [bool](class_bool)  **[is&#95;set&#95;as&#95;render&#95;target](#is_set_as_render_target)**  **(** **)** const
   * void  **[set&#95;render&#95;target&#95;vflip](#set_render_target_vflip)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[get&#95;render&#95;target&#95;vflip](#get_render_target_vflip)**  **(** **)** const
+  * void  **[set&#95;render&#95;target&#95;clear&#95;on&#95;new&#95;frame](#set_render_target_clear_on_new_frame)**  **(** [bool](class_bool) enable  **)**
+  * [bool](class_bool)  **[get&#95;render&#95;target&#95;clear&#95;on&#95;new&#95;frame](#get_render_target_clear_on_new_frame)**  **(** **)** const
+  * void  **[render&#95;target&#95;clear](#render_target_clear)**  **(** **)**
   * void  **[set&#95;render&#95;target&#95;filter](#set_render_target_filter)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[get&#95;render&#95;target&#95;filter](#get_render_target_filter)**  **(** **)** const
   * void  **[set&#95;render&#95;target&#95;gen&#95;mipmaps](#set_render_target_gen_mipmaps)**  **(** [bool](class_bool) enable  **)**
@@ -52,6 +55,7 @@ Creates a sub-view into the screen.
   * void  **[set&#95;as&#95;audio&#95;listener&#95;2d](#set_as_audio_listener_2d)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[is&#95;audio&#95;listener&#95;2d](#is_audio_listener_2d)**  **(** **)** const
   * void  **[set&#95;render&#95;target&#95;to&#95;screen&#95;rect](#set_render_target_to_screen_rect)**  **(** [Rect2](class_rect2) arg0  **)**
+  * void  **[warp&#95;mouse](#warp_mouse)**  **(** [Vector2](class_vector2) to_pos  **)**
 
 ###  Signals  
   *  **size&#95;changed**  **(** **)**

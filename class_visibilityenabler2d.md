@@ -12,6 +12,7 @@
 ###  Numeric Constants  
   * **ENABLER_FREEZE_BODIES** = **1**
   * **ENABLER_PAUSE_ANIMATIONS** = **0**
-  * **ENABLER_MAX** = **2**
+  * **ENABLER_PAUSE_PARTICLES** = **2**
+  * **ENABLER_MAX** = **3**
 
 ###  Member Function Description  

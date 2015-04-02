@@ -20,6 +20,7 @@
   * [Vector3Array](class_vector3array)  **[segment&#95;intersects&#95;sphere](#segment_intersects_sphere)**  **(** [Vector3](class_vector3) from, [Vector3](class_vector3) to, [Vector3](class_vector3) spos, [float](class_float) sradius  **)**
   * [Vector3Array](class_vector3array)  **[segment&#95;intersects&#95;cylinder](#segment_intersects_cylinder)**  **(** [Vector3](class_vector3) from, [Vector3](class_vector3) to, [float](class_float) height, [float](class_float) radius  **)**
   * [Vector3Array](class_vector3array)  **[segment&#95;intersects&#95;convex](#segment_intersects_convex)**  **(** [Vector3](class_vector3) from, [Vector3](class_vector3) to, [Array](class_array) planes  **)**
+  * [bool](class_bool)  **[point&#95;is&#95;inside&#95;triangle](#point_is_inside_triangle)**  **(** [Vector2](class_vector2) point, [Vector2](class_vector2) a, [Vector2](class_vector2) b, [Vector2](class_vector2) c  **)** const
   * [IntArray](class_intarray)  **[triangulate&#95;polygon](#triangulate_polygon)**  **(** [Vector2Array](class_vector2array) polygon  **)**
   * [Dictionary](class_dictionary)  **[make&#95;atlas](#make_atlas)**  **(** [Vector2Array](class_vector2array) sizes  **)**
 

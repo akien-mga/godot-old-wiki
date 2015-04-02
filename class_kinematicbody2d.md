@@ -8,7 +8,7 @@
 ###  Member Functions 
   * [Vector2](class_vector2)  **[move](#move)**  **(** [Vector2](class_vector2) rel_vec  **)**
   * [Vector2](class_vector2)  **[move&#95;to](#move_to)**  **(** [Vector2](class_vector2) position  **)**
-  * [bool](class_bool)  **[can&#95;move&#95;to](#can_move_to)**  **(** [Vector2](class_vector2) position, [bool](class_bool) arg1  **)**
+  * [bool](class_bool)  **[can&#95;move&#95;to](#can_move_to)**  **(** [Vector2](class_vector2) position, [bool](class_bool) discrete=false  **)**
   * [bool](class_bool)  **[is&#95;colliding](#is_colliding)**  **(** **)** const
   * [Vector2](class_vector2)  **[get&#95;collision&#95;pos](#get_collision_pos)**  **(** **)** const
   * [Vector2](class_vector2)  **[get&#95;collision&#95;normal](#get_collision_normal)**  **(** **)** const

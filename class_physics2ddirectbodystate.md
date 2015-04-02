@@ -7,7 +7,8 @@ Direct access object to a physics body in the [Physics2DServer](class_physics2ds
 
 ###  Member Functions 
   * [Vector2](class_vector2)  **[get&#95;total&#95;gravity](#get_total_gravity)**  **(** **)** const
-  * [float](class_float)  **[get&#95;total&#95;density](#get_total_density)**  **(** **)** const
+  * [float](class_float)  **[get&#95;total&#95;linear&#95;damp](#get_total_linear_damp)**  **(** **)** const
+  * [float](class_float)  **[get&#95;total&#95;angular&#95;damp](#get_total_angular_damp)**  **(** **)** const
   * [float](class_float)  **[get&#95;inverse&#95;mass](#get_inverse_mass)**  **(** **)** const
   * [float](class_float)  **[get&#95;inverse&#95;inertia](#get_inverse_inertia)**  **(** **)** const
   * void  **[set&#95;linear&#95;velocity](#set_linear_velocity)**  **(** [Vector2](class_vector2) velocity  **)**
@@ -42,11 +43,6 @@ Direct access object to a physics body in the [Physics2DServer](class_physics2ds
   * [Vector2](class_vector2)  **get&#95;total&#95;gravity**  **(** **)** const
 
 Return the total gravity vector being currently applied to this body.
-
-#### <a name="get_total_density">get_total_density</a>
-  * [float](class_float)  **get&#95;total&#95;density**  **(** **)** const
-
-Return the space density currently being applied to this body.
 
 #### <a name="get_inverse_mass">get_inverse_mass</a>
   * [float](class_float)  **get&#95;inverse&#95;mass**  **(** **)** const

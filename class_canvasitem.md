@@ -22,18 +22,20 @@ Base class of anything 2D.
   * [bool](class_bool)  **[is&#95;set&#95;as&#95;toplevel](#is_set_as_toplevel)**  **(** **)** const
   * void  **[set&#95;blend&#95;mode](#set_blend_mode)**  **(** [int](class_int) blend_mode  **)**
   * [int](class_int)  **[get&#95;blend&#95;mode](#get_blend_mode)**  **(** **)** const
+  * void  **[set&#95;light&#95;mask](#set_light_mask)**  **(** [int](class_int) light_mask  **)**
+  * [int](class_int)  **[get&#95;light&#95;mask](#get_light_mask)**  **(** **)** const
   * void  **[set&#95;opacity](#set_opacity)**  **(** [float](class_float) opacity  **)**
   * [float](class_float)  **[get&#95;opacity](#get_opacity)**  **(** **)** const
   * void  **[set&#95;self&#95;opacity](#set_self_opacity)**  **(** [float](class_float) self_opacity  **)**
   * [float](class_float)  **[get&#95;self&#95;opacity](#get_self_opacity)**  **(** **)** const
-  * void  **[set&#95;draw&#95;behind&#95;parent](#set_draw_behind_parent)**  **(** [bool](class_bool) enabe  **)**
+  * void  **[set&#95;draw&#95;behind&#95;parent](#set_draw_behind_parent)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[is&#95;draw&#95;behind&#95;parent&#95;enabled](#is_draw_behind_parent_enabled)**  **(** **)** const
   * void  **[draw&#95;line](#draw_line)**  **(** [Vector2](class_vector2) from, [Vector2](class_vector2) to, [Color](class_color) color, [float](class_float) width=1  **)**
   * void  **[draw&#95;rect](#draw_rect)**  **(** [Rect2](class_rect2) rect, [Color](class_color) color  **)**
   * void  **[draw&#95;circle](#draw_circle)**  **(** [Vector2](class_vector2) pos, [float](class_float) radius, [Color](class_color) color  **)**
   * void  **[draw&#95;texture](#draw_texture)**  **(** [Texture](class_texture) texture, [Vector2](class_vector2) pos  **)**
-  * void  **[draw&#95;texture&#95;rect](#draw_texture_rect)**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [bool](class_bool) tile=false, [Color](class_color) modulate=Color(1,1,1,1)  **)**
-  * void  **[draw&#95;texture&#95;rect&#95;region](#draw_texture_rect_region)**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [Rect2](class_rect2) src_rect, [Color](class_color) modulate=Color(1,1,1,1)  **)**
+  * void  **[draw&#95;texture&#95;rect](#draw_texture_rect)**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [bool](class_bool) tile, [Color](class_color) modulate=false, [bool](class_bool) arg4=Color(1,1,1,1)  **)**
+  * void  **[draw&#95;texture&#95;rect&#95;region](#draw_texture_rect_region)**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [Rect2](class_rect2) src_rect, [Color](class_color) modulate, [bool](class_bool) arg4=Color(1,1,1,1)  **)**
   * void  **[draw&#95;style&#95;box](#draw_style_box)**  **(** [StyleBox](class_stylebox) style_box, [Rect2](class_rect2) rect  **)**
   * void  **[draw&#95;primitive](#draw_primitive)**  **(** [Vector2Array](class_vector2array) points, [ColorArray](class_colorarray) colors, [Vector2Array](class_vector2array) uvs=Array(), [Texture](class_texture) texture=Object(), [float](class_float) width=1  **)**
   * void  **[draw&#95;polygon](#draw_polygon)**  **(** [Vector2Array](class_vector2array) points, [ColorArray](class_colorarray) colors, [Vector2Array](class_vector2array) uvs=Array(), [Texture](class_texture) texture=Object()  **)**
@@ -43,10 +45,17 @@ Base class of anything 2D.
   * void  **[draw&#95;set&#95;transform](#draw_set_transform)**  **(** [Vector2](class_vector2) pos, [float](class_float) rot, [Vector2](class_vector2) scale  **)**
   * [Matrix32](class_matrix32)  **[get&#95;transform](#get_transform)**  **(** **)** const
   * [Matrix32](class_matrix32)  **[get&#95;global&#95;transform](#get_global_transform)**  **(** **)** const
+  * [Matrix32](class_matrix32)  **[get&#95;global&#95;transform&#95;with&#95;canvas](#get_global_transform_with_canvas)**  **(** **)** const
   * [Matrix32](class_matrix32)  **[get&#95;viewport&#95;transform](#get_viewport_transform)**  **(** **)** const
   * [Rect2](class_rect2)  **[get&#95;viewport&#95;rect](#get_viewport_rect)**  **(** **)** const
+  * [Matrix32](class_matrix32)  **[get&#95;canvas&#95;transform](#get_canvas_transform)**  **(** **)** const
   * [RID](class_rid)  **[get&#95;canvas](#get_canvas)**  **(** **)** const
   * [Object](class_object)  **[get&#95;world&#95;2d](#get_world_2d)**  **(** **)** const
+  * void  **[set&#95;material](#set_material)**  **(** [CanvasItemMaterial](class_canvasitemmaterial) material  **)**
+  * [CanvasItemMaterial](class_canvasitemmaterial)  **[get&#95;material](#get_material)**  **(** **)** const
+  * void  **[set&#95;use&#95;parent&#95;material](#set_use_parent_material)**  **(** [bool](class_bool) enable  **)**
+  * [bool](class_bool)  **[get&#95;use&#95;parent&#95;material](#get_use_parent_material)**  **(** **)** const
+  * [InputEvent](class_inputevent)  **[make&#95;input&#95;local](#make_input_local)**  **(** [InputEvent](class_inputevent) event  **)** const
 
 ###  Signals  
   *  **item&#95;rect&#95;changed**  **(** **)**
@@ -181,12 +190,12 @@ Draw a colored circle.
 Draw a texture at a given position.
 
 #### <a name="draw_texture_rect">draw_texture_rect</a>
-  * void  **draw&#95;texture&#95;rect**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [bool](class_bool) tile=false, [Color](class_color) modulate=Color(1,1,1,1)  **)**
+  * void  **draw&#95;texture&#95;rect**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [bool](class_bool) tile, [Color](class_color) modulate=false, [bool](class_bool) arg4=Color(1,1,1,1)  **)**
 
 Draw a textured rectangle at a given position, optionally modulated by a color.
 
 #### <a name="draw_texture_rect_region">draw_texture_rect_region</a>
-  * void  **draw&#95;texture&#95;rect&#95;region**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [Rect2](class_rect2) src_rect, [Color](class_color) modulate=Color(1,1,1,1)  **)**
+  * void  **draw&#95;texture&#95;rect&#95;region**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [Rect2](class_rect2) src_rect, [Color](class_color) modulate, [bool](class_bool) arg4=Color(1,1,1,1)  **)**
 
 Draw a textured rectangle region at a given position, optionally modulated by a color.
 

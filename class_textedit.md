@@ -45,7 +45,7 @@ Multiline text editing control.
 ###  Signals  
   *  **text&#95;changed**  **(** **)**
   *  **cursor&#95;changed**  **(** **)**
-  *  **request&#95;completion**  **(** [String](class_string) keyword, [int](class_int) line  **)**
+  *  **request&#95;completion**  **(** **)**
 
 ###  Numeric Constants  
   * **SEARCH_MATCH_CASE** = **1** - Match case when searching.

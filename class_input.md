@@ -19,6 +19,8 @@
   * void  **[set&#95;mouse&#95;mode](#set_mouse_mode)**  **(** [int](class_int) mode  **)**
   * [int](class_int)  **[get&#95;mouse&#95;mode](#get_mouse_mode)**  **(** **)** const
   * void  **[warp&#95;mouse&#95;pos](#warp_mouse_pos)**  **(** [Vector2](class_vector2) to  **)**
+  * void  **[action&#95;press](#action_press)**  **(** [String](class_string) arg0  **)**
+  * void  **[action&#95;release](#action_release)**  **(** [String](class_string) arg0  **)**
 
 ###  Signals  
   *  **joy&#95;connection&#95;changed**  **(** [int](class_int) index, [bool](class_bool) connected  **)**

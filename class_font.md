@@ -15,8 +15,12 @@ Internationalized font and text drawing support.
   * [int](class_int)  **[get&#95;kerning&#95;pair](#get_kerning_pair)**  **(** [int](class_int) arg0, [int](class_int) arg1  **)** const
   * void  **[add&#95;texture](#add_texture)**  **(** [Texture](class_texture) texture  **)**
   * void  **[add&#95;char](#add_char)**  **(** [int](class_int) character, [int](class_int) texture, [Rect2](class_rect2) rect, [Vector2](class_vector2) align=Vector2(0,0), [float](class_float) advance=-1  **)**
+  * [int](class_int)  **[get&#95;texture&#95;count](#get_texture_count)**  **(** **)** const
+  * [Texture](class_texture)  **[get&#95;texture](#get_texture)**  **(** [int](class_int) idx  **)** const
   * [Vector2](class_vector2)  **[get&#95;char&#95;size](#get_char_size)**  **(** [int](class_int) char, [int](class_int) next=0  **)** const
   * [Vector2](class_vector2)  **[get&#95;string&#95;size](#get_string_size)**  **(** [String](class_string) string  **)** const
+  * void  **[set&#95;distance&#95;field&#95;hint](#set_distance_field_hint)**  **(** [bool](class_bool) enable  **)**
+  * [bool](class_bool)  **[is&#95;distance&#95;field&#95;hint](#is_distance_field_hint)**  **(** **)** const
   * void  **[clear](#clear)**  **(** **)**
   * void  **[draw](#draw)**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [String](class_string) string, [Color](class_color) modulate=Color(1,1,1,1), [int](class_int) clip_w=-1  **)** const
   * [float](class_float)  **[draw&#95;char](#draw_char)**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [int](class_int) char, [int](class_int) next=-1, [Color](class_color) modulate=Color(1,1,1,1)  **)** const

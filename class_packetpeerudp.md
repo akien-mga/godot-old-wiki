@@ -6,9 +6,9 @@
 
 
 ###  Member Functions 
-  * [int](class_int)  **[listen](#listen)**  **(** [int](class_int) port, [int](class_int) recv_buf_size=65536  **)**
+  * Error  **[listen](#listen)**  **(** [int](class_int) port, [int](class_int) recv_buf_size=65536  **)**
   * void  **[close](#close)**  **(** **)**
-  * [int](class_int)  **[wait](#wait)**  **(** **)**
+  * Error  **[wait](#wait)**  **(** **)**
   * [bool](class_bool)  **[is&#95;listening](#is_listening)**  **(** **)** const
   * [String](class_string)  **[get&#95;packet&#95;ip](#get_packet_ip)**  **(** **)** const
   * [int](class_int)  **[get&#95;packet&#95;address](#get_packet_address)**  **(** **)** const

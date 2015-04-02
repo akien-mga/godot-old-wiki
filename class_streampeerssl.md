@@ -6,8 +6,8 @@
 
 
 ###  Member Functions 
-  * [int](class_int)  **[accept](#accept)**  **(** [StreamPeer](class_streampeer) stream  **)**
-  * [int](class_int)  **[connect](#connect)**  **(** [StreamPeer](class_streampeer) stream, [bool](class_bool) validate_certs=false, [String](class_string) for_hostname=""  **)**
+  * Error  **[accept](#accept)**  **(** [StreamPeer](class_streampeer) stream  **)**
+  * Error  **[connect](#connect)**  **(** [StreamPeer](class_streampeer) stream, [bool](class_bool) validate_certs=false, [String](class_string) for_hostname=""  **)**
   * [int](class_int)  **[get&#95;status](#get_status)**  **(** **)** const
   * void  **[disconnect](#disconnect)**  **(** **)**
 

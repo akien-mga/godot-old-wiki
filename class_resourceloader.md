@@ -7,7 +7,7 @@ Resource Loader.
 
 ###  Member Functions 
   * [ResourceInteractiveLoader](class_resourceinteractiveloader)  **[load&#95;interactive](#load_interactive)**  **(** [String](class_string) path, [String](class_string) type_hint=""  **)**
-  * [Resource](class_resource)  **[load](#load)**  **(** [String](class_string) path, [String](class_string) type_hint=""  **)**
+  * [Resource](class_resource)  **[load](#load)**  **(** [String](class_string) path, [String](class_string) type_hint="", [bool](class_bool) p_no_cache=false  **)**
   * [StringArray](class_stringarray)  **[get&#95;recognized&#95;extensions&#95;for&#95;type](#get_recognized_extensions_for_type)**  **(** [String](class_string) type  **)**
   * void  **[set&#95;abort&#95;on&#95;missing&#95;resources](#set_abort_on_missing_resources)**  **(** [bool](class_bool) abort  **)**
   * [StringArray](class_stringarray)  **[get&#95;dependencies](#get_dependencies)**  **(** [String](class_string) arg0  **)**
@@ -24,7 +24,7 @@ Resource Loader. This is a static object accessible as [ResourceLoader](class_re
 Load a resource interactively, the returned object allows to load with high granularity.
 
 #### <a name="load">load</a>
-  * [Resource](class_resource)  **load**  **(** [String](class_string) path, [String](class_string) type_hint=""  **)**
+  * [Resource](class_resource)  **load**  **(** [String](class_string) path, [String](class_string) type_hint="", [bool](class_bool) p_no_cache=false  **)**
 
 Load a resource. Optionally a hint can be given for the resource type to load.
 

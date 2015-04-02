@@ -14,6 +14,7 @@ Quaternion.
   * [Quat](class_quat)  **[slerp](#slerp)**  **(** [Quat](class_quat) b, [float](class_float) t  **)**
   * [Quat](class_quat)  **[slerpni](#slerpni)**  **(** [Quat](class_quat) b, [float](class_float) t  **)**
   * void  **[Quat](#Quat)**  **(** [float](class_float) x, [float](class_float) y, [float](class_float) z, [float](class_float) w  **)**
+  * void  **[Quat](#Quat)**  **(** [Vector3](class_vector3) axis, [float](class_float) angle  **)**
   * void  **[Quat](#Quat)**  **(** [Matrix3](class_matrix3) from  **)**
 
 ###  Member Variables  

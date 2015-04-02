@@ -294,6 +294,7 @@ Global scope constants and variables.
   * **KEY_MASK_ALT** = **67108864**
   * **KEY_MASK_META** = **134217728**
   * **KEY_MASK_CTRL** = **268435456**
+  * **KEY_MASK_CMD** = **268435456**
   * **KEY_MASK_KPAD** = **536870912**
   * **KEY_MASK_GROUP_SWITCH** = **1073741824**
   * **BUTTON_LEFT** = **1**

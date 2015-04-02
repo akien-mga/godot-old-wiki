@@ -19,6 +19,8 @@ Dialog for selecting files or directories in the filesystem.
   * [VBoxContainer](class_vboxcontainer)  **[get&#95;vbox](#get_vbox)**  **(** **)**
   * void  **[set&#95;access](#set_access)**  **(** [int](class_int) access  **)**
   * [int](class_int)  **[get&#95;access](#get_access)**  **(** **)** const
+  * void  **[set&#95;show&#95;hidden&#95;files](#set_show_hidden_files)**  **(** [bool](class_bool) arg0  **)**
+  * [bool](class_bool)  **[is&#95;showing&#95;hidden&#95;files](#is_showing_hidden_files)**  **(** **)** const
   * void  **[invalidate](#invalidate)**  **(** **)**
 
 ###  Signals  

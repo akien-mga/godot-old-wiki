@@ -57,13 +57,18 @@
   * **PARAM_SPREAD** = **1**
   * **PARAM_LINEAR_VELOCITY** = **2**
   * **PARAM_SPIN_VELOCITY** = **3**
+  * **PARAM_ORBIT_VELOCITY** = **4**
   * **PARAM_GRAVITY_DIRECTION** = **5**
   * **PARAM_GRAVITY_STRENGTH** = **6**
   * **PARAM_RADIAL_ACCEL** = **7**
   * **PARAM_TANGENTIAL_ACCEL** = **8**
+  * **PARAM_DAMPING** = **9**
+  * **PARAM_INITIAL_ANGLE** = **10**
   * **PARAM_INITIAL_SIZE** = **11**
   * **PARAM_FINAL_SIZE** = **12**
   * **PARAM_HUE_VARIATION** = **13**
+  * **PARAM_ANIM_SPEED_SCALE** = **14**
+  * **PARAM_ANIM_INITIAL_POS** = **15**
   * **PARAM_MAX** = **16**
   * **MAX_COLOR_PHASES** = **4**
 

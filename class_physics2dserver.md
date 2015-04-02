@@ -71,6 +71,10 @@ Physics 2D Server.
   * void  **[body&#95;remove&#95;collision&#95;exception](#body_remove_collision_exception)**  **(** [RID](class_rid) body, [RID](class_rid) excepted_body  **)**
   * void  **[body&#95;set&#95;max&#95;contacts&#95;reported](#body_set_max_contacts_reported)**  **(** [RID](class_rid) body, [int](class_int) amount  **)**
   * [int](class_int)  **[body&#95;get&#95;max&#95;contacts&#95;reported](#body_get_max_contacts_reported)**  **(** [RID](class_rid) body  **)** const
+  * void  **[body&#95;set&#95;one&#95;way&#95;collision&#95;direction](#body_set_one_way_collision_direction)**  **(** [RID](class_rid) normal, [Vector2](class_vector2) arg1  **)**
+  * [Vector2](class_vector2)  **[body&#95;get&#95;one&#95;way&#95;collision&#95;direction](#body_get_one_way_collision_direction)**  **(** [RID](class_rid) arg0  **)** const
+  * void  **[body&#95;set&#95;one&#95;way&#95;collision&#95;max&#95;depth](#body_set_one_way_collision_max_depth)**  **(** [RID](class_rid) normal, [float](class_float) arg1  **)**
+  * [float](class_float)  **[body&#95;get&#95;one&#95;way&#95;collision&#95;max&#95;depth](#body_get_one_way_collision_max_depth)**  **(** [RID](class_rid) arg0  **)** const
   * void  **[body&#95;set&#95;omit&#95;force&#95;integration](#body_set_omit_force_integration)**  **(** [RID](class_rid) body, [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[body&#95;is&#95;omitting&#95;force&#95;integration](#body_is_omitting_force_integration)**  **(** [RID](class_rid) body  **)** const
   * void  **[body&#95;set&#95;force&#95;integration&#95;callback](#body_set_force_integration_callback)**  **(** [RID](class_rid) body, [Object](class_object) receiver, [String](class_string) method, var arg3  **)**
@@ -99,8 +103,9 @@ Physics 2D Server.
   * **AREA_PARAM_GRAVITY_VECTOR** = **1**
   * **AREA_PARAM_GRAVITY_IS_POINT** = **2**
   * **AREA_PARAM_GRAVITY_POINT_ATTENUATION** = **3**
-  * **AREA_PARAM_DENSITY** = **4**
-  * **AREA_PARAM_PRIORITY** = **5**
+  * **AREA_PARAM_LINEAR_DAMP** = **4**
+  * **AREA_PARAM_ANGULAR_DAMP** = **5**
+  * **AREA_PARAM_PRIORITY** = **6**
   * **AREA_SPACE_OVERRIDE_COMBINE** = **1**
   * **AREA_SPACE_OVERRIDE_DISABLED** = **0**
   * **AREA_SPACE_OVERRIDE_REPLACE** = **2**
@@ -111,7 +116,10 @@ Physics 2D Server.
   * **BODY_PARAM_BOUNCE** = **0**
   * **BODY_PARAM_FRICTION** = **1**
   * **BODY_PARAM_MASS** = **2**
-  * **BODY_PARAM_MAX** = **3**
+  * **BODY_PARAM_GRAVITY_SCALE** = **3**
+  * **BODY_PARAM_LINEAR_DAMP** = **4**
+  * **BODY_PARAM_ANGULAR_DAMP** = **5**
+  * **BODY_PARAM_MAX** = **6**
   * **BODY_STATE_TRANSFORM** = **0**
   * **BODY_STATE_LINEAR_VELOCITY** = **1**
   * **BODY_STATE_ANGULAR_VELOCITY** = **2**

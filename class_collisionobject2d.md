@@ -6,6 +6,7 @@
 Base node for 2D collisionables.
 
 ###  Member Functions 
+  * void  **[&#95;input&#95;event](#_input_event)**  **(** [Object](class_object) viewport, [InputEvent](class_inputevent) event, [int](class_int) shape_idx  **)** virtual
   * void  **[add&#95;shape](#add_shape)**  **(** [Shape2D](class_shape2d) shape, [Matrix32](class_matrix32) transform=1,0, 0,1, 0,0  **)**
   * [int](class_int)  **[get&#95;shape&#95;count](#get_shape_count)**  **(** **)** const
   * void  **[set&#95;shape](#set_shape)**  **(** [int](class_int) shape_idx, [Shape](class_shape) shape  **)**
@@ -17,6 +18,13 @@ Base node for 2D collisionables.
   * void  **[remove&#95;shape](#remove_shape)**  **(** [int](class_int) shape_idx  **)**
   * void  **[clear&#95;shapes](#clear_shapes)**  **(** **)**
   * [RID](class_rid)  **[get&#95;rid](#get_rid)**  **(** **)** const
+  * void  **[set&#95;pickable](#set_pickable)**  **(** [bool](class_bool) enabled  **)**
+  * [bool](class_bool)  **[is&#95;pickable](#is_pickable)**  **(** **)** const
+
+###  Signals  
+  *  **mouse&#95;enter**  **(** **)**
+  *  **input&#95;event**  **(** [Object](class_object) viewport, [InputEvent](class_inputevent) event, [int](class_int) shape_idx  **)**
+  *  **mouse&#95;exit**  **(** **)**
 
 ###  Description  
 CollisionObject2D is the base class for 2D physics collisionables. They can hold any number of 2D collision shapes. Usually, they are edited by placing CollisionBody2D and CollisionPolygon2D nodes as children. Such nodes are for reference ant not present outside the editor, so code should use the regular shape API.

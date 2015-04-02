@@ -24,8 +24,6 @@ Camera node, displays from a point of view.
   * [int](class_int)  **[get&#95;projection](#get_projection)**  **(** **)** const
   * void  **[set&#95;visible&#95;layers](#set_visible_layers)**  **(** [int](class_int) mask  **)**
   * [int](class_int)  **[get&#95;visible&#95;layers](#get_visible_layers)**  **(** **)** const
-  * void  **[look&#95;at](#look_at)**  **(** [Vector3](class_vector3) target, [Vector3](class_vector3) up  **)**
-  * void  **[look&#95;at&#95;from&#95;pos](#look_at_from_pos)**  **(** [Vector3](class_vector3) pos, [Vector3](class_vector3) target, [Vector3](class_vector3) up  **)**
   * void  **[set&#95;environment](#set_environment)**  **(** [Environment](class_environment) env  **)**
   * [Environment](class_environment)  **[get&#95;environment](#get_environment)**  **(** **)** const
   * void  **[set&#95;keep&#95;aspect&#95;mode](#set_keep_aspect_mode)**  **(** [int](class_int) mode  **)**

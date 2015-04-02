@@ -16,6 +16,8 @@ Base node for geometry based visual instances.
   * [float](class_float)  **[get&#95;draw&#95;range&#95;end](#get_draw_range_end)**  **(** **)** const
   * void  **[set&#95;baked&#95;light&#95;texture&#95;id](#set_baked_light_texture_id)**  **(** [int](class_int) id  **)**
   * [int](class_int)  **[get&#95;baked&#95;light&#95;texture&#95;id](#get_baked_light_texture_id)**  **(** **)** const
+  * void  **[set&#95;extra&#95;cull&#95;margin](#set_extra_cull_margin)**  **(** [float](class_float) margin  **)**
+  * [float](class_float)  **[get&#95;extra&#95;cull&#95;margin](#get_extra_cull_margin)**  **(** **)** const
 
 ###  Numeric Constants  
   * **FLAG_VISIBLE** = **0**

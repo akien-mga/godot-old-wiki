@@ -11,6 +11,8 @@ Tile library for tilemaps.
   * [String](class_string)  **[tile&#95;get&#95;name](#tile_get_name)**  **(** [int](class_int) id  **)** const
   * void  **[tile&#95;set&#95;texture](#tile_set_texture)**  **(** [int](class_int) id, [Texture](class_texture) texture  **)**
   * [Texture](class_texture)  **[tile&#95;get&#95;texture](#tile_get_texture)**  **(** [int](class_int) id  **)** const
+  * void  **[tile&#95;set&#95;material](#tile_set_material)**  **(** [int](class_int) id, [CanvasItemMaterial](class_canvasitemmaterial) material  **)**
+  * [CanvasItemMaterial](class_canvasitemmaterial)  **[tile&#95;get&#95;material](#tile_get_material)**  **(** [int](class_int) id  **)** const
   * void  **[tile&#95;set&#95;texture&#95;offset](#tile_set_texture_offset)**  **(** [int](class_int) id, [Vector2](class_vector2) texture_offset  **)**
   * [Vector2](class_vector2)  **[tile&#95;get&#95;texture&#95;offset](#tile_get_texture_offset)**  **(** [int](class_int) id  **)** const
   * void  **[tile&#95;set&#95;shape&#95;offset](#tile_set_shape_offset)**  **(** [int](class_int) id, [Vector2](class_vector2) shape_offset  **)**
@@ -21,6 +23,14 @@ Tile library for tilemaps.
   * [Shape2D](class_shape2d)  **[tile&#95;get&#95;shape](#tile_get_shape)**  **(** [int](class_int) id  **)** const
   * void  **[tile&#95;set&#95;shapes](#tile_set_shapes)**  **(** [int](class_int) id, [Array](class_array) shapes  **)**
   * [Array](class_array)  **[tile&#95;get&#95;shapes](#tile_get_shapes)**  **(** [int](class_int) id  **)** const
+  * void  **[tile&#95;set&#95;navigation&#95;polygon](#tile_set_navigation_polygon)**  **(** [int](class_int) id, [NavigationPolygon](class_navigationpolygon) navigation_polygon  **)**
+  * [NavigationPolygon](class_navigationpolygon)  **[tile&#95;get&#95;navigation&#95;polygon](#tile_get_navigation_polygon)**  **(** [int](class_int) id  **)** const
+  * void  **[tile&#95;set&#95;navigation&#95;polygon&#95;offset](#tile_set_navigation_polygon_offset)**  **(** [int](class_int) id, [Vector2](class_vector2) navigation_polygon_offset  **)**
+  * [Vector2](class_vector2)  **[tile&#95;get&#95;navigation&#95;polygon&#95;offset](#tile_get_navigation_polygon_offset)**  **(** [int](class_int) id  **)** const
+  * void  **[tile&#95;set&#95;light&#95;occluder](#tile_set_light_occluder)**  **(** [int](class_int) id, [OccluderPolygon2D](class_occluderpolygon2d) light_occluder  **)**
+  * [OccluderPolygon2D](class_occluderpolygon2d)  **[tile&#95;get&#95;light&#95;occluder](#tile_get_light_occluder)**  **(** [int](class_int) id  **)** const
+  * void  **[tile&#95;set&#95;occluder&#95;offset](#tile_set_occluder_offset)**  **(** [int](class_int) id, [Vector2](class_vector2) occluder_offset  **)**
+  * [Vector2](class_vector2)  **[tile&#95;get&#95;occluder&#95;offset](#tile_get_occluder_offset)**  **(** [int](class_int) id  **)** const
   * void  **[remove&#95;tile](#remove_tile)**  **(** [int](class_int) id  **)**
   * void  **[clear](#clear)**  **(** **)**
   * [int](class_int)  **[get&#95;last&#95;unused&#95;tile&#95;id](#get_last_unused_tile_id)**  **(** **)** const

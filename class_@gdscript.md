@@ -31,7 +31,7 @@ Built-in GDScript functions.
   * [float](class_float)  **[ease](#ease)**  **(** [float](class_float) s, [float](class_float) curve  **)**
   * [float](class_float)  **[decimals](#decimals)**  **(** [float](class_float) step  **)**
   * [float](class_float)  **[stepify](#stepify)**  **(** [float](class_float) s, [float](class_float) step  **)**
-  * [float](class_float)  **[lerp](#lerp)**  **(** [float](class_float) a, [float](class_float) b, [float](class_float) c  **)**
+  * [float](class_float)  **[lerp](#lerp)**  **(** [float](class_float) from, [float](class_float) to, [float](class_float) weight  **)**
   * [float](class_float)  **[dectime](#dectime)**  **(** [float](class_float) value, [float](class_float) amount, [float](class_float) step  **)**
   * [Nil](class_nil)  **[randomize](#randomize)**  **(** **)**
   * [int](class_int)  **[randi](#randi)**  **(** **)**
@@ -46,8 +46,8 @@ Built-in GDScript functions.
   * [float](class_float)  **[min](#min)**  **(** [float](class_float) a, [float](class_float) b  **)**
   * [float](class_float)  **[clamp](#clamp)**  **(** [float](class_float) val, [float](class_float) min, [float](class_float) max  **)**
   * [int](class_int)  **[nearest&#95;po2](#nearest_po2)**  **(** [int](class_int) val  **)**
-  * [Object](class_object)  **[weakref](#weakref)**  **(** [Object](class_object) obj  **)**
-  * [Object](class_object)  **[funcref](#funcref)**  **(** [Object](class_object) instance, [String](class_string) funcname  **)**
+  * [WeakRef](class_weakref)  **[weakref](#weakref)**  **(** [Object](class_object) obj  **)**
+  * [FuncRef](class_funcref)  **[funcref](#funcref)**  **(** [Object](class_object) instance, [String](class_string) funcname  **)**
   * [Object](class_object)  **[convert](#convert)**  **(** var what, [int](class_int) type  **)**
   * [String](class_string)  **[str](#str)**  **(** var what, var ...  **)**
   * [String](class_string)  **[str](#str)**  **(** var what, var ...  **)**
@@ -55,8 +55,10 @@ Built-in GDScript functions.
   * [Nil](class_nil)  **[printt](#printt)**  **(** var what, var ...  **)**
   * [Nil](class_nil)  **[printerr](#printerr)**  **(** var what, var ...  **)**
   * [Nil](class_nil)  **[printraw](#printraw)**  **(** var what, var ...  **)**
+  * [String](class_string)  **[var2str](#var2str)**  **(** var var  **)**
+  * [Nil](class_nil)  **[str2var:var](#str2var:var)**  **(** [String](class_string) string  **)**
   * [Array](class_array)  **[range](#range)**  **(** var ...  **)**
-  * [Object](class_object)  **[load](#load)**  **(** [String](class_string) path  **)**
+  * [Resource](class_resource)  **[load](#load)**  **(** [String](class_string) path  **)**
   * [Dictionary](class_dictionary)  **[inst2dict](#inst2dict)**  **(** [Object](class_object) inst  **)**
   * [Object](class_object)  **[dict2inst](#dict2inst)**  **(** [Dictionary](class_dictionary) dict  **)**
   * [int](class_int)  **[hash](#hash)**  **(** var var:var  **)**
@@ -201,6 +203,16 @@ Return the amount of decimals in the floating point value.
 
 Snap float value to a given step.
 
+#### <a name="lerp">lerp</a>
+  * [float](class_float)  **lerp**  **(** [float](class_float) from, [float](class_float) to, [float](class_float) weight  **)**
+
+Linear interpolates between two values by a normalized value.
+
+#### <a name="dectime">dectime</a>
+  * [float](class_float)  **dectime**  **(** [float](class_float) value, [float](class_float) amount, [float](class_float) step  **)**
+
+Decreases time by a specified amount.
+
 #### <a name="randomize">randomize</a>
   * [Nil](class_nil)  **randomize**  **(** **)**
 
@@ -272,9 +284,14 @@ Clamp both values to a range.
 Return the nearest larger power of 2 for an integer.
 
 #### <a name="weakref">weakref</a>
-  * [Object](class_object)  **weakref**  **(** [Object](class_object) obj  **)**
+  * [WeakRef](class_weakref)  **weakref**  **(** [Object](class_object) obj  **)**
 
 Return a weak reference to an object.
+
+#### <a name="funcref">funcref</a>
+  * [FuncRef](class_funcref)  **funcref**  **(** [Object](class_object) instance, [String](class_string) funcname  **)**
+
+Returns a reference to the specified function
 
 #### <a name="convert">convert</a>
   * [Object](class_object)  **convert**  **(** var what, [int](class_int) type  **)**
@@ -296,6 +313,11 @@ Convert one or more arguments to strings in the best way possible.
 
 Print one or more arguments to strings in the best way possible to a console line.
 
+#### <a name="printt">printt</a>
+  * [Nil](class_nil)  **printt**  **(** var what, var ...  **)**
+
+Print one or more arguments to the console with a tab between each argument.
+
 #### <a name="printerr">printerr</a>
   * [Nil](class_nil)  **printerr**  **(** var what, var ...  **)**
 
@@ -306,13 +328,23 @@ Print one or more arguments to strings in the best way possible to standard erro
 
 Print one or more arguments to strings in the best way possible to console. No newline is added at the end.
 
+#### <a name="var2str">var2str</a>
+  * [String](class_string)  **var2str**  **(** var var  **)**
+
+Converts the value of a variable to a String.
+
+#### <a name="str2var:var">str2var:var</a>
+  * [Nil](class_nil)  **str2var:var**  **(** [String](class_string) string  **)**
+
+Converts the value of a String to a variable.
+
 #### <a name="range">range</a>
   * [Array](class_array)  **range**  **(** var ...  **)**
 
 Return an array with the given range. Range can be 1 argument N (0 to N-1), two arguments (initial, final-1) or three arguments (initial,final-1,increment).
 
 #### <a name="load">load</a>
-  * [Object](class_object)  **load**  **(** [String](class_string) path  **)**
+  * [Resource](class_resource)  **load**  **(** [String](class_string) path  **)**
 
 Load a resource from the filesystem, pass a valid
 			path as argument.
@@ -328,6 +360,11 @@ Convert a script class instance to a dictionary
 
 Convert a previously converted instances to dictionary
 			back into an instance. Useful for deserializing.
+
+#### <a name="hash">hash</a>
+  * [int](class_int)  **hash**  **(** var var:var  **)**
+
+Hashes the variable passed and returns an integer.
 
 #### <a name="print_stack">print_stack</a>
   * [Nil](class_nil)  **print&#95;stack**  **(** **)**

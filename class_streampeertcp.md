@@ -6,7 +6,7 @@
 TCP Stream peer.
 
 ###  Member Functions 
-  * [int](class_int)  **[connect](#connect)**  **(** [String](class_string) host, [int](class_int) ip  **)**
+  * [int](class_int)  **[connect](#connect)**  **(** [String](class_string) host, [int](class_int) port  **)**
   * [bool](class_bool)  **[is&#95;connected](#is_connected)**  **(** **)** const
   * [int](class_int)  **[get&#95;status](#get_status)**  **(** **)** const
   * [String](class_string)  **[get&#95;connected&#95;host](#get_connected_host)**  **(** **)** const

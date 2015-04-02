@@ -6,7 +6,7 @@
 
 
 ###  Member Functions 
-  * [int](class_int)  **[pack](#pack)**  **(** var value  **)**
+  * Error  **[pack](#pack)**  **(** var value  **)**
   * [int](class_int)  **[size](#size)**  **(** **)** const
 
 ###  Member Function Description  

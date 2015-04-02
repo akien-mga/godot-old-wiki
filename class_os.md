@@ -13,6 +13,23 @@ Operating System functions.
   * [bool](class_bool)  **[is&#95;video&#95;mode&#95;fullscreen](#is_video_mode_fullscreen)**  **(** [int](class_int) screen=0  **)** const
   * [bool](class_bool)  **[is&#95;video&#95;mode&#95;resizable](#is_video_mode_resizable)**  **(** [int](class_int) screen=0  **)** const
   * [Array](class_array)  **[get&#95;fullscreen&#95;mode&#95;list](#get_fullscreen_mode_list)**  **(** [int](class_int) screen=0  **)** const
+  * [int](class_int)  **[get&#95;screen&#95;count](#get_screen_count)**  **(** **)** const
+  * [int](class_int)  **[get&#95;current&#95;screen](#get_current_screen)**  **(** **)** const
+  * void  **[set&#95;current&#95;screen](#set_current_screen)**  **(** [int](class_int) arg0  **)**
+  * [Vector2](class_vector2)  **[get&#95;screen&#95;position](#get_screen_position)**  **(** [int](class_int) arg0=0  **)** const
+  * [Vector2](class_vector2)  **[get&#95;screen&#95;size](#get_screen_size)**  **(** [int](class_int) arg0=0  **)** const
+  * [Vector2](class_vector2)  **[get&#95;window&#95;position](#get_window_position)**  **(** **)** const
+  * void  **[set&#95;window&#95;position](#set_window_position)**  **(** [Vector2](class_vector2) arg0  **)**
+  * [Vector2](class_vector2)  **[get&#95;window&#95;size](#get_window_size)**  **(** **)** const
+  * void  **[set&#95;window&#95;size](#set_window_size)**  **(** [Vector2](class_vector2) arg0  **)**
+  * void  **[set&#95;window&#95;fullscreen](#set_window_fullscreen)**  **(** [bool](class_bool) enabled  **)**
+  * [bool](class_bool)  **[is&#95;window&#95;fullscreen](#is_window_fullscreen)**  **(** **)** const
+  * void  **[set&#95;window&#95;resizable](#set_window_resizable)**  **(** [bool](class_bool) enabled  **)**
+  * [bool](class_bool)  **[is&#95;window&#95;resizable](#is_window_resizable)**  **(** **)** const
+  * void  **[set&#95;window&#95;minimized](#set_window_minimized)**  **(** [bool](class_bool) enabled  **)**
+  * [bool](class_bool)  **[is&#95;window&#95;minimized](#is_window_minimized)**  **(** **)** const
+  * void  **[set&#95;window&#95;maximized](#set_window_maximized)**  **(** [bool](class_bool) enabled  **)**
+  * [bool](class_bool)  **[is&#95;window&#95;maximized](#is_window_maximized)**  **(** **)** const
   * void  **[set&#95;iterations&#95;per&#95;second](#set_iterations_per_second)**  **(** [int](class_int) iterations_per_second  **)**
   * [int](class_int)  **[get&#95;iterations&#95;per&#95;second](#get_iterations_per_second)**  **(** **)** const
   * void  **[set&#95;target&#95;fps](#set_target_fps)**  **(** [int](class_int) target_fps  **)**
@@ -20,6 +37,7 @@ Operating System functions.
   * void  **[set&#95;time&#95;scale](#set_time_scale)**  **(** [float](class_float) time_scale  **)**
   * [float](class_float)  **[get&#95;time&#95;scale](#get_time_scale)**  **(** **)**
   * [bool](class_bool)  **[has&#95;touchscreen&#95;ui&#95;hint](#has_touchscreen_ui_hint)**  **(** **)** const
+  * void  **[set&#95;window&#95;title](#set_window_title)**  **(** [String](class_string) title  **)**
   * void  **[set&#95;low&#95;processor&#95;usage&#95;mode](#set_low_processor_usage_mode)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[is&#95;in&#95;low&#95;processor&#95;usage&#95;mode](#is_in_low_processor_usage_mode)**  **(** **)** const
   * [int](class_int)  **[get&#95;processor&#95;count](#get_processor_count)**  **(** **)** const
@@ -58,6 +76,7 @@ Operating System functions.
   * [String](class_string)  **[get&#95;data&#95;dir](#get_data_dir)**  **(** **)** const
   * [String](class_string)  **[get&#95;system&#95;dir](#get_system_dir)**  **(** [int](class_int) dir  **)** const
   * [String](class_string)  **[get&#95;unique&#95;ID](#get_unique_ID)**  **(** **)** const
+  * [bool](class_bool)  **[is&#95;ok&#95;left&#95;and&#95;cancel&#95;right](#is_ok_left_and_cancel_right)**  **(** **)** const
   * [float](class_float)  **[get&#95;frames&#95;per&#95;second](#get_frames_per_second)**  **(** **)** const
   * void  **[print&#95;all&#95;textures&#95;by&#95;size](#print_all_textures_by_size)**  **(** **)**
   * void  **[print&#95;resources&#95;by&#95;type](#print_resources_by_type)**  **(** [StringArray](class_stringarray) arg0  **)**

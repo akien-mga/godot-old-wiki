@@ -6,6 +6,7 @@
 Direct access object to a space in the [Physics2DServer](class_physics2dserver).
 
 ###  Member Functions 
+  * [Array](class_array)  **[intersect&#95;point](#intersect_point)**  **(** [Vector2](class_vector2) point, [int](class_int) max_results=32, [Array](class_array) exclude=Array(), [int](class_int) layer_mask=2147483647, [int](class_int) type_mask=15  **)**
   * [Dictionary](class_dictionary)  **[intersect&#95;ray](#intersect_ray)**  **(** [Vector2](class_vector2) from, [Vector2](class_vector2) to, [Array](class_array) exclude=Array(), [int](class_int) layer_mask=2147483647, [int](class_int) type_mask=15  **)**
   * [Array](class_array)  **[intersect&#95;shape](#intersect_shape)**  **(** [Physics2DShapeQueryParameters](class_physics2dshapequeryparameters) shape, [int](class_int) max_results=32  **)**
   * [Array](class_array)  **[cast&#95;motion](#cast_motion)**  **(** [Physics2DShapeQueryParameters](class_physics2dshapequeryparameters) shape  **)**
@@ -44,7 +45,8 @@ Intersect a ray in a given space, the returned object is a dictionary with the f
 
 			rid:  [RID](class_rid) of the object agaisnt which the ray was stopped
 
-			If the ray did not intersect anything, then null is returned instead of a [Dictionary](class_dictionary).
+			If the ray did not intersect anything, then an empty
+			dictionary (dir.empty()==true) is returned instead.
 
 #### <a name="intersect_shape">intersect_shape</a>
   * [Array](class_array)  **intersect&#95;shape**  **(** [Physics2DShapeQueryParameters](class_physics2dshapequeryparameters) shape, [int](class_int) max_results=32  **)**

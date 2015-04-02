@@ -13,6 +13,7 @@ Camera node for 2D scenes.
   * void  **[set&#95;rotating](#set_rotating)**  **(** [bool](class_bool) rotating  **)**
   * [bool](class_bool)  **[is&#95;rotating](#is_rotating)**  **(** **)** const
   * void  **[make&#95;current](#make_current)**  **(** **)**
+  * void  **[clear&#95;current](#clear_current)**  **(** **)**
   * [bool](class_bool)  **[is&#95;current](#is_current)**  **(** **)** const
   * void  **[set&#95;limit](#set_limit)**  **(** [int](class_int) margin, [int](class_int) limit  **)**
   * [int](class_int)  **[get&#95;limit](#get_limit)**  **(** [int](class_int) margin  **)** const

@@ -76,6 +76,7 @@ Control is the base node for all the GUI components.
   * [bool](class_bool)  **[is&#95;stopping&#95;mouse](#is_stopping_mouse)**  **(** **)** const
   * void  **[grab&#95;click&#95;focus](#grab_click_focus)**  **(** **)**
   * void  **[set&#95;drag&#95;preview](#set_drag_preview)**  **(** [Control](class_control) control  **)**
+  * void  **[warp&#95;mouse](#warp_mouse)**  **(** [Vector2](class_vector2) to_pos  **)**
 
 ###  Signals  
   *  **focus&#95;enter**  **(** **)**
@@ -84,7 +85,7 @@ Control is the base node for all the GUI components.
   *  **minimum&#95;size&#95;changed**  **(** **)**
   *  **size&#95;flags&#95;changed**  **(** **)**
   *  **focus&#95;exit**  **(** **)**
-  *  **input&#95;event**  **(** **)**
+  *  **input&#95;event**  **(** [InputEvent](class_inputevent) ev  **)**
   *  **mouse&#95;exit**  **(** **)**
 
 ###  Numeric Constants  

@@ -12,12 +12,16 @@ Button that can be themed with textures.
   * void  **[set&#95;disabled&#95;texture](#set_disabled_texture)**  **(** [Texture](class_texture) texture  **)**
   * void  **[set&#95;focused&#95;texture](#set_focused_texture)**  **(** [Texture](class_texture) texture  **)**
   * void  **[set&#95;click&#95;mask](#set_click_mask)**  **(** [BitMap](class_bitmap) mask  **)**
+  * void  **[set&#95;scale](#set_scale)**  **(** [Vector2](class_vector2) scale  **)**
+  * void  **[set&#95;modulate](#set_modulate)**  **(** [Color](class_color) color  **)**
   * [Texture](class_texture)  **[get&#95;normal&#95;texture](#get_normal_texture)**  **(** **)** const
   * [Texture](class_texture)  **[get&#95;pressed&#95;texture](#get_pressed_texture)**  **(** **)** const
   * [Texture](class_texture)  **[get&#95;hover&#95;texture](#get_hover_texture)**  **(** **)** const
   * [Texture](class_texture)  **[get&#95;disabled&#95;texture](#get_disabled_texture)**  **(** **)** const
   * [Texture](class_texture)  **[get&#95;focused&#95;texture](#get_focused_texture)**  **(** **)** const
   * [BitMap](class_bitmap)  **[get&#95;click&#95;mask](#get_click_mask)**  **(** **)** const
+  * [Vector2](class_vector2)  **[get&#95;scale](#get_scale)**  **(** **)** const
+  * [Color](class_color)  **[get&#95;modulate](#get_modulate)**  **(** **)** const
 
 ###  Description  
 Button that can be themed with textures. This is like a regular [Button](class_button) but can be themed by assigning textures to it. This button is intended to be easy to theme, however a regular button can expand (that uses styleboxes) and still be better if the interface is expect to have internationalization of texts.

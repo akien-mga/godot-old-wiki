@@ -24,6 +24,7 @@ Base class for all non built-in types.
   * [bool](class_bool)  **[has&#95;meta](#has_meta)**  **(** [String](class_string) name  **)** const
   * [StringArray](class_stringarray)  **[get&#95;meta&#95;list](#get_meta_list)**  **(** **)** const
   * void  **[add&#95;user&#95;signal](#add_user_signal)**  **(** [String](class_string) signal, [Array](class_array) arguments=Array()  **)**
+  * [bool](class_bool)  **[has&#95;user&#95;signal](#has_user_signal)**  **(** [String](class_string) signal  **)** const
   * void  **[emit&#95;signal](#emit_signal)**  **(** [String](class_string) signal, var arg0=NULL, var arg1=NULL, var arg2=NULL, var arg3=NULL, var arg4=NULL  **)**
   * void  **[call](#call)**  **(** [String](class_string) method, var arg0=NULL, var arg1=NULL, var arg2=NULL, var arg3=NULL, var arg4=NULL, var arg5=NULL, var arg6=NULL, var arg7=NULL, var arg8=NULL, var arg9=NULL  **)**
   * void  **[call&#95;deferred](#call_deferred)**  **(** [String](class_string) method, var arg0=NULL, var arg1=NULL, var arg2=NULL, var arg3=NULL, var arg4=NULL  **)**

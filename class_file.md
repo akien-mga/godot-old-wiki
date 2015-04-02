@@ -28,7 +28,7 @@
   * [String](class_string)  **[get&#95;as&#95;text](#get_as_text)**  **(** **)** const
   * [bool](class_bool)  **[get&#95;endian&#95;swap](#get_endian_swap)**  **(** **)**
   * void  **[set&#95;endian&#95;swap](#set_endian_swap)**  **(** [bool](class_bool) enable  **)**
-  * [int](class_int)  **[get&#95;error](#get_error)**  **(** **)** const
+  * Error  **[get&#95;error](#get_error)**  **(** **)** const
   * void  **[get&#95;var](#get_var)**  **(** **)** const
   * [StringArray](class_stringarray)  **[get&#95;csv&#95;line](#get_csv_line)**  **(** **)** const
   * void  **[store&#95;8](#store_8)**  **(** [int](class_int) value  **)**

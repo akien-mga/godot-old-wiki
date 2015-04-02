@@ -13,9 +13,9 @@ Texture for 2D and 3D.
   * [bool](class_bool)  **[has&#95;alpha](#has_alpha)**  **(** **)** const
   * void  **[set&#95;flags](#set_flags)**  **(** [int](class_int) flags  **)**
   * [int](class_int)  **[get&#95;flags](#get_flags)**  **(** **)** const
-  * void  **[draw](#draw)**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [Color](class_color) modulate=Color(1,1,1,1)  **)** const
-  * void  **[draw&#95;rect](#draw_rect)**  **(** [RID](class_rid) canvas_item, [Rect2](class_rect2) rect, [bool](class_bool) tile, [Color](class_color) modulate=Color(1,1,1,1)  **)** const
-  * void  **[draw&#95;rect&#95;region](#draw_rect_region)**  **(** [RID](class_rid) canvas_item, [Rect2](class_rect2) rect, [Rect2](class_rect2) src_rect, [Color](class_color) modulate=Color(1,1,1,1)  **)** const
+  * void  **[draw](#draw)**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [Color](class_color) modulate=Color(1,1,1,1), [bool](class_bool) arg3=false  **)** const
+  * void  **[draw&#95;rect](#draw_rect)**  **(** [RID](class_rid) canvas_item, [Rect2](class_rect2) rect, [bool](class_bool) tile, [Color](class_color) modulate=Color(1,1,1,1), [bool](class_bool) arg4=false  **)** const
+  * void  **[draw&#95;rect&#95;region](#draw_rect_region)**  **(** [RID](class_rid) canvas_item, [Rect2](class_rect2) rect, [Rect2](class_rect2) src_rect, [Color](class_color) modulate=Color(1,1,1,1), [bool](class_bool) arg4=false  **)** const
 
 ###  Numeric Constants  
   * **FLAG_MIPMAPS** = **1** - Generate mipmaps.
@@ -62,6 +62,6 @@ Change the texture flags.
 Return the current texture flags.
 
 #### <a name="draw">draw</a>
-  * void  **draw**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [Color](class_color) modulate=Color(1,1,1,1)  **)** const
+  * void  **draw**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [Color](class_color) modulate=Color(1,1,1,1), [bool](class_bool) arg3=false  **)** const
 
 Draw the texture into a a [VisualServer](class_visualserver) canvas item.

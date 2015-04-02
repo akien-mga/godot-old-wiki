@@ -17,6 +17,12 @@ Rigid body 2D node.
   * [float](class_float)  **[get&#95;friction](#get_friction)**  **(** **)** const
   * void  **[set&#95;bounce](#set_bounce)**  **(** [float](class_float) bounce  **)**
   * [float](class_float)  **[get&#95;bounce](#get_bounce)**  **(** **)** const
+  * void  **[set&#95;gravity&#95;scale](#set_gravity_scale)**  **(** [float](class_float) gravity_scale  **)**
+  * [float](class_float)  **[get&#95;gravity&#95;scale](#get_gravity_scale)**  **(** **)** const
+  * void  **[set&#95;linear&#95;damp](#set_linear_damp)**  **(** [float](class_float) linear_damp  **)**
+  * [float](class_float)  **[get&#95;linear&#95;damp](#get_linear_damp)**  **(** **)** const
+  * void  **[set&#95;angular&#95;damp](#set_angular_damp)**  **(** [float](class_float) angular_damp  **)**
+  * [float](class_float)  **[get&#95;angular&#95;damp](#get_angular_damp)**  **(** **)** const
   * void  **[set&#95;linear&#95;velocity](#set_linear_velocity)**  **(** [Vector2](class_vector2) linear_velocity  **)**
   * [Vector2](class_vector2)  **[get&#95;linear&#95;velocity](#get_linear_velocity)**  **(** **)** const
   * void  **[set&#95;angular&#95;velocity](#set_angular_velocity)**  **(** [float](class_float) angular_velocity  **)**

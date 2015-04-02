@@ -18,17 +18,23 @@ Node for 2D Tile-Based games.
   * [Vector2](class_vector2)  **[get&#95;cell&#95;size](#get_cell_size)**  **(** **)** const
   * void  **[set&#95;quadrant&#95;size](#set_quadrant_size)**  **(** [int](class_int) size  **)**
   * [int](class_int)  **[get&#95;quadrant&#95;size](#get_quadrant_size)**  **(** **)** const
+  * void  **[set&#95;tile&#95;origin](#set_tile_origin)**  **(** [int](class_int) origin  **)**
+  * [int](class_int)  **[get&#95;tile&#95;origin](#get_tile_origin)**  **(** **)** const
   * void  **[set&#95;center&#95;x](#set_center_x)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[get&#95;center&#95;x](#get_center_x)**  **(** **)** const
   * void  **[set&#95;center&#95;y](#set_center_y)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[get&#95;center&#95;y](#get_center_y)**  **(** **)** const
+  * void  **[set&#95;y&#95;sort&#95;mode](#set_y_sort_mode)**  **(** [bool](class_bool) enable  **)**
+  * [bool](class_bool)  **[is&#95;y&#95;sort&#95;mode&#95;enabled](#is_y_sort_mode_enabled)**  **(** **)** const
+  * void  **[set&#95;collision&#95;use&#95;kinematic](#set_collision_use_kinematic)**  **(** [bool](class_bool) use_kinematic  **)**
+  * [bool](class_bool)  **[get&#95;collision&#95;use&#95;kinematic](#get_collision_use_kinematic)**  **(** **)** const
   * void  **[set&#95;collision&#95;layer&#95;mask](#set_collision_layer_mask)**  **(** [int](class_int) mask  **)**
   * [int](class_int)  **[get&#95;collision&#95;layer&#95;mask](#get_collision_layer_mask)**  **(** **)** const
   * void  **[set&#95;collision&#95;friction](#set_collision_friction)**  **(** [float](class_float) value  **)**
   * [float](class_float)  **[get&#95;collision&#95;friction](#get_collision_friction)**  **(** **)** const
   * void  **[set&#95;collision&#95;bounce](#set_collision_bounce)**  **(** [float](class_float) value  **)**
   * [float](class_float)  **[get&#95;collision&#95;bounce](#get_collision_bounce)**  **(** **)** const
-  * void  **[set&#95;cell](#set_cell)**  **(** [int](class_int) x, [int](class_int) y, [int](class_int) tile, [bool](class_bool) flip_x=false, [bool](class_bool) flip_y=false  **)**
+  * void  **[set&#95;cell](#set_cell)**  **(** [int](class_int) x, [int](class_int) y, [int](class_int) tile, [bool](class_bool) flip_x=false, [bool](class_bool) flip_y=false, [bool](class_bool) transpose=false  **)**
   * [int](class_int)  **[get&#95;cell](#get_cell)**  **(** [int](class_int) x, [int](class_int) y  **)** const
   * [bool](class_bool)  **[is&#95;cell&#95;x&#95;flipped](#is_cell_x_flipped)**  **(** [int](class_int) x, [int](class_int) y  **)** const
   * [bool](class_bool)  **[is&#95;cell&#95;y&#95;flipped](#is_cell_y_flipped)**  **(** [int](class_int) x, [int](class_int) y  **)** const
@@ -47,6 +53,8 @@ Node for 2D Tile-Based games.
   * **HALF_OFFSET_X** = **0**
   * **HALF_OFFSET_Y** = **1**
   * **HALF_OFFSET_DISABLED** = **2**
+  * **TILE_ORIGIN_TOP_LEFT** = **0**
+  * **TILE_ORIGIN_CENTER** = **1**
 
 ###  Description  
 Node for 2D Tile-Based games. Tilemaps use a TileSet which contain a list of tiles (textures, their rect and a collision) and are used to create complex grid-based maps.
@@ -105,7 +113,7 @@ Set tiles to be centered in y coordinate. (by default this is false and they are
 Return true if tiles are to be centered in y coordinate (by default this is false and they are drawn from upper left cell corner).
 
 #### <a name="set_cell">set_cell</a>
-  * void  **set&#95;cell**  **(** [int](class_int) x, [int](class_int) y, [int](class_int) tile, [bool](class_bool) flip_x=false, [bool](class_bool) flip_y=false  **)**
+  * void  **set&#95;cell**  **(** [int](class_int) x, [int](class_int) y, [int](class_int) tile, [bool](class_bool) flip_x=false, [bool](class_bool) flip_y=false, [bool](class_bool) transpose=false  **)**
 
 Set the contents of a cell. Cells can be optionally flipped in y or x.
 

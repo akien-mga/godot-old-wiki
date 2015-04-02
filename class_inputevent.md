@@ -8,6 +8,7 @@ Built-in input event data.
   * [bool](class_bool)  **[is&#95;action](#is_action)**  **(** [String](class_string) action  **)**
   * [bool](class_bool)  **[is&#95;echo](#is_echo)**  **(** **)**
   * [bool](class_bool)  **[is&#95;pressed](#is_pressed)**  **(** **)**
+  * void  **[set&#95;as&#95;action](#set_as_action)**  **(** [String](class_string) action, [bool](class_bool) pressed  **)**
 
 ###  Member Variables  
   * [int](class_int) **type**
