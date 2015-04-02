@@ -36,7 +36,7 @@ CanvasItem | [CanvasItem.get_global_transform()](class_canvasitem#get_global_tra
 CanvasLayer| [CanvasItem.get_canvas_transform()](class_canvasitem#get_canvas_transform) 
 CanvasLayer+GlobalCanvas+Stretch | [CanvasItem.get_viewport_transform()](class_canvasitem#get_viewport_transform) 
 
-Finally then, to convert a CanvasItem local transform to screen coordinates, just multiply in the following order:
+Finally then, to convert a CanvasItem local coordinates to screen coordinates, just multiply in the following order:
 
 ```python
 var screen_coord = get_viewport_transform() * ( get_global_transform() * local_pos )
