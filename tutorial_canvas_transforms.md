@@ -24,7 +24,7 @@ Input events received in the [Node._input_event(ev)](class_node#_input_event) ca
 
 For a coordinate in CanvasItem local properties to become an actual screen coordinate, the following chain of transforms must be applied:
 
-<p align="center"><img src="images/viewport_transforms.png"></p>
+<p align="center"><img src="images/viewport_transforms2.png"></p>
 
 ### Transform Functions
 
