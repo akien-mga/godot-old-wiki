@@ -16,7 +16,9 @@ Viewports also have a Global Canvas transform (also a [Matrix32](class_matrix32)
 
 ### Stretch Transform
 
-Finally, viewports have a _Stretch Transform_, which is used when resizing or stretching the screen. This transform is used internally by the [stretch modes](tutorial_multires), but can also be requested to the viewport.
+Finally, viewports have a _Stretch Transform_, which is used when resizing or stretching the screen. This transform is used internally by the [stretch modes](tutorial_multires), but can also be requested to the viewport. 
+
+Input events received in the [Node._input_event(ev)](class_node#_input_event) callback are multiplied by this transform, but lack the ones above. To convert InputEvent coordinates to local CanvasItem coordinates, the [CanvasItem.make_input_local(ev)](class_canvasitem#make_input_local) function was added for convenience.
 
 ### Transform Order
 
