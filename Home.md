@@ -67,6 +67,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  [GUI Skinning](tutorial_gui_skinning)
 *  [Particle Systems (2D)](tutorial_particles_2d)
 *  [Canvas Layers](tutorial_canvas_layers)
+*  [Viewport & Canvas Transforms](tutorial_canvas_transforms)
 *  [Custom Drawing in Node2D/Control](tutorial_custom_draw_2d)
 *  [Custom GUI Controls](tutorial_custom_controls)
 *  [Screen-Reading Shaders (texscreen() & BackBufferCopy)](tutorial_texscreen)
