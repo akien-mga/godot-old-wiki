@@ -27,7 +27,7 @@ OpenSSL has [some documentation](https://www.openssl.org/docs/HOWTO/keys.txt) ab
 The second approach consists of using a certificate authority (CA) such as Verisign, Geotrust, etc. This is a more cumbersome process, but it's more "official" and ensures your identity is clearly represented.
 Unless you are working with large companies or corporations, or need to connect to someone else's servers (ie, connecting to Google or some other REST API provider via HTTPS) this method is not as useful.
 
-Also, when using a CA issued cert, **you must enable domain validation**, to ensure the domain you are connecting to is valid, otherwise any website can issue any certificate in the same CA and it will work.
+Also, when using a CA issued cert, **you must enable domain validation**, to ensure the domain you are connecting to is the one intended, otherwise any website can issue any certificate in the same CA and it will work.
 
 If you are using Linux, you can use the supplied certs file, generally located in:
 
