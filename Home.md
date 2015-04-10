@@ -46,7 +46,6 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 
 #### Engine
 
-*  [Changing Scenes](tutorial_changing_scenes)
 *  [Viewports](tutorial_viewports)
 *  [Multiple Screen Resolutions](tutorial_multires)
 *  [Input Events & Actions](tutorial_input_events)
@@ -59,6 +58,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  [Handling Quit Request](tutorial_quit)
 *  [Pausing The Game](tutorial_pause)
 *  [SSL Certificates](tutorial_ssl)
+*  [Changing Scenes (Advanced)](tutorial_changing_scenes)
 *  ~~[Basic Networking (TCP&UDP)](tutorial_basic_networking)~~
 *  ~~[GamePad/Keyboard-Controlled GUIs](tutorial_gp_gui)~~
 
