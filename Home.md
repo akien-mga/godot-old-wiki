@@ -46,6 +46,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 
 #### Engine
 
+*  [Changing Scenes](tutorial_changing_scenes)
 *  [Viewports](tutorial_viewports)
 *  [Multiple Screen Resolutions](tutorial_multires)
 *  [Input Events & Actions](tutorial_input_events)
