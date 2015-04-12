@@ -93,7 +93,6 @@ func _deferred_goto_scene(path):
 	# Add it to the active scene, as child of root
 	get_tree().get_root().add_child(current_scene)
 
-
 func goto_scene(path):
 
 	# This function will usually be called from a signal callback,
@@ -109,6 +108,7 @@ func goto_scene(path):
 
 
 ```
+As mentioned in the comments above, we really want to avoid the situation of having the current scene being deleted while being used (code from functions of it being run), so using [Object.call_deferred](class_object#call_deferred) is desired at this point. The result is that execution of the commands in the second function will happen at an immediate later time when no code from the current scene is running.
 
 Finally, all that is left is to fill the empty functions in scene_a.gd and scene_b.gd:
 
