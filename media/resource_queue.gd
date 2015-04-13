@@ -75,26 +75,29 @@ func is_ready(path):
 
 	return ret
 
+func _wait_for_resource(res, path):
+	_unlock("wait_for_resource")
+	while true:
+		VS.flush()
+		OS.delay_usec(16000) # wait 1 frame
+		_lock("wait_for_resource")
+		if queue.size() == 0 || queue[0] != res:
+			return pending[path]
+		_unlock("wait_for_resource")
+
+
 func get_resource(path):
 	_lock("get_resource")
 	if path in pending:
 		if pending[path] extends ResourceInteractiveLoader:
 			var res = pending[path]
-			if res == queue[0]:
-				# this will restart the load, while the resource is halfway loading onn the other thread
-				# however the sub-resources that are already loaded will be used here
-				var ret = ResourceLoader.load(path)
-				pending.erase(path)
-				queue.remove(0)
-				_unlock("get_resource")
-				return ret
+			if res != queue[0]:
+				var pos = queue.find(res)
+				queue.remove(pos)
+				queue.insert(0, res)
 
-			var ret = res.wait()
-			if ret != ERR_FILE_EOF:
-				# error loading
-				_unlock("wait_error")
-				return null
-			res = res.get_resource()
+			res = _wait_for_resource(res, path)
+
 			pending.erase(path)
 			_unlock("return")
 			return res
