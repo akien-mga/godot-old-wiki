@@ -2,26 +2,26 @@
 
 When switching the main scene of your game (for example going to a new level), you might want to show a loading screen with some indication that progress is being made. The main load method (```ResourceLoader::load``` or just ```load``` from gdscript) blocks your thread while the resource is being loaded, so It's not good. This document discusses the ```ResourceInteractiveLoader``` class for smoother load screens.
 
-## ResourceLoaderInteractive
+## ResourceInteractiveLoader
 
-The ```ResourceLoaderInteractive``` class allows you to load a resource in stages. Every time the method ```poll``` is called, a new stage is loaded, and control is returned to the caller. Each stage is generally a sub-resource that is loaded by the main resource. For example, if you're loading a scene that loads 10 images, each image will be one stage.
+The ```ResourceInteractiveLoader``` class allows you to load a resource in stages. Every time the method ```poll``` is called, a new stage is loaded, and control is returned to the caller. Each stage is generally a sub-resource that is loaded by the main resource. For example, if you're loading a scene that loads 10 images, each image will be one stage.
 
 ## Usage
 
 Usage is generally as follows
 
-### Obtaining a ResourceLoaderInteractive
+### Obtaining a ResourceInteractiveLoader
 
 ```C++
 Ref<ResourceInteractiveLoader> ResourceLoader::load_interactive(String p_path);
 ```
 
-This method will give you a ResourceLoaderInteractive that you will use to manage the load operation.
+This method will give you a ResourceInteractiveLoader that you will use to manage the load operation.
 
 ### Polling
 
 ```C++
-Error ResourceLoaderInteractive::poll();
+Error ResourceInteractiveLoader::poll();
 ```
 
 Use this method to advance the progress of the load. Each call to ```poll``` will load the next stage of your resource. Keep in mind that each stage is one entire "atomic" resource, such as an image, or a mesh, so it will take several frames to load.
@@ -33,8 +33,8 @@ Returns ```OK``` on no errors, ```ERR_FILE_EOF``` when loading is finished. Any 
 To query the progress of the load, use the following methods:
 
 ```C++
-int ResourceLoaderInteractive::get_stage_count() const;
-int ResourceLoaderInteractive::get_stage() const;
+int ResourceInteractiveLoader::get_stage_count() const;
+int ResourceInteractiveLoader::get_stage() const;
 ```
 
 ```get_stage_count``` returns the total number of stages to load
@@ -42,14 +42,14 @@ int ResourceLoaderInteractive::get_stage() const;
 
 ### Forcing completion (optional)
 ```C++
-Error ResourceLoaderInteractive::wait();
+Error ResourceInteractiveLoader::wait();
 ```
 Use this method if you need to load the entire resource in the current frame, without any more steps.
 
 ### Obtaining the resource
 
 ```C++
-Ref<Resource> ResourceLoaderInteractive::get_resource();
+Ref<Resource> ResourceInteractiveLoader::get_resource();
 ```
 
 If everything goes well, use this method to retrieve your loaded resource.
@@ -220,4 +220,3 @@ queue.cancel_resource("res://zone_2.xml")
 ```
 
 **Note**: this code in its current form is not tested in real world scenarios. Find me on IRC (punto on irc.freenode.net) or e-mail me (punto@okamstudio.com) for help.
-
