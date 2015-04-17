@@ -50,7 +50,7 @@ It is often desired to feed custom input events to the scene tree. With the abov
 
 ```python
 
-var local_pos = Vector2(10,20) # anything local
+var local_pos = Vector2(10,20) # local to Control/Node2D
 var ie = InputEvent()
 ie.type=InputEvent.MOUSE_BUTTON
 ie.button_index=1 # left click
