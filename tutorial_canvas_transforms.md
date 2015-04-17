@@ -43,3 +43,18 @@ var screen_coord = get_viewport_transform() * ( get_global_transform() * local_p
 ```
 
 Keep in mind, however, that it is generally not desired to work with screen coordinates. The recommended approach is to simply work in Canvas coordinates (CanvasItem.get_global_transform()), to allow automatic screen resolution resizing to work properly.
+
+### Feeding Custom Input Events
+
+It is often desired to feed custom input events to the scene tree. With the above knowledge, to correctly do this, it must be done the following way:
+
+```python
+
+var local_pos = Vector2(10,20) # anything local
+var ie = InputEvent()
+ie.type=InputEvent.MOUSE_BUTTON
+ie.button_index=1 # left click
+ie.pos = get_viewport_transform() * ( get_global_transform() * local_pos )
+get_tree().input_event(ie)
+
+```
