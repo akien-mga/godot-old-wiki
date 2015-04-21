@@ -14,20 +14,20 @@ For RichTextLabel to work properly, it must be set-up. This means loading the in
 
 Command | Tag | Description
 --------|-----|-------------
-_bold_ | `[b]{text}[/b]` | Makes {text} bold.
-_italics_ | `[i]{text}[/i]` | Makes {text} italics.
-_underline_ | `[u]{text}[/u]` | Makes {text} underline.
-_code_ | `[code]{text}[/code]` | Makes {text} monospace.
-_center_ | `[center]{text}[/center]` | Makes {text} centered.
-_right_ | `[right]{text}[/right]` | Makes {text} right-aligned.
-_right_ | `[right]{text}[/right]` | Makes {text} right-aligned.
-_fill_ | `[fill]{text}[/fill]` | Makes {text} fill width.
-_indent_ | `[indent]{text}[/indent]` | Incrase Indent Level.
-_url_ | `[url]{url}[/url]` | Show <url> as such.
-_url (ref)_ | `[url=<url>]{text}[/url]` | Makes {text} reference <url>.
-_image_ | `[img=<path>][/img]` | Insert image at resource <path>.
-_font_ | `[img=<path>]{text}[/img]` | Use custom font at <path> for {text}.
-_color_ | `[color=<code/name>]{text}[/color]` | Change {text} color, use # format such as #ff00ff or name.
+**bold** | `[b]{text}[/b]` | Makes {text} bold.
+**italics** | `[i]{text}[/i]` | Makes {text} italics.
+**underline** | `[u]{text}[/u]` | Makes {text} underline.
+**code** | `[code]{text}[/code]` | Makes {text} monospace.
+**center** | `[center]{text}[/center]` | Makes {text} centered.
+**right** | `[right]{text}[/right]` | Makes {text} right-aligned.
+**right** | `[right]{text}[/right]` | Makes {text} right-aligned.
+**fill** | `[fill]{text}[/fill]` | Makes {text} fill width.
+**indent** | `[indent]{text}[/indent]` | Incrase Indent Level.
+**url** | `[url]{url}[/url]` | Show <url> as such.
+**url (ref)** | `[url=<url>]{text}[/url]` | Makes {text} reference <url>.
+**image** | `[img=<path>][/img]` | Insert image at resource <path>.
+**font** | `[img=<path>]{text}[/img]` | Use custom font at <path> for {text}.
+**color** | `[color=<code/name>]{text}[/color]` | Change {text} color, use # format such as #ff00ff or name.
 
 ### Built-In Color Names
 
