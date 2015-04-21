@@ -130,7 +130,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  [GDScript (More Efficiently)](tutorial_gdscript_efficiently) Tips and help migrating from other languages. 
 *  [Shader](shader) Built-in, portable, shader language.
 *  [Locales](locales) List of supported locale strings.
-*  [RichTextLabel BBCode]BBCode-like reference for RichTextLabel.
+*  [RichTextLabel BBCode](richtext_bbcode) Reference for BBCode-like markup used for RichTextLabel.
 
 #### Cheat Sheets
 
