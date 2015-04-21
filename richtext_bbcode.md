@@ -26,4 +26,27 @@ Command | Tag | Description
 *url* | `[url]{url}[/url]` | Show <url> as such.
 *url (ref)* | `[url=<url>]{text}[/url]` | Makes {text} reference <url>.
 *image* | `[img=<path>][/img]` | Insert image at resource <path>.
-*color* | `[color=<code/name>]{text}[/color]` | Change {text} color, use # format.
+*font* | `[img=<path>]{text}[/img]` | Use custom font at <path> for {text}.
+*color* | `[color=<code/name>]{text}[/color]` | Change {text} color, use # format such as #ff00ff or name.
+
+### Built-In Color Names
+
+List of valid color names for the [color=<name>] tag:
+
+* aqua
+* black
+* blue
+* fuchsia
+* gray
+* green
+* lime
+* maroon
+* navy
+* purple
+* red
+* silver
+* teal
+* white
+* yellow
+
+
