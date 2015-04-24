@@ -44,3 +44,32 @@ func _fixed_process(delta):
 ```
 
 ### Raycast Query
+
+For performing a 2D raycast query, the method [Physics2DDirectSpaceState.intersect_ray()](class_physics2ddirectspacestate#intersect_ray) must be used, for example:
+
+```python
+func _fixed_process(delta):
+    var space_state = get_world().get_direct_space_state()
+    # use global coordinates, not local to node
+    var result = space_state.intersect_ray( Vector2(0,0), Vector2(50,100) )
+```
+
+Result is a dictionary, if ray didn't hit anything, the dictionary will be empty. If it did hit something it will contain collision information:
+
+```
+    if (not result.empty()):
+        print("Hit at point: ",result.position)
+```
+
+The collision result dictionary, when something hit, has this format:
+
+```pyhon
+{
+   position:Vector2 # point in world space for collision
+   normal:Vector2 # normal in world space for collision
+   collider:ObjectID # Object it collided against
+   rid:RID # RID it collided against
+   shape:int # shape index of collider
+   metadata:Variant() # metadata of collider
+}
+```
