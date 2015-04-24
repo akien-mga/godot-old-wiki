@@ -87,8 +87,10 @@ extends KinematicBody2D
 
 func _fixed_process(delta):
     var space_state = get_world().get_direct_space_state()
-    var result = space_state.intersect_ray( get_global_pos(), enemy_pos, [ get_rid() ] )
+    var result = space_state.intersect_ray( get_global_pos(), enemy_pos, [ self ] )
 ```
+
+The extra argument is a list of exceptions, can be objects (need Godot 1.1beta2+ for this) or RIDs.
 
 ### 3D Ray Casting From Screen
 
