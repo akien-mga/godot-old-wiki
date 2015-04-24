@@ -3,7 +3,7 @@
 ### Introduction
 
 One of the most common tasks in game development is casting a ray (or custom shaped object) and see what it hits. This enables complex behaviors, AI, etc. to take place.
-This tutorial will explain how to do this 2D, but it's pretty much the same for 3D.
+This tutorial will explain how to do this in 2D and 3D.
 
 Godot stores all the low level game information in servers, while the scene is just a frontend. As such, ray casting is generally a lower-level task. For simple raycasts, node such as [RayCast](class_raycast) and [RayCast2D](class_raycast2d) will work, as they will return every frame what the result of a raycast is.
 
@@ -73,3 +73,43 @@ The collision result dictionary, when something hit, has this format:
    metadata:Variant() # metadata of collider
 }
 ```
+
+### Collision Exceptions
+
+It is a very common case to attempt casting a ray from a character or another game scene to try to infer properties of the world around it. The problem with this is that the same character has a collider, so the ray can never leave the origin (it will keep hitting it's own collider), as evidenced in the following image.
+
+To avoid self-intersection, the intersect_ray() function can take an optional third parameter which is an array of exceptions. This is an example of how to use it from a KinematicBody2D or any other collisionobject based node:
+
+```python
+extends KinematicBody2D
+
+func _fixed_process(delta):
+    var space_state = get_world().get_direct_space_state()
+    var result = space_state.intersect_ray( get_global_pos(), enemy_pos, [ get_rid() ] )
+```
+
+### 3D Ray Casting From Screen
+
+Casting a ray from screen to 3D physics space is useful for object picking. There is not much of a need to do this because [CollisionObject](class_collisionobject) has an "input_event" signal that will let you know when it was clicked, but in case there is any desire to do it manually, here's how.
+
+To cast a ray from the screen, the [Camera](class_camera) node is needed. Camera can be in two projection modes, perspective and orthogonal. Because of this, both the ray origin and direction must be obtained. (origin changes in orthogonal, while direction changes in perspective):
+
+To obtain it using a camera, the following code can be used:
+
+```python
+
+const ray_length = 1000
+
+func _input(ev):
+    if ev.type==InputEvent.MOUSE_BUTTON and ev.pressed and ev.button_index==1:
+
+          var camera = get_node("camera")
+          var from = camera.project_ray_origin(ev.pos)
+          var to = from + camera.project_ray_normal(ev.pos) * ray_length
+```
+
+Of course, remember that during _input(), space may be locked, so save your query for _fixed_process().
+
+      
+
+
