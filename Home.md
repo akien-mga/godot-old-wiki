@@ -73,7 +73,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  [Custom Drawing in Node2D/Control](tutorial_custom_draw_2d)
 *  [Custom GUI Controls](tutorial_custom_controls)
 *  [Screen-Reading Shaders (texscreen() & BackBufferCopy)](tutorial_texscreen)
-*  [Ray-Casting](tutorial_raycasting) Raycasting From Code.
+*  [Ray-Casting](tutorial_raycasting) Raycasting From Code (2D and 3D).
 *  ~~[GUI Containers](tutorial_containers)~~
 *  [Cut-Out Animation](Cutout-Animation)
 *  ~~[Physics Object Guide](tutorial_physics_objects_guide)~~
@@ -87,6 +87,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  [Shadow Mapping](tutorial_shadow_mapping)
 *  [High Dynamic Range](tutorial_hdr)
 *  [3D Performance & Limitations](tutorial_3d_performance)
+*  [Ray-Casting](tutorial_raycasting) Raycasting From Code (2D and 3D).
 *  ~~[Procedural Geometry](tutorial_procgeom)~~ 
 *  ~~[Light Baking](tutorial_light_baking)~~ 
 *  ~~[3D Sprites](tutorial_3d_sprites)~~ 
