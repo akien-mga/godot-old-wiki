@@ -78,6 +78,8 @@ The collision result dictionary, when something hit, has this format:
 
 It is a very common case to attempt casting a ray from a character or another game scene to try to infer properties of the world around it. The problem with this is that the same character has a collider, so the ray can never leave the origin (it will keep hitting it's own collider), as evidenced in the following image.
 
+<p align="center"><img src="images/raycast_falsepositive.png"></p>
+
 To avoid self-intersection, the intersect_ray() function can take an optional third parameter which is an array of exceptions. This is an example of how to use it from a KinematicBody2D or any other collisionobject based node:
 
 ```python
@@ -93,6 +95,8 @@ func _fixed_process(delta):
 Casting a ray from screen to 3D physics space is useful for object picking. There is not much of a need to do this because [CollisionObject](class_collisionobject) has an "input_event" signal that will let you know when it was clicked, but in case there is any desire to do it manually, here's how.
 
 To cast a ray from the screen, the [Camera](class_camera) node is needed. Camera can be in two projection modes, perspective and orthogonal. Because of this, both the ray origin and direction must be obtained. (origin changes in orthogonal, while direction changes in perspective):
+
+<p align="center"><img src="images/raycast_projection.png"></p>
 
 To obtain it using a camera, the following code can be used:
 
