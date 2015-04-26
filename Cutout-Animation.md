@@ -223,4 +223,4 @@ RemoteTransform2D works in most cases, but sometimes it is really necessary to h
 
 When creating really complex animations and inserting lots of keyframes, editing the individual keyframe curves for each can become an endless task. For this, the Animation Editor has a small menu where changing all the curves is easy. Just select every single keyframe and (generally) apply the "Out-In" transition curve to smooth the animation:
 
-<p align="center"><img src="images/tuto_cutout23.png"></p>
+<p align="center"><img src="images/tuto_cutout24.png"></p>
