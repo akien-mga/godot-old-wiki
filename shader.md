@@ -261,7 +261,7 @@ Depending on the shader type, several built-in variables are available, listed a
 | const vec4 **POSITION** | Screen Position |
 | in vec3 **NORMAL** | Input Normal |
 | in vec2 **UV** | UV | 
-| in color **COLOR**  | Output Color | 
+| in color **COLOR**  | Input Color | 
 | const texture **TEXTURE** | Current texture in use for CanvasItem | 
 | const vec2 **TEXTURE_PIXEL_SIZE** | Pixel size for current 2D texture |
 | in vec4 **VAR1** | Varying 1 Output | 
