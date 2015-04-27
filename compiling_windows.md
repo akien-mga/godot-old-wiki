@@ -32,7 +32,7 @@ C:\path_to_sdk\vcvarsall.bat &&  scons bin/godot_win.exe
 If you are a Linux or Mac user, you need to install mingw32 and mingw-w64. Under Ubuntu or Debian, just run the following commands:
 
 ```
-apt-get install ming32 mingw-w64
+apt-get install mingw32 mingw-w64
 ```
 
 If you are using other distro, scons will check for the following binaries:
