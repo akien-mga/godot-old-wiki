@@ -243,9 +243,11 @@ Depending on the shader type, several built-in variables are available, listed a
 | ------ | ------- |
 | const vec4 **SRC_COLOR** | Vertex color |
 | const vec4 **POSITION** | Screen Position |
-| vec3 **NORMAL** | Optional Normal (used for 2D Lighting) |
 | vec2 **UV** | UV | 
 | out color **COLOR**  | Output Color | 
+| out vec3 **NORMAL** | Optional Normal (used for 2D Lighting) |
+| out vec3 **NORMALMAP** | Optional Normal in standard normalmap format (flipped y and Z from 0 to 1) |
+| out float **NORMALMAP_DEPTH** | Depth option for above normalmap output, default value is 1.0 |
 | const texture **TEXTURE** | Current texture in use for CanvasItem | 
 | const vec2 **TEXTURE_PIXEL_SIZE** | Pixel size for current 2D texture |
 | in vec4 **VAR1** | Varying 1 Output | 
