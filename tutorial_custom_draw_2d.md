@@ -47,7 +47,7 @@ func _set_texture(value):
     update() #update the node
 
 func _draw():
-    draw_texture(Vector2(),texture)
+    draw_texture(texture,Vector2())
 
 ```
 
