@@ -309,7 +309,15 @@ if (NdotL > 0.0) {
 };
 
 ```
-	
+
+Obtaining world-space normal and position in material fragment program:
+
+```glsl
+//use reverse multiply because INV_CAMERA_MATRIX is world2cam
+
+vec3 world_normal = NORMAL * mat3(INV_CAMERA_MATRIX);
+vec3 world_pos = (VERTEX-INV_CAMERA_MATRIX.w.xyz) * mat3(INV_CAMERA_MATRIX);
+```	
 ###  Notes
 	
 
