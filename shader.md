@@ -201,7 +201,7 @@ Depending on the shader type, several built-in variables are available, listed a
 | out float **SPEC_EXP** | Specular Exponent (Fragment Version) |
 | out float **GLOW** | Glow |
 | out float **POINT_COORD** | UV for point, when drawing point sprites. |
-| out float **INV_CAMERA_MATRIX** | Inverse camera matrix, can be used to obtain world coords. |
+| out float **INV_CAMERA_MATRIX** | Inverse camera matrix, can be used to obtain world coords (see example below). |
 
 #####  Material - LightShader
 
