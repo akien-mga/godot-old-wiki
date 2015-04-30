@@ -194,14 +194,14 @@ Depending on the shader type, several built-in variables are available, listed a
 | const vec4 **VAR2** | Varying 2 |
 | const vec2 **SCREEN_UV**| Screen Texture Coordinate (for using with texscreen) |
 | const float **TIME**| Time (in seconds) |
+| const vec2 **POINT_COORD** | UV for point, when drawing point sprites. |
 | out vec3 **DIFFUSE** | Diffuse Color |
 | out vec4 **DIFFUSE_ALPHA** | Diffuse Color with Alpha (using this sends geometry to alpha pipeline) |
 | out vec3 **SPECULAR** | Specular Color |
 | out vec3 **EMISSION** | Emission Color |
 | out float **SPEC_EXP** | Specular Exponent (Fragment Version) |
 | out float **GLOW** | Glow |
-| out float **POINT_COORD** | UV for point, when drawing point sprites. |
-| out float **INV_CAMERA_MATRIX** | Inverse camera matrix, can be used to obtain world coords (see example below). |
+| out mat4 **INV_CAMERA_MATRIX** | Inverse camera matrix, can be used to obtain world coords (see example below). |
 
 #####  Material - LightShader
 
