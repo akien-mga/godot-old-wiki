@@ -10,6 +10,7 @@ Base class for all non built-in types.
   * void  **[&#95;init](#_init)**  **(** **)** virtual
   * void  **[&#95;notification](#_notification)**  **(** [int](class_int) what  **)** virtual
   * void  **[&#95;set](#_set)**  **(** [String](class_string) property, var value  **)** virtual
+  * void  **[free](#free)**  **(** **)**
   * [String](class_string)  **[get&#95;type](#get_type)**  **(** **)** const
   * [bool](class_bool)  **[is&#95;type](#is_type)**  **(** [String](class_string) type  **)** const
   * void  **[set](#set)**  **(** [String](class_string) property, var value  **)**
@@ -41,6 +42,7 @@ Base class for all non built-in types.
   * void  **[property&#95;list&#95;changed&#95;notify](#property_list_changed_notify)**  **(** **)**
   * [String](class_string)  **[XL&#95;MESSAGE](#XL_MESSAGE)**  **(** [String](class_string) message  **)** const
   * [String](class_string)  **[tr](#tr)**  **(** [String](class_string) message  **)** const
+  * [bool](class_bool)  **[is&#95;queued&#95;for&#95;deletion](#is_queued_for_deletion)**  **(** **)** const
 
 ###  Signals  
   *  **script&#95;changed**  **(** **)**

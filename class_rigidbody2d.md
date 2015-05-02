@@ -43,6 +43,7 @@ Rigid body 2D node.
   * [bool](class_bool)  **[is&#95;sleeping](#is_sleeping)**  **(** **)** const
   * void  **[set&#95;can&#95;sleep](#set_can_sleep)**  **(** [bool](class_bool) able_to_sleep  **)**
   * [bool](class_bool)  **[is&#95;able&#95;to&#95;sleep](#is_able_to_sleep)**  **(** **)** const
+  * [bool](class_bool)  **[test&#95;motion](#test_motion)**  **(** [Vector2](class_vector2) motion, [float](class_float) margin=0.08, [Physics2DTestMotionResult](class_physics2dtestmotionresult) result=NULL  **)**
   * [Array](class_array)  **[get&#95;colliding&#95;bodies](#get_colliding_bodies)**  **(** **)** const
 
 ###  Signals  

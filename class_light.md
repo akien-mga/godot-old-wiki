@@ -28,7 +28,7 @@ Provides a base class for different kinds of light nodes.
   * **PARAM_ENERGY** = **3**
   * **PARAM_ATTENUATION** = **4**
   * **PARAM_SPOT_ANGLE** = **1**
-  * **PARAM_SPOT_ATTENUATION** = **4**
+  * **PARAM_SPOT_ATTENUATION** = **0**
   * **PARAM_SHADOW_DARKENING** = **5**
   * **PARAM_SHADOW_Z_OFFSET** = **6**
   * **COLOR_DIFFUSE** = **0**

@@ -39,6 +39,7 @@ Node for 2D Tile-Based games.
   * [bool](class_bool)  **[is&#95;cell&#95;x&#95;flipped](#is_cell_x_flipped)**  **(** [int](class_int) x, [int](class_int) y  **)** const
   * [bool](class_bool)  **[is&#95;cell&#95;y&#95;flipped](#is_cell_y_flipped)**  **(** [int](class_int) x, [int](class_int) y  **)** const
   * void  **[clear](#clear)**  **(** **)**
+  * [Array](class_array)  **[get&#95;used&#95;cells](#get_used_cells)**  **(** **)** const
   * [Vector2](class_vector2)  **[map&#95;to&#95;world](#map_to_world)**  **(** [Vector2](class_vector2) mappos, [bool](class_bool) ignore_half_ofs=false  **)** const
   * [Vector2](class_vector2)  **[world&#95;to&#95;map](#world_to_map)**  **(** [Vector2](class_vector2) worldpos  **)** const
 
@@ -111,11 +112,6 @@ Set tiles to be centered in y coordinate. (by default this is false and they are
   * [bool](class_bool)  **get&#95;center&#95;y**  **(** **)** const
 
 Return true if tiles are to be centered in y coordinate (by default this is false and they are drawn from upper left cell corner).
-
-#### <a name="set_cell">set_cell</a>
-  * void  **set&#95;cell**  **(** [int](class_int) x, [int](class_int) y, [int](class_int) tile, [bool](class_bool) flip_x=false, [bool](class_bool) flip_y=false, [bool](class_bool) transpose=false  **)**
-
-Set the contents of a cell. Cells can be optionally flipped in y or x.
 
 #### <a name="get_cell">get_cell</a>
   * [int](class_int)  **get&#95;cell**  **(** [int](class_int) x, [int](class_int) y  **)** const

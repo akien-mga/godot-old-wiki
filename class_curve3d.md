@@ -25,5 +25,6 @@
   * [Vector3](class_vector3)  **[interpolate&#95;baked](#interpolate_baked)**  **(** [float](class_float) offset, [bool](class_bool) cubic=false  **)** const
   * [Vector3Array](class_vector3array)  **[get&#95;baked&#95;points](#get_baked_points)**  **(** **)** const
   * [RealArray](class_realarray)  **[get&#95;baked&#95;tilts](#get_baked_tilts)**  **(** **)** const
+  * [Vector3Array](class_vector3array)  **[tesselate](#tesselate)**  **(** [int](class_int) max_stages=5, [float](class_float) tolerance_degrees=4  **)** const
 
 ###  Member Function Description  

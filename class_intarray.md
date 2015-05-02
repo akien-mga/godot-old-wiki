@@ -10,7 +10,7 @@ Integer Array .
   * void  **[resize](#resize)**  **(** [int](class_int) idx  **)**
   * void  **[set](#set)**  **(** [int](class_int) idx, [int](class_int) integer  **)**
   * [int](class_int)  **[size](#size)**  **(** **)**
-  * void  **[IntArray](#IntArray)**  **(** [Array](class_array) from  **)**
+  * [IntArray](class_intarray)  **[IntArray](#IntArray)**  **(** [Array](class_array) from  **)**
 
 ###  Description  
 Integer Array. Array of integers. Can only contain integers. Optimized for memory usage, cant fragment the memory.
@@ -43,6 +43,6 @@ Set an index in the array.
 Return the array size.
 
 #### <a name="IntArray">IntArray</a>
-  * void  **IntArray**  **(** [Array](class_array) from  **)**
+  * [IntArray](class_intarray)  **IntArray**  **(** [Array](class_array) from  **)**
 
 Create from a generic array.

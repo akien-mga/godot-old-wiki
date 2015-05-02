@@ -22,7 +22,7 @@ Vector class, which performs basic 3D vector math operations.
   * [Vector3](class_vector3)  **[rotated](#rotated)**  **(** [Vector3](class_vector3) axis, [float](class_float) phi  **)**
   * [Vector3](class_vector3)  **[slide](#slide)**  **(** [Vector3](class_vector3) by  **)**
   * [Vector3](class_vector3)  **[snapped](#snapped)**  **(** [float](class_float) by  **)**
-  * void  **[Vector3](#Vector3)**  **(** [float](class_float) x, [float](class_float) y, [float](class_float) z  **)**
+  * [Vector3](class_vector3)  **[Vector3](#Vector3)**  **(** [float](class_float) x, [float](class_float) y, [float](class_float) z  **)**
 
 ###  Member Variables  
   * [float](class_float) **x**

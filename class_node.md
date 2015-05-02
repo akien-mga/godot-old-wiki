@@ -18,7 +18,6 @@ Base class for all the "Scene" elements.
   * [String](class_string)  **[get&#95;name](#get_name)**  **(** **)** const
   * void  **[add&#95;child](#add_child)**  **(** [Node](class_node) node  **)**
   * void  **[remove&#95;child](#remove_child)**  **(** [Node](class_node) node  **)**
-  * void  **[remove&#95;and&#95;delete&#95;child](#remove_and_delete_child)**  **(** [Node](class_node) node  **)**
   * [int](class_int)  **[get&#95;child&#95;count](#get_child_count)**  **(** **)** const
   * [Array](class_array)  **[get&#95;children](#get_children)**  **(** **)** const
   * [Node](class_node)  **[get&#95;child](#get_child)**  **(** [int](class_int) idx  **)** const

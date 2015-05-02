@@ -10,7 +10,7 @@ Array of Colors
   * void  **[resize](#resize)**  **(** [int](class_int) idx  **)**
   * void  **[set](#set)**  **(** [int](class_int) idx, [Color](class_color) color  **)**
   * [int](class_int)  **[size](#size)**  **(** **)**
-  * void  **[ColorArray](#ColorArray)**  **(** [Array](class_array) from  **)**
+  * [ColorArray](class_colorarray)  **[ColorArray](#ColorArray)**  **(** [Array](class_array) from  **)**
 
 ###  Description  
 Array of Color, can only contains colors. Optimized for memory usage, cant fragment the memory.
@@ -43,6 +43,6 @@ Set an index in the array.
 Return the array size.
 
 #### <a name="ColorArray">ColorArray</a>
-  * void  **ColorArray**  **(** [Array](class_array) from  **)**
+  * [ColorArray](class_colorarray)  **ColorArray**  **(** [Array](class_array) from  **)**
 
 Create from a generic array.

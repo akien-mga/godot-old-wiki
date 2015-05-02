@@ -14,8 +14,8 @@
   * [bool](class_bool)  **[has&#95;point](#has_point)**  **(** [Vector2](class_vector2) point  **)**
   * [bool](class_bool)  **[intersects](#intersects)**  **(** [Rect2](class_rect2) b  **)**
   * [Rect2](class_rect2)  **[merge](#merge)**  **(** [Rect2](class_rect2) b  **)**
-  * void  **[Rect2](#Rect2)**  **(** [Vector2](class_vector2) pos, [Vector2](class_vector2) size  **)**
-  * void  **[Rect2](#Rect2)**  **(** [float](class_float) x, [float](class_float) y, [float](class_float) width, [float](class_float) height  **)**
+  * [Rect2](class_rect2)  **[Rect2](#Rect2)**  **(** [Vector2](class_vector2) pos, [Vector2](class_vector2) size  **)**
+  * [Rect2](class_rect2)  **[Rect2](#Rect2)**  **(** [float](class_float) x, [float](class_float) y, [float](class_float) width, [float](class_float) height  **)**
 
 ###  Member Variables  
   * [Vector2](class_vector2) **pos**

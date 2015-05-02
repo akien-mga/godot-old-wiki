@@ -10,6 +10,6 @@
   * void  **[resize](#resize)**  **(** [int](class_int) idx  **)**
   * void  **[set](#set)**  **(** [int](class_int) idx, [Vector2](class_vector2) vector2  **)**
   * [int](class_int)  **[size](#size)**  **(** **)**
-  * void  **[Vector2Array](#Vector2Array)**  **(** [Array](class_array) from  **)**
+  * [Vector2Array](class_vector2array)  **[Vector2Array](#Vector2Array)**  **(** [Array](class_array) from  **)**
 
 ###  Member Function Description  

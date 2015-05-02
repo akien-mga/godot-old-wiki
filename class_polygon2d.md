@@ -20,8 +20,6 @@
   * [float](class_float)  **[get&#95;texture&#95;rotation](#get_texture_rotation)**  **(** **)** const
   * void  **[set&#95;texture&#95;scale](#set_texture_scale)**  **(** [Vector2](class_vector2) texture_scale  **)**
   * [Vector2](class_vector2)  **[get&#95;texture&#95;scale](#get_texture_scale)**  **(** **)** const
-  * void  **[set&#95;texture&#95;repeat](#set_texture_repeat)**  **(** [bool](class_bool) enable  **)**
-  * [bool](class_bool)  **[get&#95;texture&#95;repeat](#get_texture_repeat)**  **(** **)** const
   * void  **[set&#95;invert](#set_invert)**  **(** [bool](class_bool) invert  **)**
   * [bool](class_bool)  **[get&#95;invert](#get_invert)**  **(** **)** const
   * void  **[set&#95;invert&#95;border](#set_invert_border)**  **(** [float](class_float) invert_border  **)**

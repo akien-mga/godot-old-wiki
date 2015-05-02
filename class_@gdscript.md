@@ -37,6 +37,7 @@ Built-in GDScript functions.
   * [int](class_int)  **[randi](#randi)**  **(** **)**
   * [float](class_float)  **[randf](#randf)**  **(** **)**
   * [float](class_float)  **[rand&#95;range](#rand_range)**  **(** [float](class_float) from, [float](class_float) to  **)**
+  * [Nil](class_nil)  **[seed](#seed)**  **(** [float](class_float) seed  **)**
   * [Array](class_array)  **[rand&#95;seed](#rand_seed)**  **(** [float](class_float) seed  **)**
   * [float](class_float)  **[deg2rad](#deg2rad)**  **(** [float](class_float) deg  **)**
   * [float](class_float)  **[rad2deg](#rad2deg)**  **(** [float](class_float) rad  **)**
@@ -63,6 +64,7 @@ Built-in GDScript functions.
   * [Object](class_object)  **[dict2inst](#dict2inst)**  **(** [Dictionary](class_dictionary) dict  **)**
   * [int](class_int)  **[hash](#hash)**  **(** var var:var  **)**
   * [Nil](class_nil)  **[print&#95;stack](#print_stack)**  **(** **)**
+  * [Object](class_object)  **[instance&#95;from&#95;id](#instance_from_id)**  **(** [int](class_int) instance_id  **)**
 
 ###  Numeric Constants  
   * **PI** = **3.141593** - Constant that represents how many times the diameter of a

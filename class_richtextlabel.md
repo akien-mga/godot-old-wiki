@@ -30,6 +30,10 @@ Label that displays rich text.
   * [bool](class_bool)  **[is&#95;selection&#95;enabled](#is_selection_enabled)**  **(** **)** const
   * [int](class_int)  **[parse&#95;bbcode](#parse_bbcode)**  **(** [String](class_string) bbcode  **)**
   * [int](class_int)  **[append&#95;bbcode](#append_bbcode)**  **(** [String](class_string) bbcode  **)**
+  * void  **[set&#95;bbcode](#set_bbcode)**  **(** [String](class_string) text  **)**
+  * [String](class_string)  **[get&#95;bbcode](#get_bbcode)**  **(** **)** const
+  * void  **[set&#95;use&#95;bbcode](#set_use_bbcode)**  **(** [bool](class_bool) enable  **)**
+  * [bool](class_bool)  **[is&#95;using&#95;bbcode](#is_using_bbcode)**  **(** **)** const
 
 ###  Signals  
   *  **meta&#95;clicked**  **(** [Nil](class_nil) meta  **)**

@@ -14,11 +14,11 @@
   * [Transform](class_transform)  **[translated](#translated)**  **(** [Vector3](class_vector3) ofs  **)**
   * var  **[xform](#xform)**  **(** var v  **)**
   * var  **[xform&#95;inv](#xform_inv)**  **(** var v  **)**
-  * void  **[Transform](#Transform)**  **(** [Vector3](class_vector3) x_axis, [Vector3](class_vector3) y_axis, [Vector3](class_vector3) z_axis, [Vector3](class_vector3) origin  **)**
-  * void  **[Transform](#Transform)**  **(** [Matrix3](class_matrix3) basis, [Vector3](class_vector3) origin  **)**
-  * void  **[Transform](#Transform)**  **(** [Matrix32](class_matrix32) from  **)**
-  * void  **[Transform](#Transform)**  **(** [Quat](class_quat) from  **)**
-  * void  **[Transform](#Transform)**  **(** [Matrix3](class_matrix3) from  **)**
+  * [Transform](class_transform)  **[Transform](#Transform)**  **(** [Vector3](class_vector3) x_axis, [Vector3](class_vector3) y_axis, [Vector3](class_vector3) z_axis, [Vector3](class_vector3) origin  **)**
+  * [Transform](class_transform)  **[Transform](#Transform)**  **(** [Matrix3](class_matrix3) basis, [Vector3](class_vector3) origin  **)**
+  * [Transform](class_transform)  **[Transform](#Transform)**  **(** [Matrix32](class_matrix32) from  **)**
+  * [Transform](class_transform)  **[Transform](#Transform)**  **(** [Quat](class_quat) from  **)**
+  * [Transform](class_transform)  **[Transform](#Transform)**  **(** [Matrix3](class_matrix3) from  **)**
 
 ###  Member Variables  
   * [Matrix3](class_matrix3) **basis**

@@ -23,11 +23,6 @@ Resource Loader. This is a static object accessible as [ResourceLoader](class_re
 
 Load a resource interactively, the returned object allows to load with high granularity.
 
-#### <a name="load">load</a>
-  * [Resource](class_resource)  **load**  **(** [String](class_string) path, [String](class_string) type_hint="", [bool](class_bool) p_no_cache=false  **)**
-
-Load a resource. Optionally a hint can be given for the resource type to load.
-
 #### <a name="get_recognized_extensions_for_type">get_recognized_extensions_for_type</a>
   * [StringArray](class_stringarray)  **get&#95;recognized&#95;extensions&#95;for&#95;type**  **(** [String](class_string) type  **)**
 

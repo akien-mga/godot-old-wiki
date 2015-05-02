@@ -60,8 +60,3 @@ Change the texture flags.
   * [int](class_int)  **get&#95;flags**  **(** **)** const
 
 Return the current texture flags.
-
-#### <a name="draw">draw</a>
-  * void  **draw**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [Color](class_color) modulate=Color(1,1,1,1), [bool](class_bool) arg3=false  **)** const
-
-Draw the texture into a a [VisualServer](class_visualserver) canvas item.

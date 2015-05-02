@@ -10,7 +10,7 @@ Real Array .
   * void  **[resize](#resize)**  **(** [int](class_int) idx  **)**
   * void  **[set](#set)**  **(** [int](class_int) idx, [float](class_float) value  **)**
   * [int](class_int)  **[size](#size)**  **(** **)**
-  * void  **[RealArray](#RealArray)**  **(** [Array](class_array) from  **)**
+  * [RealArray](class_realarray)  **[RealArray](#RealArray)**  **(** [Array](class_array) from  **)**
 
 ###  Description  
 Real Array. Array of floating point values. Can only contain floats. Optimized for memory usage, cant fragment the memory.

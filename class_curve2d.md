@@ -22,5 +22,6 @@
   * [float](class_float)  **[get&#95;baked&#95;length](#get_baked_length)**  **(** **)** const
   * [Vector2](class_vector2)  **[interpolate&#95;baked](#interpolate_baked)**  **(** [float](class_float) offset, [bool](class_bool) cubic=false  **)** const
   * [Vector2Array](class_vector2array)  **[get&#95;baked&#95;points](#get_baked_points)**  **(** **)** const
+  * [Vector2Array](class_vector2array)  **[tesselate](#tesselate)**  **(** [int](class_int) max_stages=5, [float](class_float) tolerance_degrees=4  **)** const
 
 ###  Member Function Description  

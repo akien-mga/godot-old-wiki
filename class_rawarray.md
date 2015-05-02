@@ -12,7 +12,7 @@ Raw byte array.
   * void  **[resize](#resize)**  **(** [int](class_int) idx  **)**
   * void  **[set](#set)**  **(** [int](class_int) idx, [int](class_int) byte  **)**
   * [int](class_int)  **[size](#size)**  **(** **)**
-  * void  **[RawArray](#RawArray)**  **(** [Array](class_array) from  **)**
+  * [RawArray](class_rawarray)  **[RawArray](#RawArray)**  **(** [Array](class_array) from  **)**
 
 ###  Description  
 Raw byte array. Contains bytes. Optimized for memory usage, cant fragment the memory.

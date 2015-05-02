@@ -24,7 +24,7 @@ Vector used for 2D Math.
   * [Vector2](class_vector2)  **[slide](#slide)**  **(** [Vector2](class_vector2) vec  **)**
   * [Vector2](class_vector2)  **[snapped](#snapped)**  **(** [Vector2](class_vector2) by  **)**
   * [Vector2](class_vector2)  **[tangent](#tangent)**  **(** **)**
-  * void  **[Vector2](#Vector2)**  **(** [float](class_float) x, [float](class_float) y  **)**
+  * [Vector2](class_vector2)  **[Vector2](#Vector2)**  **(** [float](class_float) x, [float](class_float) y  **)**
 
 ###  Member Variables  
   * [float](class_float) **x**

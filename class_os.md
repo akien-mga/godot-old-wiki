@@ -15,13 +15,13 @@ Operating System functions.
   * [Array](class_array)  **[get&#95;fullscreen&#95;mode&#95;list](#get_fullscreen_mode_list)**  **(** [int](class_int) screen=0  **)** const
   * [int](class_int)  **[get&#95;screen&#95;count](#get_screen_count)**  **(** **)** const
   * [int](class_int)  **[get&#95;current&#95;screen](#get_current_screen)**  **(** **)** const
-  * void  **[set&#95;current&#95;screen](#set_current_screen)**  **(** [int](class_int) arg0  **)**
-  * [Vector2](class_vector2)  **[get&#95;screen&#95;position](#get_screen_position)**  **(** [int](class_int) arg0=0  **)** const
-  * [Vector2](class_vector2)  **[get&#95;screen&#95;size](#get_screen_size)**  **(** [int](class_int) arg0=0  **)** const
+  * void  **[set&#95;current&#95;screen](#set_current_screen)**  **(** [int](class_int) screen  **)**
+  * [Vector2](class_vector2)  **[get&#95;screen&#95;position](#get_screen_position)**  **(** [int](class_int) screen=0  **)** const
+  * [Vector2](class_vector2)  **[get&#95;screen&#95;size](#get_screen_size)**  **(** [int](class_int) screen=0  **)** const
   * [Vector2](class_vector2)  **[get&#95;window&#95;position](#get_window_position)**  **(** **)** const
-  * void  **[set&#95;window&#95;position](#set_window_position)**  **(** [Vector2](class_vector2) arg0  **)**
+  * void  **[set&#95;window&#95;position](#set_window_position)**  **(** [Vector2](class_vector2) position  **)**
   * [Vector2](class_vector2)  **[get&#95;window&#95;size](#get_window_size)**  **(** **)** const
-  * void  **[set&#95;window&#95;size](#set_window_size)**  **(** [Vector2](class_vector2) arg0  **)**
+  * void  **[set&#95;window&#95;size](#set_window_size)**  **(** [Vector2](class_vector2) size  **)**
   * void  **[set&#95;window&#95;fullscreen](#set_window_fullscreen)**  **(** [bool](class_bool) enabled  **)**
   * [bool](class_bool)  **[is&#95;window&#95;fullscreen](#is_window_fullscreen)**  **(** **)** const
   * void  **[set&#95;window&#95;resizable](#set_window_resizable)**  **(** [bool](class_bool) enabled  **)**
@@ -58,6 +58,7 @@ Operating System functions.
   * void  **[delay&#95;usec](#delay_usec)**  **(** [int](class_int) usec  **)** const
   * void  **[delay&#95;msec](#delay_msec)**  **(** [int](class_int) msec  **)** const
   * [int](class_int)  **[get&#95;ticks&#95;msec](#get_ticks_msec)**  **(** **)** const
+  * [int](class_int)  **[get&#95;splash&#95;tick&#95;msec](#get_splash_tick_msec)**  **(** **)** const
   * [String](class_string)  **[get&#95;locale](#get_locale)**  **(** **)** const
   * [String](class_string)  **[get&#95;model&#95;name](#get_model_name)**  **(** **)** const
   * [String](class_string)  **[get&#95;custom&#95;level](#get_custom_level)**  **(** **)** const

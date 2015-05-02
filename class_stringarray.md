@@ -10,7 +10,7 @@ String Array .
   * void  **[resize](#resize)**  **(** [int](class_int) idx  **)**
   * void  **[set](#set)**  **(** [int](class_int) idx, [String](class_string) string  **)**
   * [int](class_int)  **[size](#size)**  **(** **)**
-  * void  **[StringArray](#StringArray)**  **(** [Array](class_array) from  **)**
+  * [StringArray](class_stringarray)  **[StringArray](#StringArray)**  **(** [Array](class_array) from  **)**
 
 ###  Description  
 String Array. Array of strings. Can only contain strings. Optimized for memory usage, cant fragment the memory.

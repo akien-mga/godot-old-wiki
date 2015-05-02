@@ -5,8 +5,8 @@
 
 
 ###  Member Functions 
-  * void  **[float](#float)**  **(** [bool](class_bool) from  **)**
-  * void  **[float](#float)**  **(** [int](class_int) from  **)**
-  * void  **[float](#float)**  **(** [String](class_string) from  **)**
+  * [float](class_float)  **[float](#float)**  **(** [bool](class_bool) from  **)**
+  * [float](class_float)  **[float](#float)**  **(** [int](class_int) from  **)**
+  * [float](class_float)  **[float](#float)**  **(** [String](class_string) from  **)**
 
 ###  Member Function Description  

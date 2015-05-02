@@ -10,6 +10,7 @@ Camera node, displays from a point of view.
   * [Vector3](class_vector3)  **[project&#95;local&#95;ray&#95;normal](#project_local_ray_normal)**  **(** [Vector2](class_vector2) screen_point  **)** const
   * [Vector3](class_vector3)  **[project&#95;ray&#95;origin](#project_ray_origin)**  **(** [Vector2](class_vector2) screen_point  **)** const
   * [Vector2](class_vector2)  **[unproject&#95;position](#unproject_position)**  **(** [Vector3](class_vector3) world_point  **)** const
+  * [bool](class_bool)  **[is&#95;position&#95;behind](#is_position_behind)**  **(** [Vector3](class_vector3) world_point  **)** const
   * [Vector3](class_vector3)  **[project&#95;position](#project_position)**  **(** [Vector2](class_vector2) screen_point  **)** const
   * void  **[set&#95;perspective](#set_perspective)**  **(** [float](class_float) fov, [float](class_float) z_near, [float](class_float) z_far  **)**
   * void  **[set&#95;orthogonal](#set_orthogonal)**  **(** [float](class_float) size, [float](class_float) z_near, [float](class_float) z_far  **)**
@@ -43,12 +44,12 @@ Camera is a special node that displays what is visible from its current location
 #### <a name="project_ray_normal">project_ray_normal</a>
   * [Vector3](class_vector3)  **project&#95;ray&#95;normal**  **(** [Vector2](class_vector2) screen_point  **)** const
 
-Return a normal vector in worldspace, that is the result of projecting a point on the [Viewport](class_viewport) rectangle by the camera proyection. This is useful for casting rays in the form of (origin,normal) for object intersection or picking.
+Return a normal vector in worldspace, that is the result of projecting a point on the [Viewport](class_viewport) rectangle by the camera projection. This is useful for casting rays in the form of (origin,normal) for object intersection or picking.
 
 #### <a name="project_ray_origin">project_ray_origin</a>
   * [Vector3](class_vector3)  **project&#95;ray&#95;origin**  **(** [Vector2](class_vector2) screen_point  **)** const
 
-Return a 3D position in worldspace, that is the result of projecting a point on the [Viewport](class_viewport) rectangle by the camera proyection. This is useful for casting rays in the form of (origin,normal) for object intersection or picking.
+Return a 3D position in worldspace, that is the result of projecting a point on the [Viewport](class_viewport) rectangle by the camera projection. This is useful for casting rays in the form of (origin,normal) for object intersection or picking.
 
 #### <a name="unproject_position">unproject_position</a>
   * [Vector2](class_vector2)  **unproject&#95;position**  **(** [Vector3](class_vector3) world_point  **)** const

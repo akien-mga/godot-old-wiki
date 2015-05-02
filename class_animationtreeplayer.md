@@ -61,6 +61,8 @@ Animation Player that uses a node graph for the blending.
   * [bool](class_bool)  **[is&#95;active](#is_active)**  **(** **)** const
   * void  **[set&#95;base&#95;path](#set_base_path)**  **(** [NodePath](class_nodepath) path  **)**
   * [NodePath](class_nodepath)  **[get&#95;base&#95;path](#get_base_path)**  **(** **)** const
+  * void  **[set&#95;master&#95;player](#set_master_player)**  **(** [NodePath](class_nodepath) nodepath  **)**
+  * [NodePath](class_nodepath)  **[get&#95;master&#95;player](#get_master_player)**  **(** **)** const
   * [StringArray](class_stringarray)  **[get&#95;node&#95;list](#get_node_list)**  **(** **)**
   * void  **[reset](#reset)**  **(** **)**
   * void  **[recompute&#95;caches](#recompute_caches)**  **(** **)**

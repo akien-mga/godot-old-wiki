@@ -12,7 +12,7 @@ Built-in type optimized for path traversing.
   * [int](class_int)  **[get&#95;subname&#95;count](#get_subname_count)**  **(** **)**
   * [bool](class_bool)  **[is&#95;absolute](#is_absolute)**  **(** **)**
   * [bool](class_bool)  **[is&#95;empty](#is_empty)**  **(** **)**
-  * void  **[NodePath](#NodePath)**  **(** [String](class_string) from  **)**
+  * [NodePath](class_nodepath)  **[NodePath](#NodePath)**  **(** [String](class_string) from  **)**
 
 ###  Description  
 Built-in type optimized for path traversing. A Node path is an optimized compiled path used for traversing the scene tree. 

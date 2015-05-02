@@ -13,7 +13,6 @@
   * [float](class_float)  **[get&#95;joy&#95;axis](#get_joy_axis)**  **(** [int](class_int) device, [int](class_int) axis  **)**
   * [String](class_string)  **[get&#95;joy&#95;name](#get_joy_name)**  **(** [int](class_int) device  **)**
   * [Vector3](class_vector3)  **[get&#95;accelerometer](#get_accelerometer)**  **(** **)**
-  * [Vector2](class_vector2)  **[get&#95;mouse&#95;pos](#get_mouse_pos)**  **(** **)** const
   * [Vector2](class_vector2)  **[get&#95;mouse&#95;speed](#get_mouse_speed)**  **(** **)** const
   * [int](class_int)  **[get&#95;mouse&#95;button&#95;mask](#get_mouse_button_mask)**  **(** **)** const
   * void  **[set&#95;mouse&#95;mode](#set_mouse_mode)**  **(** [int](class_int) mode  **)**
@@ -31,10 +30,3 @@
   * **MOUSE_MODE_CAPTURED** = **2**
 
 ###  Member Function Description  
-
-#### <a name="get_mouse_pos">get_mouse_pos</a>
-  * [Vector2](class_vector2)  **get&#95;mouse&#95;pos**  **(** **)** const
-
-Return the global, unscaled, screen pointer coordinates.
-			If the 2D viewport has been scaled, it may not work well
-			with [Camera](class_camera) or controls.

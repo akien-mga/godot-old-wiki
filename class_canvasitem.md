@@ -189,16 +189,6 @@ Draw a colored circle.
 
 Draw a texture at a given position.
 
-#### <a name="draw_texture_rect">draw_texture_rect</a>
-  * void  **draw&#95;texture&#95;rect**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [bool](class_bool) tile, [Color](class_color) modulate=false, [bool](class_bool) arg4=Color(1,1,1,1)  **)**
-
-Draw a textured rectangle at a given position, optionally modulated by a color.
-
-#### <a name="draw_texture_rect_region">draw_texture_rect_region</a>
-  * void  **draw&#95;texture&#95;rect&#95;region**  **(** [Texture](class_texture) texture, [Rect2](class_rect2) rect, [Rect2](class_rect2) src_rect, [Color](class_color) modulate, [bool](class_bool) arg4=Color(1,1,1,1)  **)**
-
-Draw a textured rectangle region at a given position, optionally modulated by a color.
-
 #### <a name="draw_style_box">draw_style_box</a>
   * void  **draw&#95;style&#95;box**  **(** [StyleBox](class_stylebox) style_box, [Rect2](class_rect2) rect  **)**
 

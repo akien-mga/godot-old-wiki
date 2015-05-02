@@ -13,6 +13,7 @@
   * [Vector3](class_vector3)  **[get&#95;closest&#95;point&#95;to&#95;segment](#get_closest_point_to_segment)**  **(** [Vector3](class_vector3) start, [Vector3](class_vector3) end, [bool](class_bool) use_collision=false  **)**
   * [Vector3](class_vector3)  **[get&#95;closest&#95;point](#get_closest_point)**  **(** [Vector3](class_vector3) to_point  **)**
   * [Vector3](class_vector3)  **[get&#95;closest&#95;point&#95;normal](#get_closest_point_normal)**  **(** [Vector3](class_vector3) to_point  **)**
+  * [Object](class_object)  **[get&#95;closest&#95;point&#95;owner](#get_closest_point_owner)**  **(** [Vector3](class_vector3) to_point  **)**
   * void  **[set&#95;up&#95;vector](#set_up_vector)**  **(** [Vector3](class_vector3) up  **)**
   * [Vector3](class_vector3)  **[get&#95;up&#95;vector](#get_up_vector)**  **(** **)** const
 

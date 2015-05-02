@@ -13,10 +13,10 @@ Color in RGBA format.
   * [int](class_int)  **[to&#95;32](#to_32)**  **(** **)**
   * [int](class_int)  **[to&#95;ARGB32](#to_ARGB32)**  **(** **)**
   * [String](class_string)  **[to&#95;html](#to_html)**  **(** [bool](class_bool) with_alpha=True  **)**
-  * void  **[Color](#Color)**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b, [float](class_float) a  **)**
-  * void  **[Color](#Color)**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b  **)**
-  * void  **[Color](#Color)**  **(** [int](class_int) from  **)**
-  * void  **[Color](#Color)**  **(** [String](class_string) from  **)**
+  * [Color](class_color)  **[Color](#Color)**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b, [float](class_float) a  **)**
+  * [Color](class_color)  **[Color](#Color)**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b  **)**
+  * [Color](class_color)  **[Color](#Color)**  **(** [int](class_int) from  **)**
+  * [Color](class_color)  **[Color](#Color)**  **(** [String](class_string) from  **)**
 
 ###  Member Variables  
   * [float](class_float) **r**
@@ -68,21 +68,21 @@ Convert color to ARGB32, more compatible with DirectX.
 Return the HTML hexadecimal color string.
 
 #### <a name="Color">Color</a>
-  * void  **Color**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b, [float](class_float) a  **)**
+  * [Color](class_color)  **Color**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b, [float](class_float) a  **)**
 
 Construct the color from an RGBA profile.
 
 #### <a name="Color">Color</a>
-  * void  **Color**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b  **)**
+  * [Color](class_color)  **Color**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b  **)**
 
 Construct the color from an RGBA profile.
 
 #### <a name="Color">Color</a>
-  * void  **Color**  **(** [int](class_int) from  **)**
+  * [Color](class_color)  **Color**  **(** [int](class_int) from  **)**
 
 Construct the color from an RGBA profile.
 
 #### <a name="Color">Color</a>
-  * void  **Color**  **(** [String](class_string) from  **)**
+  * [Color](class_color)  **Color**  **(** [String](class_string) from  **)**
 
 Construct the color from an RGBA profile.

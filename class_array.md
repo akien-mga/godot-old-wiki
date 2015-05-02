@@ -13,19 +13,20 @@ Generic array datatype.
   * [int](class_int)  **[hash](#hash)**  **(** **)**
   * void  **[insert](#insert)**  **(** [int](class_int) pos, var value  **)**
   * void  **[invert](#invert)**  **(** **)**
+  * [bool](class_bool)  **[is&#95;shared](#is_shared)**  **(** **)**
   * void  **[push&#95;back](#push_back)**  **(** var value  **)**
   * void  **[remove](#remove)**  **(** [int](class_int) pos  **)**
   * void  **[resize](#resize)**  **(** [int](class_int) pos  **)**
   * [int](class_int)  **[size](#size)**  **(** **)**
   * void  **[sort](#sort)**  **(** **)**
   * void  **[sort&#95;custom](#sort_custom)**  **(** [Object](class_object) obj, [String](class_string) func  **)**
-  * void  **[Array](#Array)**  **(** [RawArray](class_rawarray) from  **)**
-  * void  **[Array](#Array)**  **(** [IntArray](class_intarray) from  **)**
-  * void  **[Array](#Array)**  **(** [RealArray](class_realarray) from  **)**
-  * void  **[Array](#Array)**  **(** [StringArray](class_stringarray) from  **)**
-  * void  **[Array](#Array)**  **(** [Vector2Array](class_vector2array) from  **)**
-  * void  **[Array](#Array)**  **(** [Vector3Array](class_vector3array) from  **)**
-  * void  **[Array](#Array)**  **(** [ColorArray](class_colorarray) from  **)**
+  * [Array](class_array)  **[Array](#Array)**  **(** [RawArray](class_rawarray) from  **)**
+  * [Array](class_array)  **[Array](#Array)**  **(** [IntArray](class_intarray) from  **)**
+  * [Array](class_array)  **[Array](#Array)**  **(** [RealArray](class_realarray) from  **)**
+  * [Array](class_array)  **[Array](#Array)**  **(** [StringArray](class_stringarray) from  **)**
+  * [Array](class_array)  **[Array](#Array)**  **(** [Vector2Array](class_vector2array) from  **)**
+  * [Array](class_array)  **[Array](#Array)**  **(** [Vector3Array](class_vector3array) from  **)**
+  * [Array](class_array)  **[Array](#Array)**  **(** [ColorArray](class_colorarray) from  **)**
 
 ###  Description  
 Generic array, contains several elements of any type, accessible by numerical index starting at 0. Arrays are always passed by reference.
@@ -73,36 +74,36 @@ Resize the array to contain a different number of elements. If the array size is
 Return the amount of elements in the array.
 
 #### <a name="Array">Array</a>
-  * void  **Array**  **(** [RawArray](class_rawarray) from  **)**
+  * [Array](class_array)  **Array**  **(** [RawArray](class_rawarray) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).
 
 #### <a name="Array">Array</a>
-  * void  **Array**  **(** [IntArray](class_intarray) from  **)**
+  * [Array](class_array)  **Array**  **(** [IntArray](class_intarray) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).
 
 #### <a name="Array">Array</a>
-  * void  **Array**  **(** [RealArray](class_realarray) from  **)**
+  * [Array](class_array)  **Array**  **(** [RealArray](class_realarray) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).
 
 #### <a name="Array">Array</a>
-  * void  **Array**  **(** [StringArray](class_stringarray) from  **)**
+  * [Array](class_array)  **Array**  **(** [StringArray](class_stringarray) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).
 
 #### <a name="Array">Array</a>
-  * void  **Array**  **(** [Vector2Array](class_vector2array) from  **)**
+  * [Array](class_array)  **Array**  **(** [Vector2Array](class_vector2array) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).
 
 #### <a name="Array">Array</a>
-  * void  **Array**  **(** [Vector3Array](class_vector3array) from  **)**
+  * [Array](class_array)  **Array**  **(** [Vector3Array](class_vector3array) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).
 
 #### <a name="Array">Array</a>
-  * void  **Array**  **(** [ColorArray](class_colorarray) from  **)**
+  * [Array](class_array)  **Array**  **(** [ColorArray](class_colorarray) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).

@@ -19,9 +19,9 @@
   * [Matrix3](class_matrix3)  **[transposed](#transposed)**  **(** **)**
   * [Vector3](class_vector3)  **[xform](#xform)**  **(** [Vector3](class_vector3) v  **)**
   * [Vector3](class_vector3)  **[xform&#95;inv](#xform_inv)**  **(** [Vector3](class_vector3) v  **)**
-  * void  **[Matrix3](#Matrix3)**  **(** [Vector3](class_vector3) x_axis, [Vector3](class_vector3) y_axis, [Vector3](class_vector3) z_axis  **)**
-  * void  **[Matrix3](#Matrix3)**  **(** [Vector3](class_vector3) axis, [float](class_float) phi  **)**
-  * void  **[Matrix3](#Matrix3)**  **(** [Quat](class_quat) from  **)**
+  * [Matrix3](class_matrix3)  **[Matrix3](#Matrix3)**  **(** [Vector3](class_vector3) x_axis, [Vector3](class_vector3) y_axis, [Vector3](class_vector3) z_axis  **)**
+  * [Matrix3](class_matrix3)  **[Matrix3](#Matrix3)**  **(** [Vector3](class_vector3) axis, [float](class_float) phi  **)**
+  * [Matrix3](class_matrix3)  **[Matrix3](#Matrix3)**  **(** [Quat](class_quat) from  **)**
 
 ###  Member Variables  
   * [Vector3](class_vector3) **x**
@@ -94,16 +94,16 @@ Return a vector transformed by the matrix and return it.
 Return a vector transformed by the transposed matrix and return it.
 
 #### <a name="Matrix3">Matrix3</a>
-  * void  **Matrix3**  **(** [Vector3](class_vector3) x_axis, [Vector3](class_vector3) y_axis, [Vector3](class_vector3) z_axis  **)**
+  * [Matrix3](class_matrix3)  **Matrix3**  **(** [Vector3](class_vector3) x_axis, [Vector3](class_vector3) y_axis, [Vector3](class_vector3) z_axis  **)**
 
 Create a matrix from 3 axis vectors.
 
 #### <a name="Matrix3">Matrix3</a>
-  * void  **Matrix3**  **(** [Vector3](class_vector3) axis, [float](class_float) phi  **)**
+  * [Matrix3](class_matrix3)  **Matrix3**  **(** [Vector3](class_vector3) axis, [float](class_float) phi  **)**
 
-Create a matrix from 3 axis vectors.
+Create a matrix from an axis vector and an angle.
 
 #### <a name="Matrix3">Matrix3</a>
-  * void  **Matrix3**  **(** [Quat](class_quat) from  **)**
+  * [Matrix3](class_matrix3)  **Matrix3**  **(** [Quat](class_quat) from  **)**
 
-Create a matrix from 3 axis vectors.
+Create a matrix from a quaternion.

@@ -25,7 +25,7 @@ Axis-Aligned Bounding Box.
   * [bool](class_bool)  **[intersects&#95;plane](#intersects_plane)**  **(** [Plane](class_plane) plane  **)**
   * [bool](class_bool)  **[intersects&#95;segment](#intersects_segment)**  **(** [Vector3](class_vector3) from, [Vector3](class_vector3) to  **)**
   * [AABB](class_aabb)  **[merge](#merge)**  **(** [AABB](class_aabb) with  **)**
-  * void  **[AABB](#AABB)**  **(** [Vector3](class_vector3) pos, [Vector3](class_vector3) size  **)**
+  * [AABB](class_aabb)  **[AABB](#AABB)**  **(** [Vector3](class_vector3) pos, [Vector3](class_vector3) size  **)**
 
 ###  Member Variables  
   * [Vector3](class_vector3) **pos**
@@ -145,6 +145,6 @@ Combine this [AABB](class_aabb) with another one, a larger one
 			is returned that contains both.
 
 #### <a name="AABB">AABB</a>
-  * void  **AABB**  **(** [Vector3](class_vector3) pos, [Vector3](class_vector3) size  **)**
+  * [AABB](class_aabb)  **AABB**  **(** [Vector3](class_vector3) pos, [Vector3](class_vector3) size  **)**
 
 Optional constructor, accepts position and size.

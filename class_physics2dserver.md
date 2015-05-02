@@ -78,6 +78,7 @@ Physics 2D Server.
   * void  **[body&#95;set&#95;omit&#95;force&#95;integration](#body_set_omit_force_integration)**  **(** [RID](class_rid) body, [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[body&#95;is&#95;omitting&#95;force&#95;integration](#body_is_omitting_force_integration)**  **(** [RID](class_rid) body  **)** const
   * void  **[body&#95;set&#95;force&#95;integration&#95;callback](#body_set_force_integration_callback)**  **(** [RID](class_rid) body, [Object](class_object) receiver, [String](class_string) method, var arg3  **)**
+  * [bool](class_bool)  **[body&#95;test&#95;motion](#body_test_motion)**  **(** [RID](class_rid) body, [Vector2](class_vector2) motion, [float](class_float) margin=0.08, [Physics2DTestMotionResult](class_physics2dtestmotionresult) result=NULL  **)**
   * void  **[joint&#95;set&#95;param](#joint_set_param)**  **(** [RID](class_rid) joint, [int](class_int) param, [float](class_float) value  **)**
   * [float](class_float)  **[joint&#95;get&#95;param](#joint_get_param)**  **(** [RID](class_rid) joint, [int](class_int) param  **)** const
   * [RID](class_rid)  **[pin&#95;joint&#95;create](#pin_joint_create)**  **(** [Vector2](class_vector2) anchor, [RID](class_rid) body_a, [RID](class_rid) body_b=RID()  **)**
