@@ -8,7 +8,9 @@ The reason for this small tutorial is to clear up many common mistakes about inp
 
 Using hardware coordinates makes sense in the case of writing complex UIs meant to run on PC, such as editors, MMOs, tools, etc. Yet, make not as much sense outside of that scope. 
 
-The only way to reliably obtain this information is by using functions such as:
+~~The only way to reliably obtain this information is by using functions such as:~~
+
+**This method is no longer supported:** It was too confusing and caused errors for users making 2D games. Screen would stretch to different resolutions and input would stop making sense. Please use the ``_input`` function
 
 ```python
 OS.get_video_mode_size()
