@@ -28,8 +28,10 @@ Node for 2D Tile-Based games.
   * [bool](class_bool)  **[is&#95;y&#95;sort&#95;mode&#95;enabled](#is_y_sort_mode_enabled)**  **(** **)** const
   * void  **[set&#95;collision&#95;use&#95;kinematic](#set_collision_use_kinematic)**  **(** [bool](class_bool) use_kinematic  **)**
   * [bool](class_bool)  **[get&#95;collision&#95;use&#95;kinematic](#get_collision_use_kinematic)**  **(** **)** const
-  * void  **[set&#95;collision&#95;layer&#95;mask](#set_collision_layer_mask)**  **(** [int](class_int) mask  **)**
-  * [int](class_int)  **[get&#95;collision&#95;layer&#95;mask](#get_collision_layer_mask)**  **(** **)** const
+  * void  **[set&#95;collision&#95;layer](#set_collision_layer)**  **(** [int](class_int) mask  **)**
+  * [int](class_int)  **[get&#95;collision&#95;layer](#get_collision_layer)**  **(** **)** const
+  * void  **[set&#95;collision&#95;mask](#set_collision_mask)**  **(** [int](class_int) mask  **)**
+  * [int](class_int)  **[get&#95;collision&#95;mask](#get_collision_mask)**  **(** **)** const
   * void  **[set&#95;collision&#95;friction](#set_collision_friction)**  **(** [float](class_float) value  **)**
   * [float](class_float)  **[get&#95;collision&#95;friction](#get_collision_friction)**  **(** **)** const
   * void  **[set&#95;collision&#95;bounce](#set_collision_bounce)**  **(** [float](class_float) value  **)**

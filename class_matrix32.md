@@ -20,6 +20,7 @@
   * [Matrix32](class_matrix32)  **[xform](#xform)**  **(** var v  **)**
   * [Matrix32](class_matrix32)  **[xform&#95;inv](#xform_inv)**  **(** var v  **)**
   * [Matrix32](class_matrix32)  **[Matrix32](#Matrix32)**  **(** [Vector2](class_vector2) x_axis, [Vector2](class_vector2) y_axis, [Vector2](class_vector2) origin  **)**
+  * [Matrix32](class_matrix32)  **[Matrix32](#Matrix32)**  **(** [Transform](class_transform) from  **)**
 
 ###  Member Variables  
   * [float](class_float) **x**

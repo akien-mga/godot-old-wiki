@@ -49,6 +49,8 @@ Base class of anything 2D.
   * [Matrix32](class_matrix32)  **[get&#95;viewport&#95;transform](#get_viewport_transform)**  **(** **)** const
   * [Rect2](class_rect2)  **[get&#95;viewport&#95;rect](#get_viewport_rect)**  **(** **)** const
   * [Matrix32](class_matrix32)  **[get&#95;canvas&#95;transform](#get_canvas_transform)**  **(** **)** const
+  * [Vector2](class_vector2)  **[get&#95;local&#95;mouse&#95;pos](#get_local_mouse_pos)**  **(** **)** const
+  * [Vector2](class_vector2)  **[get&#95;global&#95;mouse&#95;pos](#get_global_mouse_pos)**  **(** **)** const
   * [RID](class_rid)  **[get&#95;canvas](#get_canvas)**  **(** **)** const
   * [Object](class_object)  **[get&#95;world&#95;2d](#get_world_2d)**  **(** **)** const
   * void  **[set&#95;material](#set_material)**  **(** [CanvasItemMaterial](class_canvasitemmaterial) material  **)**

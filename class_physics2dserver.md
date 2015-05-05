@@ -29,6 +29,8 @@ Physics 2D Server.
   * [Matrix32](class_matrix32)  **[area&#95;get&#95;shape&#95;transform](#area_get_shape_transform)**  **(** [RID](class_rid) area, [int](class_int) shape_idx  **)** const
   * void  **[area&#95;remove&#95;shape](#area_remove_shape)**  **(** [RID](class_rid) area, [int](class_int) shape_idx  **)**
   * void  **[area&#95;clear&#95;shapes](#area_clear_shapes)**  **(** [RID](class_rid) area  **)**
+  * void  **[area&#95;set&#95;layer&#95;mask](#area_set_layer_mask)**  **(** [RID](class_rid) area, [int](class_int) mask  **)**
+  * void  **[area&#95;set&#95;collision&#95;mask](#area_set_collision_mask)**  **(** [RID](class_rid) area, [int](class_int) mask  **)**
   * void  **[area&#95;set&#95;param](#area_set_param)**  **(** [RID](class_rid) area, [int](class_int) param, var value  **)**
   * void  **[area&#95;set&#95;transform](#area_set_transform)**  **(** [RID](class_rid) area, [Matrix32](class_matrix32) transform  **)**
   * void  **[area&#95;get&#95;param](#area_get_param)**  **(** [RID](class_rid) area, [int](class_int) param  **)** const
@@ -59,8 +61,8 @@ Physics 2D Server.
   * [int](class_int)  **[body&#95;get&#95;continuous&#95;collision&#95;detection&#95;mode](#body_get_continuous_collision_detection_mode)**  **(** [RID](class_rid) body  **)** const
   * void  **[body&#95;set&#95;layer&#95;mask](#body_set_layer_mask)**  **(** [RID](class_rid) body, [int](class_int) mask  **)**
   * [int](class_int)  **[body&#95;get&#95;layer&#95;mask](#body_get_layer_mask)**  **(** [RID](class_rid) body, [int](class_int) arg1  **)** const
-  * void  **[body&#95;set&#95;user&#95;mask](#body_set_user_mask)**  **(** [RID](class_rid) body, [int](class_int) mask  **)**
-  * [int](class_int)  **[body&#95;get&#95;user&#95;mask](#body_get_user_mask)**  **(** [RID](class_rid) body, [int](class_int) arg1  **)** const
+  * void  **[body&#95;set&#95;collision&#95;mask](#body_set_collision_mask)**  **(** [RID](class_rid) body, [int](class_int) mask  **)**
+  * [int](class_int)  **[body&#95;get&#95;collision&#95;mask](#body_get_collision_mask)**  **(** [RID](class_rid) body, [int](class_int) arg1  **)** const
   * void  **[body&#95;set&#95;param](#body_set_param)**  **(** [RID](class_rid) body, [int](class_int) param, [float](class_float) value  **)**
   * [float](class_float)  **[body&#95;get&#95;param](#body_get_param)**  **(** [RID](class_rid) body, [int](class_int) param  **)** const
   * void  **[body&#95;set&#95;state](#body_set_state)**  **(** [RID](class_rid) body, [int](class_int) state, var value  **)**

@@ -9,6 +9,8 @@
   * [Vector2](class_vector2)  **[move](#move)**  **(** [Vector2](class_vector2) rel_vec  **)**
   * [Vector2](class_vector2)  **[move&#95;to](#move_to)**  **(** [Vector2](class_vector2) position  **)**
   * [bool](class_bool)  **[test&#95;move](#test_move)**  **(** [Vector2](class_vector2) rel_vec  **)**
+  * [Vector2](class_vector2)  **[get&#95;travel](#get_travel)**  **(** **)** const
+  * void  **[revert&#95;motion](#revert_motion)**  **(** **)**
   * [bool](class_bool)  **[is&#95;colliding](#is_colliding)**  **(** **)** const
   * [Vector2](class_vector2)  **[get&#95;collision&#95;pos](#get_collision_pos)**  **(** **)** const
   * [Vector2](class_vector2)  **[get&#95;collision&#95;normal](#get_collision_normal)**  **(** **)** const

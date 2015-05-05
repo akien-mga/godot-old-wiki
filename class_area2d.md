@@ -20,6 +20,10 @@ General purpose area detection and influence for 2D Phisics.
   * [float](class_float)  **[get&#95;angular&#95;damp](#get_angular_damp)**  **(** **)** const
   * void  **[set&#95;priority](#set_priority)**  **(** [float](class_float) priority  **)**
   * [float](class_float)  **[get&#95;priority](#get_priority)**  **(** **)** const
+  * void  **[set&#95;collision&#95;mask](#set_collision_mask)**  **(** [int](class_int) collision_mask  **)**
+  * [int](class_int)  **[get&#95;collision&#95;mask](#get_collision_mask)**  **(** **)** const
+  * void  **[set&#95;layer&#95;mask](#set_layer_mask)**  **(** [int](class_int) layer_mask  **)**
+  * [int](class_int)  **[get&#95;layer&#95;mask](#get_layer_mask)**  **(** **)** const
   * void  **[set&#95;enable&#95;monitoring](#set_enable_monitoring)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[is&#95;monitoring&#95;enabled](#is_monitoring_enabled)**  **(** **)** const
   * void  **[set&#95;monitorable](#set_monitorable)**  **(** [bool](class_bool) enable  **)**

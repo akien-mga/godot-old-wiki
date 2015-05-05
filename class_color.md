@@ -15,8 +15,6 @@ Color in RGBA format.
   * [String](class_string)  **[to&#95;html](#to_html)**  **(** [bool](class_bool) with_alpha=True  **)**
   * [Color](class_color)  **[Color](#Color)**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b, [float](class_float) a  **)**
   * [Color](class_color)  **[Color](#Color)**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b  **)**
-  * [Color](class_color)  **[Color](#Color)**  **(** [int](class_int) from  **)**
-  * [Color](class_color)  **[Color](#Color)**  **(** [String](class_string) from  **)**
 
 ###  Member Variables  
   * [float](class_float) **r**
@@ -74,15 +72,5 @@ Construct the color from an RGBA profile.
 
 #### <a name="Color">Color</a>
   * [Color](class_color)  **Color**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b  **)**
-
-Construct the color from an RGBA profile.
-
-#### <a name="Color">Color</a>
-  * [Color](class_color)  **Color**  **(** [int](class_int) from  **)**
-
-Construct the color from an RGBA profile.
-
-#### <a name="Color">Color</a>
-  * [Color](class_color)  **Color**  **(** [String](class_string) from  **)**
 
 Construct the color from an RGBA profile.
