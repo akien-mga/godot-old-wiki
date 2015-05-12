@@ -41,4 +41,10 @@ func _input(ev):
 func _ready():
    set_process_input(true)
 
+```
 
+Alternatively it's possible to ask the viewport for the mouse position
+
+```python
+get_viewport().get_mouse_pos()
+```
