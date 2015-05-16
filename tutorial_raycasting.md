@@ -73,6 +73,8 @@ The collision result dictionary, when something hit, has this format:
    shape:int # shape index of collider
    metadata:Variant() # metadata of collider
 }
+
+# in case of 3D, Vector3 is returned.
 ```
 
 ### Collision Exceptions
