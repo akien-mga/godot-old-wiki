@@ -67,7 +67,8 @@ The collision result dictionary, when something hit, has this format:
 {
    position:Vector2 # point in world space for collision
    normal:Vector2 # normal in world space for collision
-   collider:ObjectID # Object it collided against
+   collider:Object # Object collided or null (if unassociated)
+   collider_id:ObjectID # Object it collided against
    rid:RID # RID it collided against
    shape:int # shape index of collider
    metadata:Variant() # metadata of collider
