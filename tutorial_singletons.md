@@ -37,7 +37,8 @@ var player_vars = get_node("/root/playervariables")
 
 ### Custom Scene Switcher
 
-This short tutorial will explain how to make a scene switcher by using autoload. For simple scene switching, the [SceneTree.change_scene](class_scenetree#change_scene) suffices (described [previously](tutorial_scene_main_loop#changing-current-scene) ), so this method is for more complex behaviros when switching scenes.
+This short tutorial will explain how to make a scene switcher by using autoload. For simple scene switching, the [SceneTree.change_scene](class_scenetree#change_scene) method suffices (described [previously](tutorial_scene_main_loop#changing-current-scene) ), so this method is for more complex behaviors when switching scenes.
+
 First download the template from here: [autoload.zip](media/autoload.zip), then open it.
 
 Two scenes are present, scene_a.scn and scene_b.scn on an otherwise empty project. Each are identical and contain a button connected to a callback for going to the opposite scene. When the project runs, it starts n scene_a.scn. However, this does nothing and pressing the button does not work.
@@ -133,7 +134,6 @@ func _on_goto_scene_pressed():
 Finally, by running the project it's possible to switch bewtween both scenes y pressing the button!
 
 (To load scenes with a progress bar, check out the next tutorial, [Background Loading](Background loading))
-
 
 
 
