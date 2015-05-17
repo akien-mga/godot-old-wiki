@@ -66,6 +66,14 @@ Most node operations in Godot, such as drawing 2D, processing or getting notific
  4.  An extra notification, “ready” ( _ready() callback in GDScript) is provided for convenience, when a node and all it’s children are inside the active scene.
  5.  When a scene (or part of it) is removed, they receive the “exit scene” notification ( _exit_tree() callback in GDScript) in bottom-to-top order
 
+### Changing Current Scene
 
+After a scene is loaded, it is often desired to change this scene for another one. The simple way to do this to use the [SceneTree.change_scene](class_scenetree#change_scene) function:
 
- 
+```python
+func _my_level_was_completed():
+    get_tree().change_scene("res://levels/level2.scn")
+```
+
+This is a quick and useful way to switch scenes, but has the drawback that the game will stall until the new scene is loaded and running. At some point in your game, it may be desired to create proper loading screens with progress bar, animated indicators or thread (background) loading. This must be done manually using autoloads (see next chapter!) and [Intective Resource Loading](background_loading).
+
