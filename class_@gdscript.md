@@ -54,6 +54,7 @@ Built-in GDScript functions.
   * [String](class_string)  **[str](#str)**  **(** var what, var ...  **)**
   * [Nil](class_nil)  **[print](#print)**  **(** var what, var ...  **)**
   * [Nil](class_nil)  **[printt](#printt)**  **(** var what, var ...  **)**
+  * [Nil](class_nil)  **[prints](#prints)**  **(** var what, var ...  **)**
   * [Nil](class_nil)  **[printerr](#printerr)**  **(** var what, var ...  **)**
   * [Nil](class_nil)  **[printraw](#printraw)**  **(** var what, var ...  **)**
   * [String](class_string)  **[var2str](#var2str)**  **(** var var  **)**

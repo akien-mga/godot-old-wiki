@@ -22,6 +22,8 @@ Base node for 2D system.
   * [Vector2](class_vector2)  **[get&#95;global&#95;pos](#get_global_pos)**  **(** **)** const
   * void  **[set&#95;transform](#set_transform)**  **(** [Matrix32](class_matrix32) xform  **)**
   * void  **[set&#95;global&#95;transform](#set_global_transform)**  **(** [Matrix32](class_matrix32) xform  **)**
+  * void  **[look&#95;at](#look_at)**  **(** [Vector2](class_vector2) point  **)**
+  * [float](class_float)  **[get&#95;angle&#95;to](#get_angle_to)**  **(** [Vector2](class_vector2) point  **)** const
   * void  **[set&#95;z](#set_z)**  **(** [int](class_int) z  **)**
   * [int](class_int)  **[get&#95;z](#get_z)**  **(** **)** const
   * void  **[set&#95;z&#95;as&#95;relative](#set_z_as_relative)**  **(** [bool](class_bool) enable  **)**

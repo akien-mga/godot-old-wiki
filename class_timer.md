@@ -15,6 +15,8 @@
   * void  **[start](#start)**  **(** **)**
   * void  **[stop](#stop)**  **(** **)**
   * [float](class_float)  **[get&#95;time&#95;left](#get_time_left)**  **(** **)** const
+  * void  **[set&#95;timer&#95;process&#95;mode](#set_timer_process_mode)**  **(** [int](class_int) mode  **)**
+  * [int](class_int)  **[get&#95;timer&#95;process&#95;mode](#get_timer_process_mode)**  **(** **)** const
 
 ###  Signals  
   *  **timeout**  **(** **)**

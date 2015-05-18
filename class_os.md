@@ -85,6 +85,9 @@ Operating System functions.
   * [bool](class_bool)  **[native&#95;video&#95;is&#95;playing](#native_video_is_playing)**  **(** **)**
   * void  **[native&#95;video&#95;stop](#native_video_stop)**  **(** **)**
   * void  **[native&#95;video&#95;pause](#native_video_pause)**  **(** **)**
+  * [String](class_string)  **[get&#95;scancode&#95;string](#get_scancode_string)**  **(** [int](class_int) code  **)** const
+  * [bool](class_bool)  **[is&#95;scancode&#95;unicode](#is_scancode_unicode)**  **(** [int](class_int) code  **)** const
+  * [int](class_int)  **[find&#95;scancode&#95;from&#95;string](#find_scancode_from_string)**  **(** [String](class_string) string  **)** const
   * void  **[set&#95;use&#95;file&#95;access&#95;save&#95;and&#95;swap](#set_use_file_access_save_and_swap)**  **(** [bool](class_bool) enabled  **)**
 
 ###  Numeric Constants  

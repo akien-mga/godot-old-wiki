@@ -55,6 +55,7 @@ Creates a sub-view into the screen.
   * void  **[set&#95;as&#95;audio&#95;listener&#95;2d](#set_as_audio_listener_2d)**  **(** [bool](class_bool) enable  **)**
   * [bool](class_bool)  **[is&#95;audio&#95;listener&#95;2d](#is_audio_listener_2d)**  **(** **)** const
   * void  **[set&#95;render&#95;target&#95;to&#95;screen&#95;rect](#set_render_target_to_screen_rect)**  **(** [Rect2](class_rect2) arg0  **)**
+  * [Vector2](class_vector2)  **[get&#95;mouse&#95;pos](#get_mouse_pos)**  **(** **)** const
   * void  **[warp&#95;mouse](#warp_mouse)**  **(** [Vector2](class_vector2) to_pos  **)**
 
 ###  Signals  
