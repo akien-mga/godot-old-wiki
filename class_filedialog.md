@@ -29,7 +29,7 @@ Dialog for selecting files or directories in the filesystem.
   *  **file&#95;selected**  **(** [String](class_string) path  **)**
 
 ###  Numeric Constants  
-  * **MODE_OPEN_FILE** = **0** - Editor will not allow to select unexisting files.
+  * **MODE_OPEN_FILE** = **0** - Editor will not allow to select nonexistent files.
   * **MODE_OPEN_FILES** = **1**
   * **MODE_OPEN_DIR** = **2**
   * **MODE_SAVE_FILE** = **3** - Editor will warn when a file exists.

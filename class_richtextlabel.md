@@ -24,6 +24,7 @@ Label that displays rich text.
   * [bool](class_bool)  **[is&#95;scroll&#95;active](#is_scroll_active)**  **(** **)** const
   * void  **[set&#95;scroll&#95;follow](#set_scroll_follow)**  **(** [bool](class_bool) follow  **)**
   * [bool](class_bool)  **[is&#95;scroll&#95;following](#is_scroll_following)**  **(** **)** const
+  * [Object](class_object)  **[get&#95;v&#95;scroll](#get_v_scroll)**  **(** **)**
   * void  **[set&#95;tab&#95;size](#set_tab_size)**  **(** [int](class_int) spaces  **)**
   * [int](class_int)  **[get&#95;tab&#95;size](#get_tab_size)**  **(** **)** const
   * void  **[set&#95;selection&#95;enabled](#set_selection_enabled)**  **(** [bool](class_bool) enabled  **)**
