@@ -18,30 +18,33 @@ These are just tentative to have a rough idea of the development plan. Ideas and
 * First stable, versioned release.
 
 
-### Godot 1.1 (~March-2015)
+~~### Godot 1.1 (~May-2015)~~
 * Improved Code Completion
 * Visual Shader Editor
 * 2D Engine Rewrite (Faster and support Z per node)
 * 2D Shader support
 * 2D Light & Shadows support
 
-### Godot 1.2 (~May-2015)
+### Godot 1.2 (~October-2015)
 
 * Improve debugger
 * Live Scene Editing
 * Complete UI Rework (rewrite UI, make it more friendly)
 * This includes more UI related tasks that will be filled later
 
-### Godot 1.3 (~July-2015)
+This release will take a long time given the huge amount of feedback from the growing community.
+However, we'll try to do more point releases inbetween.
+
+### Godot 1.3 (~February-2016)
 * Better Networking Support.
 * Ragdoll Wizard/Helper (can be done manually now but it's a lot of work)
 * OpenGEX or FBX Import (ASSIMP? or blender did it..)
 * Easier deployer for iOS and NaCL
 * Windows Universal Binary support (API should exist now?)
 
-### Godot 1.4 (September 2015)
+### Godot 1.4 (Sometime in 2016)
 
-* OpenGL ES 3.0 backend
+* Vulkan Backend
 * Post Process Shaders
 * Support for Terrain 
 * Support for texture splatting & decals
