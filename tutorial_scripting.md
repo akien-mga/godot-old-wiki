@@ -155,6 +155,7 @@ Running the scene should have the expected result when pressing the button:
 get_node("Label/Button") 
 ```
 
+And, also, try to remember that nodes are referenced by name, not by type.
 
 
 
