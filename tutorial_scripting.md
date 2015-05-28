@@ -105,7 +105,13 @@ get_node("Button")
 
 ```
 
-**Note: get_node() works by returning the immediate children to the node controlled by the script (in this case, _Panel_), so _Button_ must be a child of Panel_ for the above code to work. To give this clarification more context, if _Button_ was a child of _Label_, the code to obtain it would be `get_node("Label/Button")`**
+**Note:** get_node(path) works by returning the immediate children to the node controlled by the script (in this case, _Panel_), so _Button_ must be a child of _Panel_ for the above code to work. To give this clarification more context, if _Button_ was a child of _Label_, the code to obtain it would be:
+
+```python
+# not for this case
+# but just in case
+get_node("Label/Button") 
+```
 
 So, next, a callback will be added for when a button is pressed, that will change the label's text:
 
