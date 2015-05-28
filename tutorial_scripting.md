@@ -105,6 +105,8 @@ get_node("Button")
 
 ```
 
+**Note: get_node() works by returning the immediate children to the node controlled by the script, so Button _must_ be a child of**
+
 So, next, a callback will be added for when a button is pressed, that will change the label's text:
 
 ```python
