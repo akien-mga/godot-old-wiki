@@ -10,7 +10,7 @@ Godot lacks a terrain engine. Most modern engines have this. Be it based on heig
 
 ### Demos on Mobile
 
-Many Godot demos do not work well on mobile because touchscreen input methods are not supported. If you want to give it a try implementing this, let us know!
+Many Godot demos do not work well on mobile because, even though Godot supports touchscreen methods on mobile fine, they are not recognized in most demos. If you want to give it a try implementing this, let us know!
 
 ### Windows Installer
 
