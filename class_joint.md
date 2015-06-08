@@ -14,6 +14,3 @@
   * [int](class_int)  **[get&#95;solver&#95;priority](#get_solver_priority)**  **(** **)** const
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -29,6 +29,3 @@ Set a list of points in either clockwise or counter clockwise order, forming a c
   * [Vector2Array](class_vector2array)  **get&#95;points**  **(** **)** const
 
 Return a list of points in either clockwise or counter clockwise order, forming a convex polygon.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

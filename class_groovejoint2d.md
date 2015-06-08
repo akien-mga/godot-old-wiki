@@ -35,6 +35,3 @@ Set the initial offset of the groove on body A.
   * [float](class_float)  **get&#95;initial&#95;offset**  **(** **)** const
 
 Set the final offset of the groove on body A.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

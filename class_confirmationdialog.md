@@ -17,6 +17,3 @@ Dialog for confirmation of actions. This dialog inherits from [AcceptDialog](cla
   * [Button](class_button)  **get&#95;cancel**  **(** **)**
 
 Return the cancel button.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

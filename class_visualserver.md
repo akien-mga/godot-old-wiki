@@ -287,6 +287,3 @@ Server for anything visible. The visual server is the API backend for everything
 	The visual server is completely opaque, the internals are entirely implementation specific and cannot be accessed.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

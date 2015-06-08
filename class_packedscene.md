@@ -20,6 +20,3 @@ explain ownership, and that node does not need to own itself
 
 Pack will ignore any sub-nodes not owned by given
 			node. See [Node.set_owner].
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

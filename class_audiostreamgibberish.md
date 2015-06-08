@@ -59,6 +59,3 @@ Set the cross-fade time between random phonemes.
   * [float](class_float)  **get&#95;xfade&#95;time**  **(** **)** const
 
 Return the cross-fade time between random phonemes.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

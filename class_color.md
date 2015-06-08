@@ -74,6 +74,3 @@ Construct the color from an RGBA profile.
   * [Color](class_color)  **Color**  **(** [float](class_float) r, [float](class_float) g, [float](class_float) b  **)**
 
 Construct the color from an RGBA profile.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -47,6 +47,3 @@ Set an expand margin size (from enum MARGIN_*). Parts of the image below the siz
   * [float](class_float)  **get&#95;expand&#95;margin&#95;size**  **(** [int](class_int) arg0  **)** const
 
 Return the expand margin size (from enum MARGIN_*). Parts of the image below the size of the margin (and in the direction of the margin) will not expand.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

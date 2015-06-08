@@ -67,6 +67,3 @@ Return the list of items.
   * [int](class_int)  **get&#95;last&#95;unused&#95;item&#95;id**  **(** **)** const
 
 Get an unused id for a new item.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

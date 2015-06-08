@@ -16,6 +16,3 @@ Room data resource.
 Room contains the data to define the bounds of a scene (using a BSP Tree). It is instanced by a [RoomInstance] node to create rooms. See that class documentation for more information about rooms.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

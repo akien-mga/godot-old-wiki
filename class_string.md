@@ -219,6 +219,3 @@ Perform XML escaping on the string.
   * [String](class_string)  **xml&#95;unescape**  **(** **)**
 
 Perform XML un-escaping of the string.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

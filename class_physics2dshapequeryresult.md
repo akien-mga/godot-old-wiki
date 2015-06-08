@@ -13,6 +13,3 @@
   * [int](class_int)  **[get&#95;result&#95;object&#95;shape](#get_result_object_shape)**  **(** [int](class_int) idx  **)** const
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

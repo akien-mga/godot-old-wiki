@@ -27,6 +27,3 @@ Use a custom solver bias. No need to change this unless you really know what you
   * [float](class_float)  **get&#95;custom&#95;solver&#95;bias**  **(** **)** const
 
 Return the custom solver bias. No need to change this unless you really know what you are doing.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

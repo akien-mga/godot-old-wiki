@@ -78,6 +78,3 @@ Return the gloal transform, relative to worldspace.
   * [Object](class_object)  **get&#95;parent&#95;spatial**  **(** **)** const
 
 Return the parent [Spatial](class_spatial), or an empty [Object](class_object) if no parent exists or parent is not of type [Spatial.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

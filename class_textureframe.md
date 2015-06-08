@@ -17,6 +17,3 @@ Control Frame that draws a texture.
 Control frame that simply draws an assigned texture. It can stretch or not. It's a simple way to just show an image in a UI.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

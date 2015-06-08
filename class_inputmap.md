@@ -22,6 +22,3 @@ Singleton that manages actions.
 Singleton that manages actions. InputMap has a list of the actions used in InputEvent, which can be modified.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

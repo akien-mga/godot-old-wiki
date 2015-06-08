@@ -80,6 +80,3 @@ Return wether the Camera is the current one in the [Viewport](class_viewport), o
   * [Transform](class_transform)  **get&#95;camera&#95;transform**  **(** **)** const
 
 Get the camera transform. Subclassed cameras (such as CharacterCamera) may provide different transforms than the [Node](class_node) transform.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

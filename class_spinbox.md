@@ -43,6 +43,3 @@ Set whether the spinbox is editable.
   * [bool](class_bool)  **is&#95;editable**  **(** **)** const
 
 Return if the spinbox is editable.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

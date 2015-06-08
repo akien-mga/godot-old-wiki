@@ -28,6 +28,3 @@
   * [Vector3Array](class_vector3array)  **[tesselate](#tesselate)**  **(** [int](class_int) max_stages=5, [float](class_float) tolerance_degrees=4  **)** const
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

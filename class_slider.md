@@ -35,6 +35,3 @@ Return true if ticks are visible on borders.
   * void  **set&#95;ticks&#95;on&#95;borders**  **(** [bool](class_bool) ticks_on_border  **)**
 
 Set true if ticks are visible on borders.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

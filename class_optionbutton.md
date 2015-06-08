@@ -99,6 +99,3 @@ Select an item by index and make it the current item.
   * [int](class_int)  **get&#95;selected**  **(** **)** const
 
 Return the current item index
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

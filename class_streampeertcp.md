@@ -23,6 +23,3 @@ TCP Stream peer.
 TCP Stream peer. This object can be used to connect to TCP servers, or also is returned by a tcp server.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

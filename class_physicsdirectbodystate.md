@@ -35,6 +35,3 @@
   * [PhysicsDirectSpaceState](class_physicsdirectspacestate)  **[get&#95;space&#95;state](#get_space_state)**  **(** **)**
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

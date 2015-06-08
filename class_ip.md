@@ -50,6 +50,3 @@ Return a resolved item address, or an empty string if an error happened or resol
   * void  **erase&#95;resolve&#95;item**  **(** [int](class_int) id  **)**
 
 Erase a queue ID, removing it from the queue if needed. This should be used after a queue is completed to free it and enable more queries to happen.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -226,6 +226,3 @@ Set a custom background color. A background color with alpha==0 disables this.
   * void  **clear&#95;colors**  **(** **)**
 
 Clear all the syntax coloring information.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

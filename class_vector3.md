@@ -93,6 +93,3 @@ Return a copy of the normalized vector to unit length. This is the same as v / v
   * [Vector3](class_vector3)  **snapped**  **(** [float](class_float) by  **)**
 
 Return a copy of the vector, snapped to the lowest neared multiple.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

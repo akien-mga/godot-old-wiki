@@ -23,6 +23,3 @@ Set the file to be played.
   * [String](class_string)  **get&#95;file**  **(** **)** const
 
 Return the file being played.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

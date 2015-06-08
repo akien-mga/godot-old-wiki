@@ -72,6 +72,3 @@ Set the range for auto-connecting two portals from different rooms sharing the s
   * [float](class_float)  **get&#95;connect&#95;range**  **(** **)** const
 
 Return the range for auto-connecting two portals from different rooms sharing the same space.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

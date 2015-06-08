@@ -16,6 +16,3 @@
   * [int](class_int)  **[get&#95;v&#95;scroll](#get_v_scroll)**  **(** **)** const
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

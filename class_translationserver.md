@@ -14,6 +14,3 @@ Server that manages all translations. Translations can be set to it and removed 
   * void  **[clear](#clear)**  **(** **)**
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

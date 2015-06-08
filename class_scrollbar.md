@@ -13,6 +13,3 @@ Base class for scroll bars.
 Scrollbars are a [Range](class_range) based [Control](class_control), that display a draggable area (the size of the page). Horizontal ([HScrollBar](class_hscrollbar)) and Vertical ([VScrollBar](class_vscrollbar)) versions are available.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

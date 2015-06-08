@@ -79,6 +79,3 @@ Return the state of the click_on_press property (see [set&#95;click&#95;on&#95;p
   * [int](class_int)  **get&#95;draw&#95;mode**  **(** **)** const
 
 Return the visual state used to draw the button. This is useful mainly when implementing your own draw code by either overiding _draw() or connecting to "draw" signal. The visual state of the button is defined by the DRAW_* enum.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

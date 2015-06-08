@@ -37,6 +37,3 @@ Set the path to the B node for the joint. Must be of type PhysicsBody2D.
   * [NodePath](class_nodepath)  **get&#95;node&#95;b**  **(** **)** const
 
 Return the path to the B node for the joint.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

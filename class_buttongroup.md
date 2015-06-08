@@ -41,6 +41,3 @@ Return the list of all the buttons in the group.
   * void  **set&#95;pressed&#95;button**  **(** [BaseButton](class_basebutton) button  **)**
 
 Set the button to be pressed.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -14,6 +14,3 @@
   * [Object](class_object)  **[get&#95;closest&#95;point&#95;owner](#get_closest_point_owner)**  **(** [Vector2](class_vector2) to_point  **)**
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

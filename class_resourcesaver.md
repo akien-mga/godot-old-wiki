@@ -31,6 +31,3 @@ Save a resource to disk, to a given path.
   * [StringArray](class_stringarray)  **get&#95;recognized&#95;extensions**  **(** [Object](class_object) type  **)**
 
 Return the list of extensions available for saving a resource of a given type.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

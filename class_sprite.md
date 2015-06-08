@@ -146,6 +146,3 @@ Set color modulation for the sprite. All sprite pixels are multiplied by this co
   * [Color](class_color)  **get&#95;modulate**  **(** **)** const
 
 Return color modulation for the sprite. All sprite pixels are multiplied by this color.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

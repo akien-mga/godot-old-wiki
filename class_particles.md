@@ -159,6 +159,3 @@ Set the material used to draw particles
   * [Material](class_material)  **get&#95;material**  **(** **)** const
 
 Return the material used to draw particles
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

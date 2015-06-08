@@ -68,6 +68,3 @@ Set the line width for geometry drawn with FLAG_WIREFRAME enabled, or LINE primi
   * [float](class_float)  **get&#95;line&#95;width**  **(** **)** const
 
 Return the line width for geometry drawn with FLAG_WIREFRAME enabled, or LINE primitives. Note that not all hardware or VisualServer backends support this (like DirectX).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

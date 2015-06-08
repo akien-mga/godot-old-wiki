@@ -13,6 +13,3 @@ Convex Polygon Shape
 Convex polygon shape resource, which can be set into a [PhysicsBody](class_physicsbody) or area.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

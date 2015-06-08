@@ -466,5 +466,3 @@ Global scope constants and variables.
 ###  Description  
 Global scope constants and variables. This is all that resides in the globals, constants regarding error codes, scancodes, property hints, etc. It's not much.
         Singletons are also documented here, since they can be accessed from anywhere.
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

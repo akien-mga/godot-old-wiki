@@ -35,6 +35,3 @@
   * [float](class_float)  **[get&#95;channel&#95;last&#95;note&#95;time](#get_channel_last_note_time)**  **(** [int](class_int) arg0  **)** const
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

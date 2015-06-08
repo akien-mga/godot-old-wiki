@@ -108,6 +108,3 @@ Set a [Material](class_material) for a given surface. Surface will be rendered u
   * [Material](class_material)  **surface&#95;get&#95;material**  **(** [int](class_int) surf_idx  **)** const
 
 Return a [Material](class_material) in a given surface. Surface is rendered using this material.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

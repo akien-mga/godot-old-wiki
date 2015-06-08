@@ -19,6 +19,3 @@
   * void  **[seek&#95;pos](#seek_pos)**  **(** [float](class_float) time  **)**
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

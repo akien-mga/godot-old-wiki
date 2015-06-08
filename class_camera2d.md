@@ -105,6 +105,3 @@ Return the camera position.
   * void  **force&#95;update&#95;scroll**  **(** **)**
 
 Force the camera to update scroll immediately.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

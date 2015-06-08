@@ -278,6 +278,3 @@ Return the max amount of static memory used (only works in debug).
   * [int](class_int)  **get&#95;dynamic&#95;memory&#95;usage**  **(** **)** const
 
 Return the total amount of dynamic memory used (only works in debug).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

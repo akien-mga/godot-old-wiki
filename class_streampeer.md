@@ -35,6 +35,3 @@ Return a chunk data with the received bytes. The amount of bytes to be received 
   * [Array](class_array)  **get&#95;partial&#95;data**  **(** [int](class_int) bytes  **)**
 
 Return a chunk data with the received bytes. The amount of bytes to be received can be requested in the "bytes" argument. If not enough bytes are available, the function will return how many were actually received. This function returns two values, an [Error] code, and a data array.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

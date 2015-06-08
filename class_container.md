@@ -30,6 +30,3 @@ Queue resort of the contained children. This is called automatically anyway, but
   * void  **fit&#95;child&#95;in&#95;rect**  **(** [Control](class_control) child, [Rect2](class_rect2) rect  **)**
 
 Fit a child control in a given rect. This is mainly a helper for creating custom container classes.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

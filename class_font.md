@@ -99,6 +99,3 @@ Draw "string" into a canvas item using the font at a given "pos" position, with 
   * [float](class_float)  **draw&#95;char**  **(** [RID](class_rid) canvas_item, [Vector2](class_vector2) pos, [int](class_int) char, [int](class_int) next=-1, [Color](class_color) modulate=Color(1,1,1,1)  **)** const
 
 Draw character "char" into a canvas item using the font at a given "pos" position, with "modulate" color, and optionally kerning if "next" is apassed. clipping the width. "pos" specifies te baseline, not the top. To draw from the top, _ascent_ must be added to the Y axis. The width used by the character is returned, making this function useful for drawing strings character by character.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

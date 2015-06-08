@@ -106,6 +106,3 @@ Find an empty id for creating a new tile.
   * [int](class_int)  **find&#95;tile&#95;by&#95;name**  **(** [String](class_string) name  **)** const
 
 Find the first tile with the given name.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

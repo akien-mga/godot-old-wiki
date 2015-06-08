@@ -94,6 +94,3 @@ Set the _secret_ status of the [LineEdit](class_lineedit). When enabled, every c
   * [bool](class_bool)  **is&#95;secret**  **(** **)** const
 
 Return the _secret_ status of the [LineEdit](class_lineedit) (see [set&#95;secret](#set_secret)).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

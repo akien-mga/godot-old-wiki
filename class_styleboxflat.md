@@ -23,6 +23,3 @@ Stylebox of a single color.
 Stylebox of a single color. Displays the stylebox of a single color, alternatively a border with light/dark colors can be assigned.
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

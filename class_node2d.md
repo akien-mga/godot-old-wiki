@@ -72,6 +72,3 @@ Return the scale of the 2D node.
   * [Vector2](class_vector2)  **get&#95;global&#95;pos**  **(** **)** const
 
 Return the global position of the 2D node.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -35,6 +35,3 @@ Height of the [CapsuleShape2D](class_capsuleshape2d).
   * [float](class_float)  **get&#95;height**  **(** **)** const
 
 Return the height of the [CapsuleShape2D](class_capsuleshape2d).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

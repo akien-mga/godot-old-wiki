@@ -223,6 +223,3 @@ Return wether the animation has the loop flag set.
   * void  **clear**  **(** **)**
 
 Clear the animation (clear all tracks and reset all).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

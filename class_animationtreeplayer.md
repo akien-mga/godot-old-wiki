@@ -123,6 +123,3 @@ Return the input source for a given node input.
   * void  **animation&#95;node&#95;set&#95;animation**  **(** [String](class_string) id, [Animation](class_animation) animation  **)**
 
 Set the animation for an animation node.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

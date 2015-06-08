@@ -12,6 +12,3 @@
   * void  **[get&#95;shader&#95;param](#get_shader_param)**  **(** [String](class_string) param  **)** const
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

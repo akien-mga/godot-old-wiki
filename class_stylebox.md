@@ -49,6 +49,3 @@ Return the minimum size that this stylebox can be shrunk to.
   * [Vector2](class_vector2)  **get&#95;offset**  **(** **)** const
 
 Return the "offset" of a stylebox, this is a helper function, like writing Point2( style.get_margin(MARGIN_LEFT), style.get_margin(MARGIN_TOP) )
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

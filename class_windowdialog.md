@@ -29,6 +29,3 @@ Return the title of the window.
   * [TextureButton](class_texturebutton)  **get&#95;close&#95;button**  **(** **)**
 
 Return the close [TextureButton](class_texturebutton).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

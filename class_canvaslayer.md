@@ -83,6 +83,3 @@ Return the [World2D](class_world2d) used by this layer.
   * [RID](class_rid)  **get&#95;viewport**  **(** **)** const
 
 Return the viewport RID for this layer.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

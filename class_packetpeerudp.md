@@ -16,6 +16,3 @@
   * [int](class_int)  **[set&#95;send&#95;address](#set_send_address)**  **(** [String](class_string) host, [int](class_int) port  **)**
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

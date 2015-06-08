@@ -107,6 +107,3 @@ Create a matrix from an axis vector and an angle.
   * [Matrix3](class_matrix3)  **Matrix3**  **(** [Quat](class_quat) from  **)**
 
 Create a matrix from a quaternion.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

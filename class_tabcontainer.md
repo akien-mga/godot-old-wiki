@@ -77,6 +77,3 @@ Return the title for the tab. Tab titles are by default the children node name, 
   * void  **set&#95;tab&#95;icon**  **(** [int](class_int) tab_idx, [Texture](class_texture) icon  **)**
 
 Set an icon for a tab.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

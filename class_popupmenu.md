@@ -134,6 +134,3 @@ Add a separator between items. Separators also occupy an index.
   * void  **clear**  **(** **)**
 
 Clear the popup menu.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

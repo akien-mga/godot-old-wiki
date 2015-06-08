@@ -45,6 +45,3 @@ Return if this input event is an echo event (usually for key events).
   * [bool](class_bool)  **is&#95;pressed**  **(** **)**
 
 Return if this input event is pressed (for key, mouse, joy button or screen press events).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -23,6 +23,3 @@ Set the radius of the circle shape;
   * [float](class_float)  **get&#95;radius**  **(** **)** const
 
 Return the radius of the circle shape.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

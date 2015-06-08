@@ -38,6 +38,3 @@ Return the AABB of the mesh, in local coordinates.
   * void  **create&#95;trimesh&#95;collision**  **(** **)**
 
 This helper creates a [StaticBody](class_staticbody) child [Node](class_node) using the mesh geometry as collision. It"apos;s mainly used for testing.
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

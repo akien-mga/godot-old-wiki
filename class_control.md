@@ -384,6 +384,3 @@ Ignore mouse events on this control (even touchpad events send mouse events).
   * [bool](class_bool)  **is&#95;ignoring&#95;mouse**  **(** **)** const
 
 Return if the control is ignoring mouse events (even touchpad events send mouse events).
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

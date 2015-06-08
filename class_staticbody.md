@@ -19,6 +19,3 @@ PhysicsBody for static collision objects.
 StaticBody implements a static collision [Node](class_node), by utilizing a rigid body in the [PhysicsServer](class_physicsserver). Static bodies are used for static collision. For more information on physics body nodes, see [PhysicsBody](class_physicsbody).
 
 ###  Member Function Description  
-
-
-(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.
