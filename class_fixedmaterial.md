@@ -84,3 +84,6 @@ Sets a special transform used to post-transform UV coordinates of the uv_xfrom t
   * [Transform](class_transform)  **get&#95;uv&#95;transform**  **(** **)** const
 
 Returns the special transform used to post-transform UV coordinates of the uv_xfrom tecoord mode: TEXCOORD_UV_TRANSFORM
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

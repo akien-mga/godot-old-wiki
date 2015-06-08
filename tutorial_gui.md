@@ -94,3 +94,6 @@ The rest of the controls (and there are dozens of them!) are meant for another s
 *  Creating Godot Editor Plugins, to extend the engine functionality.
 
 Re-positioning controls for these kind of interfaces is more commonly done with containers (see the [Size and Anchors](tutorial_gui_repositioning) tutorial for more info).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

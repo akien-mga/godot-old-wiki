@@ -167,3 +167,6 @@ types of referenced data.
 
 #####References:
 * [core/rid.h](https://github.com/okamstudio/godot/blob/master/core/rid.h)
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

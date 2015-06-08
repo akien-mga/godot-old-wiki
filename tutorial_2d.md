@@ -166,3 +166,6 @@ And that's it! a simple Pong was written with a few lines of code.
 
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

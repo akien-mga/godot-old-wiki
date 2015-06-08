@@ -31,3 +31,6 @@ Finally, the node "copyright" is a [Label](class_label). Labels can be set a cus
 As a side note, the font was imported from a TTF, there is a [specific tutorial](import_fonts) for importing fonts.
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

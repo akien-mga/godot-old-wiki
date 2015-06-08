@@ -58,3 +58,6 @@ Ambient light can be found in the properties of a WorldEnvironment (remember onl
 ## Baked Light
 
 Baked Light stands for pre-computed ambient light. It can serve multiple purposes, such as baking light emissors that are not going to be used in real-time, and baking light bounces from real-time lights to add more realism to a scene (see [Baked Light](tutorial_baked_light) tutorial for more information).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

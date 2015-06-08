@@ -46,3 +46,6 @@ Return the array size.
   * [IntArray](class_intarray)  **IntArray**  **(** [Array](class_array) from  **)**
 
 Create from a generic array.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

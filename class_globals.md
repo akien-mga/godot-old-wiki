@@ -63,3 +63,6 @@ Convert a path to a localized path (res:// path).
   * [String](class_string)  **globalize&#95;path**  **(** [String](class_string) path  **)** const
 
 Convert a localized path (res://) to a full native OS path.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

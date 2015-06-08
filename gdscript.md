@@ -687,3 +687,5 @@ yield( get_node("AnimationPlayer"), "finished" )
 ```
 
  --- //[Juan Linietsky](reduzio@gmail.com) 2013/11/10 18:09//
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

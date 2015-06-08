@@ -36,3 +36,6 @@ Return the load stage. The total amount of stages can be queried with [get_stage
   * [int](class_int)  **get&#95;stage&#95;count**  **(** **)** const
 
 Return the total amount of stages (calls to [poll] ) needed to completely load this resource.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

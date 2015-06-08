@@ -193,3 +193,6 @@ Set the body ability to fall asleep when not moving. This saves an enormous amou
   * [bool](class_bool)  **is&#95;able&#95;to&#95;sleep**  **(** **)** const
 
 Return true if the body has the ability to fall asleep when not moving. See [set_can_sleep].
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

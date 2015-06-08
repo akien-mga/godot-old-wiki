@@ -29,3 +29,6 @@ Replace or add your executable to the Xcode project, and change the "executable 
 
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

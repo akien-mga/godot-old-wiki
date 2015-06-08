@@ -107,3 +107,6 @@ If no engine.cfg exists at the path, current path is assumed to be the current w
 
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

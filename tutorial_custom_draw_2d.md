@@ -76,3 +76,6 @@ Drawing your own nodes might also be desired while running them in the editor, t
 Remember to just use the "tool" keyword at the top of the script (check the [GDScript](gdscript) reference if you forgot what this does).
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -104,3 +104,6 @@ Change the color modulation (multiplication) for this sprite.
   * [Color](class_color)  **get&#95;modulate**  **(** **)** const
 
 Return the color modulation for this sprite.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

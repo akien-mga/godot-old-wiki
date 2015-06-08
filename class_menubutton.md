@@ -20,3 +20,6 @@ Special button that brings up a [PopupMenu](class_popupmenu) when clicked. That'
   * [Object](class_object)  **get&#95;popup**  **(** **)**
 
 Return the [PopupMenu](class_popupmenu) contained in this button.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

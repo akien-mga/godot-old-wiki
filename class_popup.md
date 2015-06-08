@@ -40,3 +40,6 @@ Popup (show the control in modal form) in the center of the screen, scalled at a
   * void  **popup**  **(** **)**
 
 Popup (show the control in modal form).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

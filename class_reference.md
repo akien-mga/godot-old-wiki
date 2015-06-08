@@ -24,3 +24,6 @@ Increase the internal reference counter. Use this only if you really know what y
   * [bool](class_bool)  **unreference**  **(** **)**
 
 Decrease the internal reference counter. Use this only if you really know what you are doing.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -13,3 +13,6 @@ Keeps children controls centered.
 CenterContainer Keeps children controls centered. This container keeps all children to their minimum size, in the center.
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

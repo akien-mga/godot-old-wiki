@@ -73,3 +73,6 @@ Set to true if selecting the text inside this richtext is allowed.
   * [bool](class_bool)  **is&#95;selection&#95;enabled**  **(** **)** const
 
 Return true if selecting the text inside this richtext is allowed.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

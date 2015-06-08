@@ -63,3 +63,6 @@ Set the built-in label text.
   * [String](class_string)  **get&#95;text**  **(** **)** const
 
 Return the built-in label text.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

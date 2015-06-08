@@ -16,3 +16,6 @@
   * [Rect2](class_rect2)  **[get&#95;bounds](#get_bounds)**  **(** **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

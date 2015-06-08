@@ -43,3 +43,6 @@ The import dialog also can add the translation to the list of translations to lo
 
  --- //[Juan Linietsky](reduzio@gmail.com) 2013/11/10 21:42//
  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

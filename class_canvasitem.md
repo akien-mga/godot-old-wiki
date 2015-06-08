@@ -225,3 +225,6 @@ Draw a string character using a custom font. Returns the advance, depending on t
   * void  **draw&#95;set&#95;transform**  **(** [Vector2](class_vector2) pos, [float](class_float) rot, [Vector2](class_vector2) scale  **)**
 
 Set a custom transform for drawing. Anything drawn afterwards will be transformed by this.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

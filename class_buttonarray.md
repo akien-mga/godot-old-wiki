@@ -83,3 +83,6 @@ Remove a button in the array, by index.
   * void  **clear**  **(** **)**
 
 Clear the button array.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

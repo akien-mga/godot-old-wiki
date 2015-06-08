@@ -47,3 +47,5 @@ Input methods for complex non-latin character sets such as Chinese, Japanese or 
 ### Keyboard Layout Mapping
 
 Godot is missing keyboard layout tables to remap the scancodes, this makes working in some keyboard layouts a little inconvenient. Again, if you are familiar with these layouts, please lend us a hand.
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

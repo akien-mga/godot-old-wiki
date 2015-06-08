@@ -14,3 +14,6 @@
   * [bool](class_bool)  **[is&#95;using&#95;color&#95;array](#is_using_color_array)**  **(** **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

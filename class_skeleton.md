@@ -103,3 +103,6 @@ Return the pose transform for bone "bone_idx".
   * void  **set&#95;bone&#95;pose**  **(** [int](class_int) bone_idx, [Transform](class_transform) pose  **)**
 
 Return the pose transform for bone "bone_idx".
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

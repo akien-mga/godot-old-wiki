@@ -29,3 +29,6 @@ Button that can be themed with textures. This is like a regular [Button](class_b
 	Only the normal texture is required, the others are optional.
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

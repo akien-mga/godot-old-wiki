@@ -76,3 +76,6 @@ Set the file dialog mode from the MODE_* enum.
   * [int](class_int)  **get&#95;mode**  **(** **)** const
 
 Get the file dialog mode from the MODE_* enum.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

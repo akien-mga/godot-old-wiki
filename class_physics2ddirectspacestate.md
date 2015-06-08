@@ -52,3 +52,6 @@ Intersect a ray in a given space, the returned object is a dictionary with the f
   * [Array](class_array)  **intersect&#95;shape**  **(** [Physics2DShapeQueryParameters](class_physics2dshapequeryparameters) shape, [int](class_int) max_results=32  **)**
 
 Intersect a given shape (RID or [Shape2D](class_shape2d)) against the space, the intersected shapes are returned in a special result object.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

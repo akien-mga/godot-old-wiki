@@ -304,3 +304,6 @@ Offset | Len | Type | Description
 8..12+length*16|4|Float| Green (0..1)
 8..16+length*16|4|Float| Blue (0..1)
 8..20+length*16|4|Float| Alpha (0..1)
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -192,3 +192,6 @@ Return the current reverb room type for a given voice (see REVERB_* enum).
   * [float](class_float)  **get&#95;reverb**  **(** [int](class_int) voice  **)** const
 
 Return the current reverb send level for a given voice. (0 to 1).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

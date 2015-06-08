@@ -59,3 +59,6 @@ This is a tricky but very useful setting. By default, opaque objects are drawn u
 
 <p align="center"><img src="images/material_depth_draw.png"></p>
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

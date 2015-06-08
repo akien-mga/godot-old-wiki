@@ -50,3 +50,6 @@ Godot supports looping in the samples (Tools such as Sound Forge or Audition can
 As an alternative, the import screen has a "loop" option that enables looping for the entire sample when importing.
 
  --- //[Juan Linietsky](reduzio@gmail.com) 2013/11/10 18:13//
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

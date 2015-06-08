@@ -70,3 +70,6 @@ Remove the shape in the given index.
   * void  **clear&#95;shapes**  **(** **)**
 
 Remove all shapes.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

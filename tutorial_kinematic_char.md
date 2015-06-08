@@ -172,3 +172,6 @@ the new direction too.
 The normal can also be used to detect that the character is on floor, by checking the angle. If the normal points up (or at least, within a certain threshold), the character can be determined to be there.
 
 A more complete demo can be found in the demo zip distributed with the engine, or in the [demo folder](https://github.com/okamstudio/godot/tree/master/demos/2d/kinematic_char).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

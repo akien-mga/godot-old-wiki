@@ -42,3 +42,6 @@ Return the constant linear velocity for the body.
   * [float](class_float)  **get&#95;constant&#95;angular&#95;velocity**  **(** **)** const
 
 Return the constant angular velocity for the body.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

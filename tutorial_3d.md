@@ -124,3 +124,5 @@ When dealing with multiple cameras, the following rules are followed for each vi
 There is no limitation on the number of lights and types in Godot. As many as desired can be added (as long as performance allows). Shadow maps are, however, limited. The more they are used, the less the quality overall.
 
 It is possible to [bake lighting](tutorial_light_baking), to avoid using large amount of real-time lights and improve performance.
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

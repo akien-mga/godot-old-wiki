@@ -7,3 +7,6 @@ Editor-Only class.
 
 ###  Description  
 Editor-Only class. This is not present when running the game. It's used in the editor to properly edit and position collision shapes in [CollisionObject2D](class_collisionobject2d). This is not accessible from regular code.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

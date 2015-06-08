@@ -130,3 +130,6 @@ As a side note, for future reference and a little out of context (this is the fi
 
 This tutorial talks about "Scene**s** and Node**s**", but so far there has been only **one** scene and **one** node! Don't worry, the next tutorial will deal with that...
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

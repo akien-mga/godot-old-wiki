@@ -30,3 +30,6 @@ Everywhere in the world there are many places were talks about a free and open g
 
 Likewise, materials for teaching how to make videogames using Godot (slides, examples, evaluation guidelines, etc) in various languages should be created and made available to anyone who would want to do this at their local city.
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

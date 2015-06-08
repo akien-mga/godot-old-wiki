@@ -10,3 +10,6 @@
   * [NodePath](class_nodepath)  **[get&#95;remote&#95;node](#get_remote_node)**  **(** **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

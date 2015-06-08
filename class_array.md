@@ -107,3 +107,6 @@ Construct an array from a [RawArray](class_rawarray).
   * [Array](class_array)  **Array**  **(** [ColorArray](class_colorarray) from  **)**
 
 Construct an array from a [RawArray](class_rawarray).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

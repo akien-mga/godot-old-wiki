@@ -47,3 +47,6 @@ Return the resource given a text-id.
   * [StringArray](class_stringarray)  **get&#95;resource&#95;list**  **(** **)** const
 
 Return the list of resources inside the preloader.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

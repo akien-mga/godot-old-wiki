@@ -197,3 +197,5 @@ But this is not all, depending what you do, you will be greeted with some surpri
 * If you inherit from [Node](class_node) (or any derived node type, such as Sprite), your new class will appear in the editor, in the inheritance tree in the "Add Node" dialog.
 * If you inherit from [Resource](class_resource), it will appear int the resource list, and all the exposed properties can be serialized when saved/loaded.
 * By this same logic, you can extend the Editor and almost any area of the engine. 
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

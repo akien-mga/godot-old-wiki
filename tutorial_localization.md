@@ -58,3 +58,6 @@ The project name becomes the app name when exporting to different operating syst
 <p align="center"><img src="images/localized_name.png"></p>
 
 As always, If you don't know the code of a language or zone, [check the list](locales).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -23,3 +23,6 @@ Set the [MultiMesh](class_multimesh) to be instance.
   * [Object](class_object)  **get&#95;multimesh**  **(** **)** const
 
 Return the [MultiMesh](class_multimesh) that is used for instancing.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

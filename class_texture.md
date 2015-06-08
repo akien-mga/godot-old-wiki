@@ -60,3 +60,6 @@ Change the texture flags.
   * [int](class_int)  **get&#95;flags**  **(** **)** const
 
 Return the current texture flags.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

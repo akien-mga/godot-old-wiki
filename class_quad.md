@@ -16,3 +16,6 @@
   * [Vector2](class_vector2)  **[get&#95;offset](#get_offset)**  **(** **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

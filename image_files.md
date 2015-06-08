@@ -62,3 +62,6 @@ More information on the [Texture Import](import_textures) page.
 It is also possible to convert images to other formats (WebP or RAM compression) on export, as well as instructing the exporter to create an Atlas for a set of images. It is also possible to ask the exporter to scale all images (or selected groups).
 
 More information on the [Image Export](export_images) page.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

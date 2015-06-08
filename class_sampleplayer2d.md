@@ -77,3 +77,6 @@ Stop a given voice.
   * void  **stop&#95;all**  **(** **)**
 
 Stop all playing voices.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

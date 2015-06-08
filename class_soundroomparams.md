@@ -14,3 +14,6 @@
   * [bool](class_bool)  **[is&#95;forcing&#95;params&#95;to&#95;all&#95;sources](#is_forcing_params_to_all_sources)**  **(** **)**
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

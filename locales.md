@@ -157,3 +157,6 @@ This is the list of supported locales and variants in the engine. It's based on 
 | zh_HK    | Chinese (Hong Kong)              | 
 | zh_SG    | Chinese (Singapore)              | 
 | zh_TW    | Chinese (Taiwan)                 | 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

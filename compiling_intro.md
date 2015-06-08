@@ -157,3 +157,6 @@ To create those yourself, just follow the instructions detailed for each platfor
 If you are working for multiple platforms, OSX is definitely the best host platform for cross compilation, since you can cross-compile for almost every target (except for winrt). Linux and Windows come in second place, but Linux has the advantage of being the easier platform to set this up.
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

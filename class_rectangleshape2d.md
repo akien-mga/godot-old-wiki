@@ -23,3 +23,6 @@ Set the half extents, the actual width and height of this shape is twice the hal
   * [Vector2](class_vector2)  **get&#95;extents**  **(** **)** const
 
 Return the half extents, the actual width and height of this shape is twice the half extents.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

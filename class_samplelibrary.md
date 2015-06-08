@@ -39,3 +39,6 @@ Return true if the sample text id exists in the library.
   * void  **remove&#95;sample**  **(** [String](class_string) name  **)**
 
 Remove a sample given a specific text id.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

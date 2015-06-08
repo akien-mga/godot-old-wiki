@@ -37,3 +37,6 @@ On XCode, click on your app name (top left, next to the "Stop" button), and sele
 ![](images/edit_scheme.png)
 
 When you run, your device will connect to the host and open the files remotely. Note that the directory with the game data ("platformer") is no longer added to the project, only the engine executable.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -32,3 +32,6 @@ Mesh resources (what this importer imports) are used inside MeshInstance nodes. 
 
 And that is it.
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -95,3 +95,6 @@ Creates a plane from three points.
   * [Plane](class_plane)  **Plane**  **(** [Vector3](class_vector3) normal, [float](class_float) d  **)**
 
 Creates a plane from the normal and the plane's distance to the origin.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

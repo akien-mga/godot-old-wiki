@@ -13,3 +13,6 @@
   * void  **[import&#95;dialog](#import_dialog)**  **(** [String](class_string) from  **)** virtual
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

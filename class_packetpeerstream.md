@@ -17,3 +17,6 @@ PacketStreamPeer provides a wrapper for working using packets over a stream. Thi
   * void  **set&#95;stream&#95;peer**  **(** [StreamPeer](class_streampeer) peer  **)**
 
 Set the StreamPeer object to be wrapped
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

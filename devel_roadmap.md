@@ -57,3 +57,5 @@ However, we'll try to do more point releases inbetween.
 
 * Add optional typing to GDScript
 * Ideas?
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

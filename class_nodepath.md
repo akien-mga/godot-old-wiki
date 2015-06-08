@@ -54,3 +54,6 @@ Return true if the node path is absolute (not relative).
   * [bool](class_bool)  **is&#95;empty**  **(** **)**
 
 Return true if the node path is empty.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -42,3 +42,6 @@ Finally, go back and edit the material, and the exported uniform will be instant
 
 This allows to very quickly create custom, complex materials for every type of object.
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

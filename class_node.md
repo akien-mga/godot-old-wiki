@@ -345,3 +345,6 @@ Return a duplicate of the scene, with all nodes and parameters copied. Subscript
   * void  **replace&#95;by**  **(** [Node](class_node) node, [bool](class_bool) keep_data=false  **)**
 
 Replace a node in a scene by a given one. Subscriptions that pass through this node will be lost.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

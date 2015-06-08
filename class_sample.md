@@ -103,3 +103,6 @@ Set the loop end position, it must be a valid frame and greater than the loop be
   * [int](class_int)  **get&#95;loop&#95;end**  **(** **)** const
 
 Return the loop begin position.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

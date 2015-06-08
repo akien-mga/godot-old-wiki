@@ -37,3 +37,6 @@ Set if the split must be collapsed.
   * [bool](class_bool)  **is&#95;collapsed**  **(** **)** const
 
 Return if the split is collapsed;
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

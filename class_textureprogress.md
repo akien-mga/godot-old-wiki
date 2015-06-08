@@ -17,3 +17,6 @@ Textured progress bar implementation.
 [ProgressBar](class_progressbar) implementation that is easier to theme (by just passing a few textures).
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

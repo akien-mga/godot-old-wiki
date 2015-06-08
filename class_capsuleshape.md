@@ -35,3 +35,6 @@ Set the capsule height.
   * [float](class_float)  **get&#95;height**  **(** **)** const
 
 Return the capsule height.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

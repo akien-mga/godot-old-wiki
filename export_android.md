@@ -42,3 +42,6 @@ In that screen, the path to 3 files needs to be set:
 
 Once that is configured, everything is ready to export to Android!
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

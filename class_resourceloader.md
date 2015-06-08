@@ -32,3 +32,6 @@ Return the list of recognized extensions for a resource type.
   * void  **set&#95;abort&#95;on&#95;missing&#95;resources**  **(** [bool](class_bool) abort  **)**
 
 Change the behavior on missing sub-resources. Default is to abort load.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

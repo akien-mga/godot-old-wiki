@@ -18,3 +18,6 @@
   * void  **[remove&#95;collision&#95;exception&#95;with](#remove_collision_exception_with)**  **(** [PhysicsBody2D](class_physicsbody2d) body  **)**
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

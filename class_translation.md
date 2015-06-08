@@ -48,3 +48,6 @@ Erase a message.
   * [StringArray](class_stringarray)  **get&#95;message&#95;list**  **(** **)** const
 
 Return all the messages (keys).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

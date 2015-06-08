@@ -111,3 +111,6 @@ If this viewport is a child of another viewport, keep the previously drawn backg
   * [RID](class_rid)  **get&#95;viewport**  **(** **)** const
 
 Get the viewport RID from the visual server.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

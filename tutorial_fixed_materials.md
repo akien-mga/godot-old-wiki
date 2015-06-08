@@ -101,3 +101,6 @@ Almost all of the parameters above can have a texture assigned to them. There ar
 * **Sphere**: Spherical coordinates (difference of the normal at the pixel by the camera normal).
 
 The value of every pixel of the texture is multiplied by the original parameter. This means that if a texture is loaded for diffuse, it will be multiplied by the color of the diffuse color parameter. Same applies to all the others except for specular exponent, which is replaced.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

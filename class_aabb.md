@@ -148,3 +148,6 @@ Combine this [AABB](class_aabb) with another one, a larger one
   * [AABB](class_aabb)  **AABB**  **(** [Vector3](class_vector3) pos, [Vector3](class_vector3) size  **)**
 
 Optional constructor, accepts position and size.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

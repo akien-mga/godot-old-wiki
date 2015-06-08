@@ -16,3 +16,6 @@
   * [Texture](class_texture)  **[get&#95;piece&#95;texture](#get_piece_texture)**  **(** [int](class_int) idx  **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

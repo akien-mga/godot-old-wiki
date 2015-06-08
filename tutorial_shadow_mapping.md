@@ -100,3 +100,6 @@ ESM is a more complex filter and has a few more tweaking parameters. ESM uses sh
 
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

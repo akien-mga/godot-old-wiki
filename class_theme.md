@@ -42,3 +42,6 @@ Theme for skinning controls. Controls can be skinned individually, but for compl
 	Theme resources can be alternatively loaded by writing them in a .theme file, see wiki for more info.
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

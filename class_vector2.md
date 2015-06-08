@@ -63,3 +63,6 @@ Returns the result of the linear interpolation between this vector and "b", by a
   * [Vector2](class_vector2)  **normalized**  **(** **)**
 
 Returns a normalized vector to unit length.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

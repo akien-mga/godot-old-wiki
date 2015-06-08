@@ -83,3 +83,6 @@ Return the type of update that the stream uses. Some"#10;"#9;"#9;"#9;types of st
   * void  **update**  **(** **)**
 
 Manually poll the audio stream (if it is requested"#10;"#9;"#9;"#9;to).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

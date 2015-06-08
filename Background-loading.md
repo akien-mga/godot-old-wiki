@@ -220,3 +220,6 @@ queue.cancel_resource("res://zone_2.xml")
 ```
 
 **Note**: this code in its current form is not tested in real world scenarios. Find me on IRC (punto on irc.freenode.net) or e-mail me (punto@okamstudio.com) for help.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

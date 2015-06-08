@@ -18,3 +18,6 @@
   *  **connection&#95;request**  **(** [String](class_string) from, [int](class_int) from_slot, [String](class_string) to, [int](class_int) to_slot  **)**
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

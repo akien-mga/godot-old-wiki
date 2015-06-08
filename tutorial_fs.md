@@ -59,3 +59,6 @@ The second is that under Windows or OSX, file access is case insensitive. If a d
 
 Because of this, please instruct your team to use a specific naming convention for files when working with Godot!
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

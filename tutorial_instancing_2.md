@@ -39,3 +39,6 @@ Do not worry to much, the important part of this tutorial is to create awareness
 
 Everything will become very obvious when put to practice, so, please do not scratch your head and go on to the next tutorial!
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

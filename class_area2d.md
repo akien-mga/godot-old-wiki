@@ -62,3 +62,6 @@ Return if gravity is a point. When overriding space parameters, areas can have a
   * void  **set&#95;gravity&#95;vector**  **(** [Vector2](class_vector2) vector  **)**
 
 Set gravity vector. If gravity is a point, this will be the attraction center
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

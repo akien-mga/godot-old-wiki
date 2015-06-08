@@ -35,3 +35,6 @@ Set the line distance from the origin.
   * [float](class_float)  **get&#95;d**  **(** **)** const
 
 Return the line distance from the origin.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

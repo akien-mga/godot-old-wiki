@@ -163,3 +163,5 @@ And, also, try to remember that nodes are referenced by name, not by type.
 
 
  --- //[Juan Linietsky](reduzio@gmail.com) 2013/12/08 07:54//
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

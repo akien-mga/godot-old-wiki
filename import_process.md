@@ -87,3 +87,6 @@ This screen allows the user to re-open the corresponding import-window to re-imp
 
  --- //[Juan Linietsky](reduzio@gmail.com) 2013/11/10 18:11//
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

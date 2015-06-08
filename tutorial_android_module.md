@@ -274,3 +274,6 @@ class = JavaClassWrapper.wrap(<javaclass as text>)
 ```
 
 This is most likely not functional yet, if you want to test it and help us make it work, contact us through the [developer mailing list](https://groups.google.com/forum/#!forum/godot-engine).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

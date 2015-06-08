@@ -23,3 +23,6 @@ Tabs Control.
 Simple tabs control, similar to [TabContainer](class_tabcontainer) but is only in charge of drawing tabs, not interact with children.
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

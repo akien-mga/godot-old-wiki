@@ -621,3 +621,6 @@ if (overlapping):
 This was all! Hope it was helpful, and please give feedback and let know if something in this tutorial is not clear! You should be now ready for the next challenge.. [Matrices and Transforms](tutorial_transforms)!
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

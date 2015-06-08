@@ -155,3 +155,6 @@ If the application runs but exits immediately, there might be one of the followi
 In any case, "adb logcat" should also show the cause of the error. 
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

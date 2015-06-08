@@ -18,3 +18,6 @@
   * [Vector3](class_vector3)  **[get&#95;up&#95;vector](#get_up_vector)**  **(** **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

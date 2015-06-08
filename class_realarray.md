@@ -16,3 +16,6 @@ Real Array .
 Real Array. Array of floating point values. Can only contain floats. Optimized for memory usage, cant fragment the memory.
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

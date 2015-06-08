@@ -285,3 +285,6 @@ Set global scale for stream playback. Default is 1.0.
   * [float](class_float)  **get&#95;stream&#95;global&#95;volume&#95;scale**  **(** **)** const
 
 Return the global scale for stream playback.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

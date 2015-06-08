@@ -218,3 +218,6 @@ deprecated, will go away.
   * [String](class_string)  **tr**  **(** [String](class_string) message  **)** const
 
 Translate a message. Only works in message translation is enabled (which is by default). See [set&#95;message&#95;translation](#set_message_translation).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

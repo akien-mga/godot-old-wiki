@@ -67,3 +67,6 @@ And finally, when running the scene, the animation should look like this:
 
 <p align="center"><img src="images/out.gif"></p>
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

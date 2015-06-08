@@ -40,3 +40,5 @@ What kind of AI APIS are the most useful in the industry? Help defining this wou
 ### Windows Phone / Windows 8
 
 The current "winrt" platform is mostly ready, but needs a couple of key features to become a proper "first class citizen" supported platform. On the code side, the main one is an Audio driver, and a few minor issues with the threading classes (Thread is implemented using std::thread, we'd prefer using native winrt APIs, semaphores are not implemented). There's also the usual "app lifecycle" stuff missing (dealing with screen rotation, events like focus lost, back button, etc), and keyboard input (and possibly dealing with the on-screen keyboard). On the "workflow" side, we need to add "one click deploy" from the editor, which means packaging the app and launching it to a connected device (or launching as a "windows store app" from a local directory on the local machine), and eventually packaging for submission to Windows Store.
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

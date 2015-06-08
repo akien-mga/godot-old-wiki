@@ -211,3 +211,6 @@ Instance will be saved. Sub resources that have a path to a file will be saved a
 
 #####References:
 * [core/io/resource_saver.h](https://github.com/okamstudio/godot/blob/master/core/io/resource_saver.h)
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

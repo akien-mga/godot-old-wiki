@@ -51,3 +51,6 @@ Return the state of the _clip_text_ property (see [set&#95;clip&#95;text](#set_c
   * [bool](class_bool)  **is&#95;flat**  **(** **)** const
 
 Return the state of the _flat_ property (see [set&#95;flat](#set_flat))
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

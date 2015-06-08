@@ -85,3 +85,6 @@ Set page size. Page is mainly used for scrollbars or anything that controls text
   * void  **set&#95;unit&#95;value**  **(** [float](class_float) value  **)**
 
 Set value mapped to 0 to 1 (unit) range, it will then be converted to the actual value within min and max.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

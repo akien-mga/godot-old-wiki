@@ -57,3 +57,6 @@ Image datatype.
 Built in native image datatype. Contains image data, which can be converted to a texture, and several functions to interact with it.
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

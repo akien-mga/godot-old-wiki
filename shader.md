@@ -329,3 +329,5 @@ vec3 world_pos = (VERTEX-INV_CAMERA_MATRIX.w.xyz) * mat3(INV_CAMERA_MATRIX);
 --- //[[reduzio@gmail.com|Juan Linietsky]] 2013/11/10 18:10//
 
 	
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

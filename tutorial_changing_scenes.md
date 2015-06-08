@@ -8,3 +8,6 @@ The advantage of this is that it's easy to handle different common situations, s
 
 
 
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

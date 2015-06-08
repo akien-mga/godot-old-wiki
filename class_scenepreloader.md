@@ -12,3 +12,6 @@
   * [bool](class_bool)  **[can&#95;instance](#can_instance)**  **(** **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

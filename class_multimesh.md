@@ -80,3 +80,6 @@ Return the visibility AABB.
   * void  **generate&#95;aabb**  **(** **)**
 
 Generate a new visibility AABB, using mesh AABB and instance transforms. Since instance information is stored in the [VisualServer](class_visualserver), this function is VERY SLOW and must NOT be used often.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

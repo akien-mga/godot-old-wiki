@@ -170,3 +170,5 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 # Advanced
 
 [Advanced](advanced) Advanced Topics (C++ Programming, File Formats, Porting, etc).
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

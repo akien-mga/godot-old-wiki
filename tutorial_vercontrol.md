@@ -84,3 +84,5 @@ This model or similar models allows projects to grow to really large sizes and s
 ## Cache Files
 
 Godot uses a hidden file called ".fscache" at the root of the project. On it, it caches project files and is used to quickly know when one is modified. Make sure to **not commit this file** to git or svn, as it contains local information and might confuse another editor instance in another computer.
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

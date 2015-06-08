@@ -12,3 +12,6 @@
   * [int](class_int)  **[get&#95;occluder&#95;light&#95;mask](#get_occluder_light_mask)**  **(** **)** const
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

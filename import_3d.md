@@ -216,3 +216,5 @@ In general, if the user deletes anything from the imported scene (node, mesh, ma
 #### Fresh Re-Import
 
 It can also happen that the source asset changed beyond recognition and a full fresh re-import is desired. If so, simply re-open the 3d scene import dialog from the Import -> Re-Import menu and perform re-import.
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

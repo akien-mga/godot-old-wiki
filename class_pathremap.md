@@ -41,3 +41,6 @@ Erase a remap.
   * void  **clear&#95;remaps**  **(** **)**
 
 Clear all remaps.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

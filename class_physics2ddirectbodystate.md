@@ -153,3 +153,6 @@ Call the built-in force integration code.
   * [Physics2DDirectSpaceState](class_physics2ddirectspacestate)  **get&#95;space&#95;state**  **(** **)**
 
 Return the current state of space, useful for queries.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

@@ -32,3 +32,6 @@ An image can only be in one group at the same time. So if the image is in anothe
 As a plus, an atlas can be created from a group. When this mode is active, a button to preview the resulting atlas becomes available. Make sure that atlases don't become too big, as some hardware will not support textures bigger than 2048x2048 pixels. If this happens, just create another atlas.
 
 The atlas can be useful to speed up drawing of some scenes, as state changes are minimized when drawing from it (through unlike other engines, Godot is designed so state changes do not affect it as much). Textures added to an atlas get cropped (empty spaces around the image are removed), so this is another reason to use them (save space). If unsure, though, just leave that option disabled.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

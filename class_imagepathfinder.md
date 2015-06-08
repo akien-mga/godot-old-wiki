@@ -12,3 +12,6 @@
   * void  **[create&#95;from&#95;image&#95;alpha](#create_from_image_alpha)**  **(** [Image](class_image) arg0  **)**
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

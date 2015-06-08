@@ -48,3 +48,6 @@ Alternatively it's possible to ask the viewport for the mouse position
 ```python
 get_viewport().get_mouse_pos()
 ```
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

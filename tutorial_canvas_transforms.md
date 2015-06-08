@@ -58,3 +58,5 @@ ie.pos = get_viewport_transform() * ( get_global_transform() * local_pos )
 get_tree().input_event(ie)
 
 ```
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

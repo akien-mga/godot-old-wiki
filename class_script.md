@@ -47,3 +47,6 @@ Set the script source code.
   * [int](class_int)  **reload**  **(** **)**
 
 Reload the script. This will fail if there are existing instances.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

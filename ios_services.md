@@ -120,12 +120,16 @@ The response event will be a dictionary with the following fields:
 
 Implemented in platform/iphone/game_center.mm
 
-The Game Center API is available through the "GameCenter" singleton. It has 2 methods:
+The Game Center API is available through the "GameCenter" singleton. It has 6 methods:
 
   * Error [post_score](#wiki-post_score)(Variant p_score);
   * Error [award_achievement](#wiki-award_achievement)(Variant p_params);
+  * Error [reset_achievements](#wiki-reset_achievements)();
+  * Error [request_achievements](#wiki-request_achievements)();
+  * Error [request_achievement_descriptions](#wiki-request_achievement_descriptions)();
+  * Error [show_game_center](#wiki-show_game_center)(Variant p_params);
 
-plus the standard pending event interface. 
+plus the standard pending event interface.
 
 #### post_score
 
@@ -171,10 +175,11 @@ Modifies the progress of a Game Center achievement.
 
 ##### Parameters
 
-Takes a Dictionary as a parameter, with 2 fields:
+Takes a Dictionary as a parameter, with 3 fields:
 
   * `name` (string) the achievement name
   * `progress` (float) the achievement progress from 0.0 to 100.0 (passed to GKAchievement::percentComplete)
+  * `show_completion_banner` (bool) whether Game Center should display an achievement banner at the top of the screen
 
 Example:
 
@@ -202,6 +207,116 @@ The response event will be a dictionary with the following fields:
 }
 ```
 
+#### reset_achievements
+
+Clears all Game Center achievements.  The function takes no parameters.
+
+##### Response event
+The response event will be a dictionary with the following fields:
+
+  * On error:
+```python
+{
+  "type": "reset_achievements",
+  "result": "error",
+  "error_code": the value from NSError::code
+}
+```
+
+  * On success:
+```python
+{
+  "type": "reset_achievements",
+  "result": "ok",
+}
+```
+
+#### request_achievements
+
+Request all the Game Center achievements the player has made progress on.  The function takes no parameters.
+
+##### Response event
+The response event will be a dictionary with the following fields:
+
+  * On error:
+```python
+{
+  "type": "achievements",
+  "result": "error",
+  "error_code": the value from NSError::code
+}
+```
+
+  * On success:
+```python
+{
+  "type": "achievements",
+  "result": "ok",
+  "names": [ list of the name of each achievement ],
+  "progress": [ list of the progress made on each achievement ]
+}
+```
+
+#### request_achievement_descriptions
+
+Request the descriptions of all existing Game Center achievements regardless of progress.  The function takes no parameters.
+
+##### Response event
+The response event will be a dictionary with the following fields:
+
+  * On error:
+```python
+{
+  "type": "achievement_descriptions",
+  "result": "error",
+  "error_code": the value from NSError::code
+}
+```
+
+  * On success:
+```python
+{
+  "type": "achievement_descriptions",
+  "result": "ok",
+  "names": [ list of the name of each achievement ],
+  "titles": [ list of the title of each achievement ]
+  "unachieved_descriptions": [ list of the description of each achievement when it is unachieved ]
+  "achieved_descriptions": [ list of the description of each achievement when it is achieved ]
+  "maximum_points": [ list of the points earned by completing each achievement ]
+  "hidden": [ list of booleans indicating whether each achievement is initially visible ]
+  "replayable": [ list of booleans indicating whether each achievement can be earned more than once ]
+}
+```
+
+#### show_game_center
+
+Displays the built in Game Center overlay showing leaderboards, achievements, and challenges.
+
+##### Parameters
+
+Takes a Dictionary as a parameter, with 2 fields:
+
+  * `view` (string) (optional) the name of the view to present.  Accepts "default", "leaderboards", "achievements", or "challenges".  Defaults to "default".
+  * `leaderboard_name` (string) (optional) the name of the leaderboard to present.  Only used when "view" is "leaderboards" (or "default" is configured to show leaderboards).  If not specified, Game Center will display the aggregate leaderboard.
+
+Examples:
+
+```python
+var result = show_game_center( { "view": "leaderboards", "leaderboard_name": "best_time_leaderboard" } )
+var result = show_game_center( { "view": "achievements" } )
+```
+
+##### Response event
+The response event will be a dictionary with the following fields:
+
+  * on close:
+```python
+{
+  "type": "show_game_center",
+  "result": "ok",
+}
+```
+
 ### Multi-platform games
 
 When working on a multi-platform game, you won't always have the "GameCenter" singleton available (for example when running on PC or Android). Because the gdscript compiler looks up the singletons at compile time, you can't just query the singletons to see and use what you need inside a conditional block, you need to also define them as valid identifiers (local variable or class member). This is an example of how to work around this in a class:
@@ -210,18 +325,20 @@ When working on a multi-platform game, you won't always have the "GameCenter" si
 var GameCenter = null # define it as a class member
 
 func post_score(p_score):
-    if GameCenter == null:
-        return
-    GameCenter.post_score( { "value": p_score, "category": "my_leaderboard" } )
+	if GameCenter == null:
+		return
+	GameCenter.post_score( { "value": p_score, "category": "my_leaderboard" } )
 
 func check_events():
-    while GameCenter.get_pending_event_count() > 0:
-        # do something with events here
-        pass
+	while GameCenter.get_pending_event_count() > 0:
+		# do something with events here
+		pass
 
 func _ready():
-    # check if the singleton exists
-    if Globals.has_singleton("GameCenter"):
-        GameCenter = Globals.get_singleton("GameCenter")
-        # connect your timer here to the "check_events" function
+	# check if the singleton exists
+	if Globals.has_singleton("GameCenter"):
+		GameCenter = Globals.get_singleton("GameCenter")
+		# connect your timer here to the "check_events" function
 ```
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

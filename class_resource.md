@@ -48,3 +48,6 @@ Return the name of the resources, any name is ok (it doesn"apos;t have to be uni
   * [RID](class_rid)  **get&#95;rid**  **(** **)** const
 
 Return the RID of the resource (or an empty RID). Many resources (such as [Texture](class_texture), [Mesh](class_mesh), etc) are high level abstractions of resources stored in a server, so this function will return the original RID.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

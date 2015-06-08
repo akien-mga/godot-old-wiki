@@ -11,3 +11,6 @@
   * void  **[end&#95;timed&#95;event](#end_timed_event)**  **(** [String](class_string) name  **)**
 
 ###  Member Function Description  
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

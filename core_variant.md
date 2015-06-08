@@ -38,3 +38,6 @@ container will modify all references to it), or COW mode (modifications will alw
 #####References:
 * [core/dictionary.h](https://github.com/okamstudio/godot/blob/master/core/dictionary.h)
 * [core/array.h](https://github.com/okamstudio/godot/blob/master/core/array.h)
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

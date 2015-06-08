@@ -106,3 +106,6 @@ A few classes are created to make this easier in most common cases inside the ed
 * [ViewportFrame](class_viewportframe) (for GUI).
 
 Make sure to check the viewport demos! (viewport folder in the demo.zip available to download, or [here](https://github.com/okamstudio/godot/tree/master/demos/viewport).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

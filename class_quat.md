@@ -57,3 +57,6 @@ Returns a copy of the quaternion, normalized to unit length.
   * [Quat](class_quat)  **slerp**  **(** [Quat](class_quat) b, [float](class_float) t  **)**
 
 Perform a spherical-linear interpolation with another quaternion.
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

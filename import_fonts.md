@@ -58,3 +58,6 @@ Another cool trick for using a text file as limit of which characters can be imp
 
 
  --- //[Juan Linietsky](reduzio@gmail.com) 2013/11/10 18:12//
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.

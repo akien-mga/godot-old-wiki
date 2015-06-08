@@ -85,3 +85,6 @@ Welcome to the Godot Engine documentation center. The aim of these pages is to p
 # Advanced
 
 [Advanced](advanced) Advanced Topics (C++ Programming, File Formats, Porting, etc).
+
+
+(c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.
