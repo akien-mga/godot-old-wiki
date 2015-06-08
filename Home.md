@@ -78,6 +78,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  ~~[GUI Custom Button](tutorial_gui_button)~~
 *  [Cut-Out Animation](Cutout-Animation)
 *  ~~[Physics Object Guide](tutorial_physics_objects_guide)~~
+*  ~~[Creating a Simple Space Shooter](tutorial_spaceshooter)~~
 
 #### 3D Tutorials
 *  [Creating a 3D game](tutorial_3d)
