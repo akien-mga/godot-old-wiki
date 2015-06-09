@@ -359,7 +359,7 @@ while(i<strings.size()):
 
 ### Duck Typing
 
-One of the most difficult concepts to grasp when moving from a statically typed language to a dynamic one is Duck Typing. Duck typing makes overall code design much simpler and straightforward to write, but it's not obvious how it work.
+One of the most difficult concepts to grasp when moving from a statically typed language to a dynamic one is Duck Typing. Duck typing makes overall code design much simpler and straightforward to write, but it's not obvious how it works.
 
 As an example, imagine a situation where a big rock is falling down a tunnel, smashing everything on it's way. The code for the rock, in a statically typed language would be something like:
 
@@ -383,7 +383,11 @@ And that's it. If the object that hit the big rock has a smash() method, it will
 
 _"When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck"_
 
-In this case, though, there exists the possibility of the object being hit not having a smash() function. Some dynamically typed languages simply ignore a method call when it doesn't exist (like Objective C). GDScript is more strict, so checking if the function exists is desirable:
+In this case, it translates to:
+
+_"If the object can be smashed, I don't care what it is, just smash it"
+
+Yes, we should call it Hulk typing instead. Anyway though, there exists the possibility of the object being hit not having a smash() function. Some dynamically typed languages simply ignore a method call when it doesn't exist (like Objective C), but GDScript is more strict, so checking if the function exists is desirable:
 
 ```python
 func _on_object_hit(object):
