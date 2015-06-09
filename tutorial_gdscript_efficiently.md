@@ -385,7 +385,7 @@ _"When I see a bird that walks like a duck and swims like a duck and quacks like
 
 In this case, it translates to:
 
-_"If the object can be smashed, I don't care what it is, just smash it"
+_"If the object can be smashed, don't care what it is, just smash it."_
 
 Yes, we should call it Hulk typing instead. Anyway though, there exists the possibility of the object being hit not having a smash() function. Some dynamically typed languages simply ignore a method call when it doesn't exist (like Objective C), but GDScript is more strict, so checking if the function exists is desirable:
 
