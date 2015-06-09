@@ -357,4 +357,42 @@ while(i<strings.size()):
 
 ```
 
+### Duck Typing
+
+One of the most difficult concepts to grasp when moving from a statically typed language to a dynamic one is Duck Typing. Duck typing makes overall code design much simpler and straightforward to write, but it's not obvious how it work.
+
+As an example, imagine a situation where a big rock is falling down a tunnel, smashing everything on it's way. The code for the rock, in a statically typed language would be something like:
+
+```c++
+void BigRollingRock::on_object_hit(Smashable *entity) 
+{
+    entity->smash();
+}
+```
+
+This, way, everything that can be smashed by a rock would have to inherit _Smashable_. If a character, enemy, piece of furniture, small rock were all smashable, they would need to inherit from the class _Smashable_, possibly requiring multiple inheritance. If multiple inheritance was undesired, then they would have to inherit a common class like _Entity_. Yet, it would not be very elegant to add a virtual method "smash()" to _Entity_ only if a few of them can be smashed. 
+
+With dynamically typed languages, this is not a problem. Duck typing makes sure you only have to define a smash() function where required and that's it. No need to consider inheritance, base classes, etc.
+
+```python
+func _on_object_hit(object):
+    object.smash()
+````
+
+And that's it. If the object that hit the big rock has a smash() method, it will be called. No need for inheritance or polymorphysm. Dynamically typed languages only care about the instance having the desired method or member, not what it inherits or the class type. The definition of Duck Typing should make this clearer:
+
+_"When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck"_
+
+In this case, though, there exists the possibility of the object being hit not having a smash() function. Some dynamically typed languages simply ignore a method call when it doesn't exist (like Objective C). GDScript is more strict, so checking if the function exists is desirable:
+
+```python
+func _on_object_hit(object):
+    if (object.has_method("smash")):
+         object.smash()
+````
+
+Then, simply define that method and anything the rock touches can be smashed.
+
+ 
+
 (c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.
