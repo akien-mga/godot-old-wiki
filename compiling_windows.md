@@ -27,7 +27,7 @@ For most projects, using only scripting is enough but when development in C++ is
 C:\path_to_sdk\vcvarsall.bat &&  scons bin/godot_win.exe
 ```
 
-**NOTE:** It seems the latest visual studio does not include a desktop command prompt (No, Native tools for x86 is not it). The only way to build it seems to be by running:
+**NOTE:** It seems the latest Visual Studio does not include a desktop command prompt (No, Native tools for x86 is not it). The only way to build it seems to be by running:
 
 ```
 "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\vcvarsall.bat" && c:\python27\scons p=windows
