@@ -108,8 +108,8 @@ func _deferred_goto_scene(path):
 	# Add it to the active scene, as child of root
 	get_tree().get_root().add_child(current_scene)
 
-        #optional, to make it compatible with the SceneTree.change_scene() API
-        get_tree().set_current_scene( current_scene )
+	#optional, to make it compatible with the SceneTree.change_scene() API
+	get_tree().set_current_scene( current_scene )
 
 ```
 As mentioned in the comments above, we really want to avoid the situation of having the current scene being deleted while being used (code from functions of it being run), so using [Object.call_deferred](class_object#call_deferred) is desired at this point. The result is that execution of the commands in the second function will happen at an immediate later time when no code from the current scene is running.
