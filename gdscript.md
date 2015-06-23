@@ -20,7 +20,7 @@ Finally, GDScript was written as a custom solution. The language and interpreter
 
 #  Example 
 
-Some people can learn better by just taking a look at the syntax, so hereâ€™s a simple example of how it looks.
+Some people can learn better by just taking a look at the syntax, so here's a simple example of how it looks.
 
 ```python
 # a file is a class!
@@ -88,11 +88,11 @@ If you have previous experience with statically typed languages such as C, C++ o
 
 ##  Identifiers 
 
-Any string that restricts itself to alphabetic characters (â€™aâ€™ to â€™zâ€™ and â€™Aâ€™ to â€™Zâ€™), digits (â€™0â€™ to â€™9â€™) and â€™_â€™ qualifies as an identifier. Additionally, identifiers must not begin with a digit. Identifiers are case-sensitive (â€™fooâ€™ is different to â€™FOOâ€™).
+Any string that restricts itself to alphabetic characters ('a' to 'z' and 'A' to 'Z'), digits ('0' to '9') and '_' qualifies as an identifier. Additionally, identifiers must not begin with a digit. Identifiers are case-sensitive ('foo' is different to 'FOO').
 
 ##  Keywords 
 
-The following is the list of keywords supported by the language. Since keywords are reserved words (tokens), they canâ€™t be used as identifiers.
+The following is the list of keywords supported by the language. Since keywords are reserved words (tokens), they can't be used as identifiers.
 
 ##  Operators 
 
@@ -125,13 +125,14 @@ Literal | Name
 45 | Base 10 Integer
 0x8F51 | Base 16 (hex) Integer
 3.14, 58.1e-10 | Floating Point Number (real)
-â€™Helloâ€™, â€œHiâ€ | Strings
+'Hello', "Hi" | Strings
+"""Hello, Dude""" | Multiline String
 @"Node/Label" | Node Path or StringName
 
 
 ##  Comments 
 
-Anything from a â€™#â€™ to the end of the line is ignored and is considered a comment.
+Anything from a '#' to the end of the line is ignored and is considered a comment.
 
 ```python
 # This is a comment
@@ -144,11 +145,11 @@ A variable in GDScript can be assigned to several built-in types.
 
 ###   null 
 
-â€™nullâ€™ is a data type that contains no information, nothing assigned, and itâ€™s just empty. It can only be set to one value: â€™nullâ€™.
+'null' is a data type that contains no information, nothing assigned, and it's just empty. It can only be set to one value: 'null'.
 
 ###   bool 
 
-The Boolean data type can only contain â€™trueâ€™ or â€™falseâ€™.
+The Boolean data type can only contain 'true' or 'false'.
 
 ###   int 
 
@@ -170,7 +171,7 @@ A sequence of characters in unicode format. Strings can contain the standard C e
 
 ###   [Rect2](class_rect2)
 
-2D Rectangle type containing two vectors fields: â€œposâ€ and "size". Alternatively contains an â€œendâ€ field which is â€œpos+sizeâ€.
+2D Rectangle type containing two vectors fields: "pos" and "size". Alternatively contains an "end" field which is "pos+size".
 
 ###   [Vector3](class_vector3) 
 
@@ -182,15 +183,15 @@ A sequence of characters in unicode format. Strings can contain the standard C e
 
 ###   [Plane](class_plane) 
 
-3D Plane type in normalized form that contains a â€œnormalâ€ vector field and a â€œdâ€ scalar distance.
+3D Plane type in normalized form that contains a "normal" vector field and a "d" scalar distance.
 
 ###   [Quat](class_quat)
 
-Quaternion is a datatype used for representing a 3D rotation. Itâ€™s useful for interpolating rotations.
+Quaternion is a datatype used for representing a 3D rotation. It's useful for interpolating rotations.
 
 ###   [AABB](class_aabb)
 
-Axis Aligned bounding box (or 3D box) contains 2 vectors fields: â€œposâ€ and "size". Alternatively contains an â€œendâ€ field which is â€œpos+sizeâ€.
+Axis Aligned bounding box (or 3D box) contains 2 vectors fields: "pos" and "size". Alternatively contains an "end" field which is "pos+size".
 
 ###   [Matrix3](class_matrix3) 
 
@@ -198,7 +199,7 @@ Axis Aligned bounding box (or 3D box) contains 2 vectors fields: â€œposâ€
 
 ###   [Transform](class_transform)
 
-3D Transform contains a Matrix3 field â€œbasisâ€ and a Vector3 field â€œoriginâ€.
+3D Transform contains a Matrix3 field "basis" and a Vector3 field "origin".
 
 ##   Engine Built-In Types 
 
@@ -265,7 +266,7 @@ var d = {
 
 An array of bytes can only contain bytes (integers from 0 to 255).
 
-This, and all of the following specialized array types, are optimized for memory usage and canâ€™t fragment the memory.
+This, and all of the following specialized array types, are optimized for memory usage and can't fragment the memory.
 
 ###  [IntArray](class_intarray) 
 
@@ -295,7 +296,7 @@ Array of Color can only contains colors.
 
 ##  Variables 
 
-Variables can exist as class members or local to functions. They are created with the â€œvarâ€ keyword and may, optionally, be assigned a value upon initialization.
+Variables can exist as class members or local to functions. They are created with the "var" keyword and may, optionally, be assigned a value upon initialization.
 
 ```python
 var a  # data type is null by default
@@ -320,7 +321,7 @@ const g = x + 20  # invalid; this is not a constant expression!
 
 ##  Functions 
 
-Functions always belong to a class. The scope priority for variable look-up is: local -> class member -> global. â€œselfâ€ is provided as an option for accessing class members but is not always required (and must *not* be defined as the first parameter, like in Python). For performance reasons, functions are not considered class members, so they canâ€™t be referenced directly. A function can return at any point. The default return value is null.
+Functions always belong to a class. The scope priority for variable look-up is: local -> class member -> global. "self" is provided as an option for accessing class members but is not always required (and must *not* be defined as the first parameter, like in Python). For performance reasons, functions are not considered class members, so they can't be referenced directly. A function can return at any point. The default return value is null.
 
 ```python
 func myfunction(a, b):
@@ -331,7 +332,7 @@ func myfunction(a, b):
 
 ###  Statements and Control Flow 
 
-Statements are standard and can be assignments, function calls, control flow structures, etc (see below). â€œ;â€ as a statement separator is entirely optional.
+Statements are standard and can be assignments, function calls, control flow structures, etc (see below). ";" as a statement separator is entirely optional.
 
 ###  if/else/elif 
 
@@ -403,7 +404,7 @@ func print_value_of_a():
 
 ##  Inheritance 
 
-A class file can inherit from a global class, another file or a subclass inside another file. Multiple inheritance is not allowed. The â€œextendsâ€ syntax is used:
+A class file can inherit from a global class, another file or a subclass inside another file. Multiple inheritance is not allowed. The "extends" syntax is used:
 
 ```python
 # extend from some class (global)
@@ -420,7 +421,7 @@ extends "somefile.gd".Subclass
 
 ##  Inheritance Testing 
 
-It's possible to check if an instance inherits from a given class. For this the â€œextendsâ€ keyword can be used as an operator instead:
+It's possible to check if an instance inherits from a given class. For this the "extends" keyword can be used as an operator instead:
 
 ```python
 const enemy_class = preload("enemy.gd")  # cache the enemy class
@@ -433,7 +434,7 @@ if (entity extends enemy_class):
 
 ##  Constructor 
 
-A class can have an optional constructor; a function named â€œ_initâ€ that is called when the class is instanced.
+A class can have an optional constructor; a function named "_init" that is called when the class is instanced.
 
 #### Arguments to Parent Constructor
 
@@ -462,7 +463,7 @@ func _init():
 
 ##  Classes as Objects 
 
-It may be desired at some point to load a class from a file and then instance it. Since the global scope does not exist, classes must be loaded as a resource. Instancing is done by calling the â€œnewâ€ function in a class object:
+It may be desired at some point to load a class from a file and then instance it. Since the global scope does not exist, classes must be loaded as a resource. Instancing is done by calling the "new" function in a class object:
 
 ```python
 # load the class (loaded every time the script is instanced)
@@ -526,11 +527,11 @@ export(Color, RGB) var col  # Color is RGB
 export(Color, RGBA) var col  # Color is RGBA
 ```
 
-It must be noted that even if the script is not being run while at the editor, the exported properties are still editable (see below for â€œtoolâ€).
+It must be noted that even if the script is not being run while at the editor, the exported properties are still editable (see below for "tool").
 
 ##  Static Functions 
 
-A function can be declared static. When a function is static it has no access to the instance member variables or â€œselfâ€. This is mainly useful to make libraries of helper functions:
+A function can be declared static. When a function is static it has no access to the instance member variables or "self". This is mainly useful to make libraries of helper functions:
 
 ```python
 static func sum2(a, b):
@@ -589,7 +590,7 @@ func _init():
 
 ##  Tool Mode 
 
-Scripts, by default, donâ€™t run inside the editor and only the exported properties can be changed. In some cases it is desired that they do run inside the editor (as long as they donâ€™t execute game code or manually avoid doing so). For this, the â€œtoolâ€ keyword exists and must be placed at the top of the file:
+Scripts, by default, don't run inside the editor and only the exported properties can be changed. In some cases it is desired that they do run inside the editor (as long as they don't execute game code or manually avoid doing so). For this, the "tool" keyword exists and must be placed at the top of the file:
 
 ```python
 tool
@@ -601,11 +602,11 @@ func _init():
 
 ##  Memory Management 
 
-If a class inherits from *Reference*, then instances will be freed when no longer in use. No garbage collector exists, just simple reference counting. By default, all classes that donâ€™t define inheritance extend *Reference*. If this is not desired, then a class must inherit *Object* manually and must call instance.free(). To avoid reference cycles that canâ€™t be freed, a weakref() function is provided for creating weak references.
+If a class inherits from *Reference*, then instances will be freed when no longer in use. No garbage collector exists, just simple reference counting. By default, all classes that don't define inheritance extend *Reference*. If this is not desired, then a class must inherit *Object* manually and must call instance.free(). To avoid reference cycles that can't be freed, a weakref() function is provided for creating weak references.
 
 ##  Function References 
 
-Functions canâ€™t be referenced because they are not treated as class members. There are two alternatives to this, though. The â€œcallâ€ function or the funcref() helper.
+Functions can't be referenced because they are not treated as class members. There are two alternatives to this, though. The "call" function or the funcref() helper.
 ```python
 instance.call("funcname", args)  # call a function by name
 
