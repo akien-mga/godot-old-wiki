@@ -654,8 +654,8 @@ func _button_pressed(which):
   print("Button was pressed: ",which.get_name())
 
 func _ready():
-for b in get_node("buttons").get_children():
-   b.connect("pressed",self,"_button_pressed",[b])
+  for b in get_node("buttons").get_children():
+     b.connect("pressed",self,"_button_pressed",[b])
 ```
 
 Finally, emitting a custom signal is done by using the [Object.emit_signal](class_object#emit_signal) method:
