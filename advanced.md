@@ -17,7 +17,7 @@
 
 ### Source Code
 
-*  ~~[Diagram] Architecture diagram for all components.~~
+*  [Diagram](core_diagram) Architecture diagram for all components.
 *  [Core Types](core_types) Core Types.
 *  [Variant](core_variant) Variant.
 *  [Object](core_object) Object.
