@@ -614,6 +614,59 @@ var fr = funcref(instance, "funcname")  # create a function ref
 fr.exec(args)
 ```
 
+##  Signals
+
+It is often desired to send a notification that something happened in an instance. GDScript supports creation of built-in Godot signals. Declaring a signal in GDScript is easy, in the body of the class, just write:
+
+```python
+# no arguments
+signal your_signal_name
+# with arguments
+signal your_signal_name_with_args(a,b)
+```
+
+Connecting signals from code is easy, just take the instance of a class where the signal was declared and connect it to the method of another instance:
+
+```python
+func _callback_no_args():
+   print("Got callback!")
+
+func _callback_args(a,b):
+   print("Got callback with args! a: ",a," and b: ",b)
+
+func _at_some_func():
+   instance.connect("your_signal_name",self,"callback_no_args")
+   instance.connect("your_signal_name_with_args",self,"callback_args")
+```
+
+It is also possible to bind arguments to a signal that lacks them with your custom values:
+
+```python
+func _at_some_func():
+   instance.connect("your_signal_name_with_args",self,"callback_no_args",[22,"hello"])
+```
+
+This is very useful when a signal from many objects is connected to a single callback and the sender must be identified:
+
+```python
+
+func _button_pressed(which):
+  print("Button was pressed: ",which.get_name())
+
+func _ready():
+for b in get_node("buttons").get_children():
+   b.connect("pressed",self,"_button_pressed",[b])
+```
+
+Finally, emitting a custom signal is done by using the [Object.emit_signal](class_object#emit_signal) method:
+
+```python
+func _at_some_func():
+   emit_signal("your_signal_name")
+   emit_signal("your_signal_name_with_args",55,128)
+   someinstance.emit_signal("somesignal")
+```
+
 ##  Coroutines
 
 GDScript has some support for coroutines via the yield() built-in function. The way it works is very simple: Calling "yield()" will immediately return from the current function, with the current frozen state of the same function as the return value. Calling "resume" on this resulting object will continue execution and return whathever the function returns. Once resumed the state object becomes invalid. Here is an example:
