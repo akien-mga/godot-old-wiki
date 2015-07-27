@@ -48,10 +48,11 @@ If there really is a desire to make your game also work on ancient devices with 
 
 Your idea will most certainly be ignored. Examples of stuff that is ignored by the developers:
 
-* Let's do this because it will make Godot better!
-* Let's do this in Godot because other game engine does it!
-* Let's remove something because I think it's not needed!
-* Let's remove clutter and bloat!
+* Let's do this because it will make Godot better
+* Let's do this in Godot because other game engine does it
+* Let's remove this because I think it's not needed
+* Let's remove clutter and bloat and make godot look nicer
+* Let's add an alternative workflow for people that prefers it
 
 Developers are always willing to talk to you and listen to your feedback very openly, to an extent rarely seen in open source projects, but they will care mostly about real issues you have while using Godot, not ideas solely based on personal belief. Developers are interested in (for example):
 
