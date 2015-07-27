@@ -65,4 +65,21 @@ Once one of the above points is stated, we can work together on a solution and t
 
 As such, please don't feel that your ideas for Godot are unwelcome. Instead, try to reformulate them as a problem first, so developers and the community have a base ground to discuss first.
 
+Examples of how not to state problems generally are like this:
+
+* Certain feature is ugly
+* Certain workflow is slow
+* Certain feature needs optimization
+* Certain aspect of the UI looks cluttered
+
+Associating something with an adjective will not get you much attention and developers will most likely not understand you. Instead, try to reformulate your problem as a story such as:
+
+* I try to move objects around but always end up picking the wrong one
+* I tried to make a game like Battlefield but i'm not managing to understand how to get lighting to look the same.
+* I always forget which script I was editing, and it takes me too many steps to go back to it.
+
+This will allow you to convey what you are thinking much better and set a common ground for discussion. Please try your best to state your problems as stories to the developers and the community, before discussing any idea. 
+
+
+
 (c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.
