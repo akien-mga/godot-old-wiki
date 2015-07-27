@@ -44,10 +44,23 @@ And that's it! your game should work in multiple resolutions.
 
 If there really is a desire to make your game also work on ancient devices with tiny screens (less than 300 pixels in width), you can use the [export option](export_images#image-export-options) to shrink images, and set that build to be used for certain screen sizes in the App Store or Google Play.
 
+## #5 I have a great idea that will make Godot better, What do you think?
 
+Your idea will most certainly be ignored. Examples of stuff that is ignored by the developers:
 
+1. Let's do this because it will make Godot better!
+2) Let's do this in Godot because other game engine does it!
+3) Let's remove something because I think it's not needed!
+4) Let's remove clutter and bloat!
 
+Developers are always willing to talk to you and listen to your feedback very openly, to an extent rarely seen in open source projects, but they will care mostly about real issues you have while using Godot, not ideas solely based on personal belief. Developers are interested in (for example):
 
+1) Your experience using the software and the problems you have, (we care about this much more than ideas on how to improve it)
+2) The features you would like to see implemented because you need them for your project.
+3) The concepts that were difficult to understand in order to learn the software.
+4) The parts of your workflow you would like to see optimized.
+
+Once one of the above points is stated, we can work together on a solution and this is where your ideas and suggestions are most valuable and welcome, they need to be in context of a real issue.
 
 
 (c) Juan Linietsky, Ariel Manzur, Distributed under the terms of the [CC By](https://creativecommons.org/licenses/by/3.0/legalcode) license.
