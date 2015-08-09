@@ -116,6 +116,8 @@ public final void do_something() {
 }
 ```
 
+GDScript:
+
 ```python
 
 func use_class(instance); #does not care about class type
