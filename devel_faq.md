@@ -25,7 +25,7 @@ The main reasons are:
 5. Garbage collector results in stalls or unnecessarily large memory usage (Lua, Python, JS, AS, etc)
 6. Difficulty to integrate with the code editor for providing code completion, live editing, etc. (all of them). This is very well supported by GDScript.
 
-GDScript was designed to solve the issues above, and performs very well in all the above scenarios. Please learn GDScript, and enjoy from a very smooth integration of scripting with the game engine (yes, it's very enjoyable when things just work). It's worth it!
+GDScript was designed to solve the issues above, and performs very well in all the above scenarios. Please learn GDScript, and enjoy from a very smooth integration of scripting with the game engine (yes, it's a rare but very enjoyable situation when things just work). It's worth it, give it a try!
 
 ## #3 Why is FBX not supported for import?
 
