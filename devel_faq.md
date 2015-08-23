@@ -14,7 +14,7 @@ More information about getting comfortable with GDScript or dynamically typed la
 
 For the more technically versed, proceed to the next item.
 
-## #2 What are the technical reasons of the item above?
+## #2 I don't believe you. What are the technical reasons for the item above?
 
 The main reasons are:
 
