@@ -18,12 +18,12 @@ For the more technically versed, proceed to the next item.
 
 The main reasons are:
 
-1) No good thread support in most script VMs, and Godot uses threads (Lua, Python, Squirrel, JS, AS, etc)
-2) No good class extending support in most script VMs, and adapting to the way Godot works is highly inefficient (lua, Python, JS)
-3) Horrible interface for binding to C++, results in large amount of code, bugs, bottlenecks and general inefficiency (Lua, Python, Squirrel, JS, etc)
-4) No native vector types (vector3,matrix4,etc), resulting in highly reduced performance when using custom types (Lua, Python, Squirrel, JS, AS, etc)
-5) Garbage collector results in stalls or unnecessarily large memory usage (Lua, Python, JS, AS, etc)
-6) Difficulty to integrate with the code editor for providing code completion, live editing, etc. (all of them). This is very well supported by GDScript.
+1. No good thread support in most script VMs, and Godot uses threads (Lua, Python, Squirrel, JS, AS, etc)
+2. No good class extending support in most script VMs, and adapting to the way Godot works is highly inefficient (lua, Python, JS)
+3. Horrible interface for binding to C++, results in large amount of code, bugs, bottlenecks and general inefficiency (Lua, Python, Squirrel, JS, etc)
+4. No native vector types (vector3,matrix4,etc), resulting in highly reduced performance when using custom types (Lua, Python, Squirrel, JS, AS, etc)
+5. Garbage collector results in stalls or unnecessarily large memory usage (Lua, Python, JS, AS, etc)
+6. Difficulty to integrate with the code editor for providing code completion, live editing, etc. (all of them). This is very well supported by GDScript.
 
 GDScript was designed to solve the issues above, and performs very well in all the above scenarios. Please learn GDScript, and enjoy from a very smooth integration of scripting with the game engine (yes, it's very enjoyable when things just work). It's worth it!
 
