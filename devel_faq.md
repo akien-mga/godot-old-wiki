@@ -12,19 +12,34 @@ Yes, for more than a decade we tried in the past integrating several VMs (and ev
 
 More information about getting comfortable with GDScript or dynamically typed languages can be found [here](tutorial_gdscript_efficiently).
 
-## #2 Why is FBX not supported for import?
+For the more technically versed, proceed to the next item.
+
+## #2 What are the technical reasons of the item above?
+
+The main reasons are:
+
+1) No good thread support in most script VMs, and Godot uses threads (Lua, Python, Squirrel, JS, AS, etc)
+2) No good class extending support in most script VMs, and adapting to the way Godot works is highly inefficient (lua, Python, JS)
+3) Horrible interface for binding to C++, results in large amount of code, bugs, bottlenecks and general inefficiency (Lua, Python, Squirrel, JS, etc)
+4) No native vector types (vector3,matrix4,etc), resulting in highly reduced performance when using custom types (Lua, Python, Squirrel, JS, AS, etc)
+5) Garbage collector results in stalls or unnecessarily large memory usage (Lua, Python, JS, AS, etc)
+6) Difficulty to integrate with the code editor for providing code completion, live editing, etc. (all of them). This is very well supported by GDScript.
+
+GDScript was designed to solve the issues above, and performs very well in all the above scenarios. Please learn GDScript, and enjoy from a very smooth integration of scripting with the game engine (yes, it's very enjoyable when things just work). It's worth it!
+
+## #3 Why is FBX not supported for import?
 
 FBX SDK has a very [restrictive license](http://www.blender.org/bf/Autodesk_FBX_License.rtf), that is incompatible with the [open license](http://opensource.org/licenses/MIT) provided by Godot.
 
 That said, Godot Collada support is really good, please use the [OpenCollada](https://github.com/KhronosGroup/OpenCOLLADA/wiki/OpenCOLLADA-Tools) exporter for maximum compatibility if you are using Maya or 3DS Max. If you are use Blender, take a look at our own (Better Collada Exporter)[
 
-## #3 Will [Insert closed SDK such as PhysX, Gameworks, etc] be supported in Godot?
+## #4 Will [Insert closed SDK such as PhysX, Gameworks, etc] be supported in Godot?
 
 No, the aim of Godot is to create a complete open source engine licensed under MIT, so you have complete control about over single piece of it. Open versions of functionality or features from such SDKs may be eventually added though.
 
 That said, because it is open source, and modular, nothing prevents you or anyone else interested into adding those libraries as a module and ship your game using them, as either open or closed source. Everything is allowed.
 
-## #4 How should assets be created to handle multiple resolutions and aspect ratios?
+## #5 How should assets be created to handle multiple resolutions and aspect ratios?
 
 This question pops up often and it's probably thanks to the misunderstanding created by Apple when they originally doubled the resolution of their devices. It made people think that having the same assets in different resolutions was a good idea, so many continued towards that path. That originally worked to a point and only for Apple devices, but then several Android and Apple devices with different resolutions and aspect ratios were created, with a very wide range of sizes an DPIs.
 
