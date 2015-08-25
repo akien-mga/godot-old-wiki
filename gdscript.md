@@ -529,6 +529,21 @@ export(Color, RGBA) var col  # Color is RGBA
 
 It must be noted that even if the script is not being run while at the editor, the exported properties are still editable (see below for "tool").
 
+#### Exporting Arrays
+
+Exporting arrays works too but there is a restriction. While regular arrays are created local to every instance, exported arrays are shared between all instances. This means that editing them in one instance will cause them to change in all other instances.
+
+
+```python
+# exported array, shared between all instances. Default value must be a constant expression.
+
+export var a=[1,2,3]
+
+# regular array, created local for every instance and default value can include run-time values.
+
+var b = [a,2,3]
+```
+
 ##  Static Functions 
 
 A function can be declared static. When a function is static it has no access to the instance member variables or "self". This is mainly useful to make libraries of helper functions:
