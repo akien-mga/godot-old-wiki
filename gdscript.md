@@ -540,8 +540,14 @@ Exporting arrays works too but there is a restriction. While regular arrays are 
 
 export var a=[1,2,3]
 
+# Typed arrays also work, only initialized empty:
+
+export var vector3s = Vector3Array()
+export var strings = StringArray()
+
 # Regular array, created local for every instance.
-# Default value can include run-time values.
+# Default value can include run-time values, but can't
+# be exported.
 
 var b = [a,2,3]
 ```
