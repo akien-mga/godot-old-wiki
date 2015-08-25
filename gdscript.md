@@ -531,15 +531,17 @@ It must be noted that even if the script is not being run while at the editor, t
 
 #### Exporting Arrays
 
-Exporting arrays works too but there is a restriction. While regular arrays are created local to every instance, exported arrays are shared between all instances. This means that editing them in one instance will cause them to change in all other instances.
+Exporting arrays works too but there is a restriction. While regular arrays are created local to every instance, exported arrays are shared between all instances. This means that editing them in one instance will cause them to change in all other instances. Exported arrays can have initializers, but they must be constant expressions.
 
 
 ```python
-# exported array, shared between all instances. Default value must be a constant expression.
+# Exported array, shared between all instances. 
+# Default value must be a constant expression.
 
 export var a=[1,2,3]
 
-# regular array, created local for every instance and default value can include run-time values.
+# Regular array, created local for every instance.
+# Default value can include run-time values.
 
 var b = [a,2,3]
 ```
