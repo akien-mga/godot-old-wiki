@@ -63,6 +63,7 @@ ANGLE precompiled binaries are provided on platform/winrt/x64 and platform/winrt
 - Proper handling of screen rotation
 - Proper handling of other events such as focus lost, back button, etc.
 - Packaging and deploying to devices from the editor.
+- Adding Angle to our tree and compiling it from there. The same source could also be used to build for Windows (and use Angle instead of native GL, which will be more compatible with graphics hardware)
 
 # Packages
 This is what we know:
