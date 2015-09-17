@@ -26,6 +26,7 @@ The language is statically type and only supports a few operations. Arrays, clas
 | vec2       | 2-component vector, float subindices (x,y or r,g )         | 
 | vec3       | 3-component vector, float subindices (x,y,z or r,g,b )     | 
 | vec4,color | 4-component vector, float subindices (x,y,z,w or r,g,b,a ) | 
+| mat2       | 2x2 matrix, vec3 subindices (x,y)                        | 
 | mat3       | 3x3 matrix, vec3 subindices (x,y,z)                        | 
 | mat4       | 4x4 matrix, vec4 subindices (x,y,z,w)                      | 
 | texture    | texture sampler, can only be used as uniform               | 
