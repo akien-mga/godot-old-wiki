@@ -37,7 +37,7 @@
 ## Misc
 
 *  [Command Line](command_line) Using the command line, for fans of doing everything in Unix/Windows shell.      
-*  [External Editor](external_editor) Configuring an external editor for opening scripts.
+*  ~~[External Editor](external_editor) Configuring an external editor for opening scripts.~~
 *  [Changing Editor Fonts](editor_font) Changing the editor font (including support for CJK)
 *  [iOS Services](ios_services) Using iOS services (GameCenter, StoreKit)
 
