@@ -126,7 +126,7 @@ Be it by fixing issues or taking one of the "fun" and "not so fun" tasks. Before
 *  [Alphabetical Class List](class_list) List of classes in alphabetical order.
 *  ~~[Categorized Class List](class_category) List of classes organized by category.~~
 *  ~~[Inheritance Class Tree](class_inheritance) List of classes organized by inheritance.~~
-*  [Relevant Classes](relevant_classes) List of the most relevant classes to learn first.
+*  ~~[Relevant Classes](relevant_classes) List of the most relevant classes to learn first.~~
 
 #### Languages
 
