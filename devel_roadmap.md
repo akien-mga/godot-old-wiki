@@ -2,7 +2,7 @@
 
 These are just tentative to have a rough idea of the development plan. Ideas and helping set better priorities are always welcome.
 
-**Update (November 2015)** This page is outdated (as is the rest of the GitHub wiki), please refer to: http://godotengine.org/projects/godot-engine/wiki/Documentation 
+**Update (November 2015)** This page is outdated (as is the rest of the GitHub wiki), please refer to: http://godotengine.org/projects/godot-engine/wiki/Documentation  
 The GitHub wiki will soon be shut down.
 
 **Update (June 2014)** Some changes in the roadmap happened due to mostly our internal development schedule at Okam (features Juan needs to do for our games in course), basically 1.0 will have a few more features taken from 1.1 and will come out a little later.
