@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 #  SamplePlayer2D  
 ####**Inherits:** [SoundPlayer2D](class_soundplayer2d)
 ####**Category:** Core

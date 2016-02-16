@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 #  VisibilityEnabler2D  
 ####**Inherits:** [VisibilityNotifier2D](class_visibilitynotifier2d)
 ####**Category:** Core

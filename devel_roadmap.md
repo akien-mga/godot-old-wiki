@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 # Godot Roadmap
 
 These are just tentative to have a rough idea of the development plan. Ideas and helping set better priorities are always welcome.

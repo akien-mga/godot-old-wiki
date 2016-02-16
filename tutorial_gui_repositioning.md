@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 ### Size and Anchors
 
 If a game was to be always run in the same device and at the same resolution, positioning controls would be a simple matter of setting the position and size of each one of them. Unfortunately, it is rarely the case. 

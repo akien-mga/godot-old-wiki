@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 # Core Types
 Godot has a rich set of classes and template that make for it's core, and everything is built upon them.
 This reference will try to list them in order for their better understanding.

@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 #  RigidBody2D  
 ####**Inherits:** [PhysicsBody2D](class_physicsbody2d)
 ####**Category:** Core

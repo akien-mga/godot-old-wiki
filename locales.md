@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 # Supported Locales
 
 This is the list of supported locales and variants in the engine. It's based on the Unix standard locale strings:

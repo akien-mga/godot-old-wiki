@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 # Fun tasks!
 
 The following is a list of fun tasks to do. If you want to work on any of them, let the developers know on the [Developer's Mailing List](https://groups.google.com/forum/#!forum/godot-engine).

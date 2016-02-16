@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 # Requirements
 
 *  Scons (you can get it from macports, you should be able to run "scons" on a terminal when installed)

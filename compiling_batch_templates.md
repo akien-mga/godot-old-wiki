@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 # Batch Building Templates
 
 The following is almost the same exact script we use to build all the export templates that go to the site. If you want to build or roll them yourself, this might be of use.

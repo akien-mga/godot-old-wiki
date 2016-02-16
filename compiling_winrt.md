@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 This page documents the current state of the "winrt" platform, used to support "Windows Store Apps" for Windows 8.1, and Windows Phone 8.1 apps using Microsoft's new "Universal" APIs.
 
 # Requirements

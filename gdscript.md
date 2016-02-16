@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 #  Introduction 
 
 GDScript is a high level, dynamically typed programming language used to create content. It uses a syntax that is very similar to the Python language (blocks are indent-based) and its goal is to be very optimal and tightly integrated with the engine, allowing great flexibility for content creation and integration.

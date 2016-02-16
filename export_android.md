@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 ## Exporting for Android
 
 Exporting for android has much less requirements than compiling Godot for it. As follows are the steps to setup the SDK and the engine.

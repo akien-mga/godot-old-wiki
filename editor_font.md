@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 ### Changing Fonts
 
 Godot allows changing the font for the editor, and the font for the code editor. Both need to be in .fnt format, so they need to be imported somewhere using the [font import tool](import_fonts).

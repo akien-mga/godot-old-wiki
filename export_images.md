@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 ### Exporting Image Files
 
 It is often desired to do an operation to all or a group of images upon export. Godot provides some tools for this. Examples of such operations are:

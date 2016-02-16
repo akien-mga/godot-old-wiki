@@ -1,3 +1,5 @@
+**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+
 <p align="center"><img src="http://www.godotengine.org/wp/wp-content/uploads/2014/01/godot_logo_63px_alto-02-021.png"/></p>
 # Introduction
 
