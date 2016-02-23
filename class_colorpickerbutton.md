@@ -1,19 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  ColorPickerButton  
-####**Inherits:** [Button](class_button)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[set&#95;color](#set_color)**  **(** [Color](class_color) color  **)**
-  * [Color](class_color)  **[get&#95;color](#get_color)**  **(** **)** const
-  * void  **[set&#95;edit&#95;alpha](#set_edit_alpha)**  **(** [bool](class_bool) show  **)**
-  * [bool](class_bool)  **[is&#95;editing&#95;alpha](#is_editing_alpha)**  **(** **)** const
-
-###  Signals  
-  *  **color&#95;changed**  **(** [Color](class_color) color  **)**
-
-###  Member Function Description  
+http://docs.godotengine.org

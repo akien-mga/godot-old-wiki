@@ -1,20 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  RealArray  
-####**Category:** Built-In Types
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Real Array .
-
-###  Member Functions 
-  * [float](class_float)  **[get](#get)**  **(** [int](class_int) idx  **)**
-  * void  **[push&#95;back](#push_back)**  **(** [float](class_float) value  **)**
-  * void  **[resize](#resize)**  **(** [int](class_int) idx  **)**
-  * void  **[set](#set)**  **(** [int](class_int) idx, [float](class_float) value  **)**
-  * [int](class_int)  **[size](#size)**  **(** **)**
-  * [RealArray](class_realarray)  **[RealArray](#RealArray)**  **(** [Array](class_array) from  **)**
-
-###  Description  
-Real Array. Array of floating point values. Can only contain floats. Optimized for memory usage, cant fragment the memory.
-
-###  Member Function Description  
+http://docs.godotengine.org

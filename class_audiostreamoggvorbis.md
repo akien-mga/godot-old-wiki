@@ -1,11 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  AudioStreamOGGVorbis  
-####**Inherits:** [AudioStreamResampled](class_audiostreamresampled)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-OGG Vorbis audio stream driver.
-
-###  Description  
-OGG Vorbis audio stream driver.
+http://docs.godotengine.org

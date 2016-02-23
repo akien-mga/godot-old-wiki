@@ -1,12 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  Panel  
-####**Inherits:** [Control](class_control)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Provides an opaque background for [Control](class_control) children.
-
-###  Description  
-Panel is a [Control](class_control) that displays an opaque background. It's commoly used as a parent and container for other types of [Control](class_control)
-	nodes."#10;"#9;[img]images/panel_example.png[/img]
+http://docs.godotengine.org

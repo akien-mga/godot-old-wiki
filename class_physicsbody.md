@@ -1,19 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  PhysicsBody  
-####**Inherits:** [CollisionObject](class_collisionobject)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Base class for differnt types of Physics bodies.
-
-###  Member Functions 
-  * void  **[set&#95;layer&#95;mask](#set_layer_mask)**  **(** [int](class_int) mask  **)**
-  * [int](class_int)  **[get&#95;layer&#95;mask](#get_layer_mask)**  **(** **)** const
-  * void  **[add&#95;collision&#95;exception&#95;with](#add_collision_exception_with)**  **(** [PhysicsBody](class_physicsbody) body  **)**
-  * void  **[remove&#95;collision&#95;exception&#95;with](#remove_collision_exception_with)**  **(** [PhysicsBody](class_physicsbody) body  **)**
-
-###  Description  
-PhysicsBody is an abstract base class for implementing a physics body. All PhysicsBody types inherit from it.
-
-###  Member Function Description  
+http://docs.godotengine.org

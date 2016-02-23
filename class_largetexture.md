@@ -1,20 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  LargeTexture  
-####**Inherits:** [Texture](class_texture)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * [int](class_int)  **[add&#95;piece](#add_piece)**  **(** [Vector2](class_vector2) ofs, [Texture](class_texture) texture  **)**
-  * void  **[set&#95;piece&#95;offset](#set_piece_offset)**  **(** [int](class_int) idx, [Vector2](class_vector2) ofs  **)**
-  * void  **[set&#95;piece&#95;texture](#set_piece_texture)**  **(** [int](class_int) idx, [Texture](class_texture) texture  **)**
-  * void  **[set&#95;size](#set_size)**  **(** [Vector2](class_vector2) size  **)**
-  * void  **[clear](#clear)**  **(** **)**
-  * [int](class_int)  **[get&#95;piece&#95;count](#get_piece_count)**  **(** **)** const
-  * [Vector2](class_vector2)  **[get&#95;piece&#95;offset](#get_piece_offset)**  **(** [int](class_int) idx  **)** const
-  * [Texture](class_texture)  **[get&#95;piece&#95;texture](#get_piece_texture)**  **(** [int](class_int) idx  **)** const
-
-###  Member Function Description  
+http://docs.godotengine.org

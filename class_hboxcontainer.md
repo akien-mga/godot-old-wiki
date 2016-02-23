@@ -1,11 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  HBoxContainer  
-####**Inherits:** [BoxContainer](class_boxcontainer)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Horizontal box container.
-
-###  Description  
-Horizontal box container. See [BoxContainer](class_boxcontainer).
+http://docs.godotengine.org

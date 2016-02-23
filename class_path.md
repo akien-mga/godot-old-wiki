@@ -1,14 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  Path  
-####**Inherits:** [Spatial](class_spatial)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[set&#95;curve](#set_curve)**  **(** [Curve3D](class_curve3d) curve  **)**
-  * [Curve3D](class_curve3d)  **[get&#95;curve](#get_curve)**  **(** **)** const
-
-###  Member Function Description  
+http://docs.godotengine.org

@@ -1,11 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  ReferenceFrame  
-####**Inherits:** [Control](class_control)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Reference frame for GUI.
-
-###  Description  
-Reference frame for GUI. It's just like an empty control, except a red box is displayed while editing around it's size at all times.
+http://docs.godotengine.org

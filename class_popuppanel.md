@@ -1,8 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  PopupPanel  
-####**Inherits:** [Popup](class_popup)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Base class for Popup Panels
+http://docs.godotengine.org

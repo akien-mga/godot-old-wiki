@@ -1,20 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  VisibilityEnabler2D  
-####**Inherits:** [VisibilityNotifier2D](class_visibilitynotifier2d)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[set&#95;enabler](#set_enabler)**  **(** [int](class_int) enabler, [bool](class_bool) enabled  **)**
-  * [bool](class_bool)  **[is&#95;enabler&#95;enabled](#is_enabler_enabled)**  **(** [int](class_int) enabler  **)** const
-
-###  Numeric Constants  
-  * **ENABLER_FREEZE_BODIES** = **1**
-  * **ENABLER_PAUSE_ANIMATIONS** = **0**
-  * **ENABLER_PAUSE_PARTICLES** = **2**
-  * **ENABLER_MAX** = **3**
-
-###  Member Function Description  
+http://docs.godotengine.org

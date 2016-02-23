@@ -1,11 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  HSeparator  
-####**Inherits:** [Separator](class_separator)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Horizontal separator.
-
-###  Description  
-Horizontal separator. See [Separator](class_separator). It is used to separate objects vertiacally, though (but it looks horizontal!).
+http://docs.godotengine.org

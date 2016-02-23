@@ -1,26 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  RayCast  
-####**Inherits:** [Spatial](class_spatial)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[set&#95;enabled](#set_enabled)**  **(** [bool](class_bool) enabled  **)**
-  * [bool](class_bool)  **[is&#95;enabled](#is_enabled)**  **(** **)** const
-  * void  **[set&#95;cast&#95;to](#set_cast_to)**  **(** [Vector3](class_vector3) local_point  **)**
-  * [Vector3](class_vector3)  **[get&#95;cast&#95;to](#get_cast_to)**  **(** **)** const
-  * [bool](class_bool)  **[is&#95;colliding](#is_colliding)**  **(** **)** const
-  * [Object](class_object)  **[get&#95;collider](#get_collider)**  **(** **)** const
-  * [int](class_int)  **[get&#95;collider&#95;shape](#get_collider_shape)**  **(** **)** const
-  * [Vector3](class_vector3)  **[get&#95;collision&#95;point](#get_collision_point)**  **(** **)** const
-  * [Vector3](class_vector3)  **[get&#95;collision&#95;normal](#get_collision_normal)**  **(** **)** const
-  * void  **[add&#95;exception&#95;rid](#add_exception_rid)**  **(** [RID](class_rid) rid  **)**
-  * void  **[add&#95;exception](#add_exception)**  **(** [Object](class_object) node  **)**
-  * void  **[remove&#95;exception&#95;rid](#remove_exception_rid)**  **(** [RID](class_rid) rid  **)**
-  * void  **[remove&#95;exception](#remove_exception)**  **(** [Object](class_object) node  **)**
-  * void  **[clear&#95;exceptions](#clear_exceptions)**  **(** **)**
-
-###  Member Function Description  
+http://docs.godotengine.org

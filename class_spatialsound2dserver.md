@@ -1,11 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  SpatialSound2DServer  
-####**Inherits:** [Object](class_object)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Server for Spatial 2D Sound.
-
-###  Description  
-Server for Spatial 2D Sound.
+http://docs.godotengine.org

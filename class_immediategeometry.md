@@ -1,22 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  ImmediateGeometry  
-####**Inherits:** [GeometryInstance](class_geometryinstance)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[begin](#begin)**  **(** [int](class_int) primitive, [Texture](class_texture) texture  **)**
-  * void  **[set&#95;normal](#set_normal)**  **(** [Vector3](class_vector3) normal  **)**
-  * void  **[set&#95;tangent](#set_tangent)**  **(** [Plane](class_plane) tangent  **)**
-  * void  **[set&#95;color](#set_color)**  **(** [Color](class_color) color  **)**
-  * void  **[set&#95;uv](#set_uv)**  **(** [Vector2](class_vector2) uv  **)**
-  * void  **[set&#95;uv2](#set_uv2)**  **(** [Vector2](class_vector2) uv  **)**
-  * void  **[add&#95;vertex](#add_vertex)**  **(** [Vector3](class_vector3) pos  **)**
-  * void  **[add&#95;sphere](#add_sphere)**  **(** [int](class_int) lats, [int](class_int) lons, [float](class_float) radius  **)**
-  * void  **[end](#end)**  **(** **)**
-  * void  **[clear](#clear)**  **(** **)**
-
-###  Member Function Description  
+http://docs.godotengine.org

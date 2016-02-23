@@ -1,16 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  ParallaxLayer  
-####**Inherits:** [Node2D](class_node2d)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[set&#95;motion&#95;scale](#set_motion_scale)**  **(** [Vector2](class_vector2) scale  **)**
-  * [Vector2](class_vector2)  **[get&#95;motion&#95;scale](#get_motion_scale)**  **(** **)** const
-  * void  **[set&#95;mirroring](#set_mirroring)**  **(** [Vector2](class_vector2) mirror  **)**
-  * [Vector2](class_vector2)  **[get&#95;mirroring](#get_mirroring)**  **(** **)** const
-
-###  Member Function Description  
+http://docs.godotengine.org

@@ -1,8 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  Physics2DServerSW  
-####**Inherits:** [Physics2DServer](class_physics2dserver)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
+http://docs.godotengine.org

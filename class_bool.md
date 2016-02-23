@@ -1,17 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  bool  
-####**Category:** Built-In Types
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Boolean built-in type
-
-###  Member Functions 
-  * [bool](class_bool)  **[bool](#bool)**  **(** [int](class_int) from  **)**
-  * [bool](class_bool)  **[bool](#bool)**  **(** [float](class_float) from  **)**
-  * [bool](class_bool)  **[bool](#bool)**  **(** [String](class_string) from  **)**
-
-###  Description  
-Boolean built-in type.
-
-###  Member Function Description  
+http://docs.godotengine.org

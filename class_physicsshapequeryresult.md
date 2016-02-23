@@ -1,17 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  PhysicsShapeQueryResult  
-####**Inherits:** [Reference](class_reference)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Result of a shape query in Physics2DServer.
-
-###  Member Functions 
-  * [int](class_int)  **[get&#95;result&#95;count](#get_result_count)**  **(** **)** const
-  * [RID](class_rid)  **[get&#95;result&#95;rid](#get_result_rid)**  **(** [int](class_int) idx  **)** const
-  * [int](class_int)  **[get&#95;result&#95;object&#95;id](#get_result_object_id)**  **(** [int](class_int) idx  **)** const
-  * [Object](class_object)  **[get&#95;result&#95;object](#get_result_object)**  **(** [int](class_int) idx  **)** const
-  * [int](class_int)  **[get&#95;result&#95;object&#95;shape](#get_result_object_shape)**  **(** [int](class_int) idx  **)** const
-
-###  Member Function Description  
+http://docs.godotengine.org

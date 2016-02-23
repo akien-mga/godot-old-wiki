@@ -1,8 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  TestCube  
-####**Inherits:** [GeometryInstance](class_geometryinstance)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
+http://docs.godotengine.org

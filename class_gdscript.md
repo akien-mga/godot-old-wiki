@@ -1,13 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  GDScript  
-####**Inherits:** [Script](class_script)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[new](#new)**  **(** **)**
-
-###  Member Function Description  
+http://docs.godotengine.org

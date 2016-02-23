@@ -1,14 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  GDFunctionState  
-####**Inherits:** [Reference](class_reference)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[resume](#resume)**  **(** var arg=NULL  **)**
-  * [bool](class_bool)  **[is&#95;valid](#is_valid)**  **(** **)** const
-
-###  Member Function Description  
+http://docs.godotengine.org

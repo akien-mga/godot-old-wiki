@@ -1,14 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  RayShape  
-####**Inherits:** [Shape](class_shape)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-
-
-###  Member Functions 
-  * void  **[set&#95;length](#set_length)**  **(** [float](class_float) length  **)**
-  * [float](class_float)  **[get&#95;length](#get_length)**  **(** **)** const
-
-###  Member Function Description  
+http://docs.godotengine.org

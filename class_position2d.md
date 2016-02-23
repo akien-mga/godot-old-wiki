@@ -1,11 +1,5 @@
-**Important:** This wiki is soon going to be taken down, as the official documentation of the Godot project is now on http://docs.godotengine.org.
+## Godot Documentation
 
-#  Position2D  
-####**Inherits:** [Node2D](class_node2d)
-####**Category:** Core
+Godot documentation has moved, and can now be found at:
 
-###  Brief Description  
-Generic 2D Position hint for editing.
-
-###  Description  
-Generic 2D Position hint for editing. It's just like a plain [Node2D](class_node2d) but displays as a cross in the 2D-Editor at all times.
+http://docs.godotengine.org
